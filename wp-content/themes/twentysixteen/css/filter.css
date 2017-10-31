@@ -1,0 +1,16 @@
+#pentafilter-box{
+    width:80%;
+    margin:0 auto;
+    margin-bottom:30px;
+}
+.pentafilter {
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    cursor:pointer;
+    padding-right: 15px;
+    border-right: 2px solid #000;
+}
+.pentafilter.active{
+    color:#FF505D;
+}

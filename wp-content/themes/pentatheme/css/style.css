@@ -1,0 +1,100 @@
+.grey{
+    background-color: #5F5653;
+}
+.blue{
+    background-color:#57A2F0;
+}
+.green{
+    background-color:#00CCCC;
+}
+.white{
+    background-color:white;
+}
+.pink{
+    background-color: #EC008C;
+}
+.tanfolyam-box {
+    height:300px;
+    width:100%;
+    border:1px solid #fff;
+}
+.tanfolyam-box .details{
+    text-align: left;
+    position: absolute;
+    bottom:0;
+    padding:10px;
+}
+.tanfolyam-box .details h5{
+    text-transform: uppercase;
+    font-size:18px;
+}
+.kiemelt-tanfolyamok h2{
+    margin-bottom: 50px;
+}
+.smalltitle{
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.whitecolor{
+    color:white;
+}
+.greycolor{
+    color:#5F5653;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.mt50{
+    margin-top: 50px;
+}
+a.active{
+    background-color: #fff !important;
+    color:#5F5653 !important;
+}
+.tanfolyam-tab a{
+    padding: 15px;
+    background-color:#5F5653;
+    display:block;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+.tanfolyam-tab a.active{
+    background-color: #fff !important;
+    color:#5F5653 !important;
+}
+.tanfolyam-filter{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.tanfolyam-filter a{
+    padding: 15px;
+    background-color:#fff;
+    border:1px solid #5F5653;
+    display:block;
+    text-transform: uppercase;
+    color: #5F5653;
+    text-decoration: none;
+}
+.tanfolyam-filter a.active{
+    color:white !important;
+    background-color: #000 !important;
+}
+
+.tanfolyam-filter .input-group{
+    padding: 10px;
+}
+.tanfolyam-filter ul li{
+    padding: 10px;
+    color: #000;
+    list-style: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.tanfolyam{
+	height:50px;
+	border:1px solid #000;
+}

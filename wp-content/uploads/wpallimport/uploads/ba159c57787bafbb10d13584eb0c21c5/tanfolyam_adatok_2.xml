@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<tanfolyamnv><![CDATA[XML alapismeretek]]></tanfolyamnv>
+		<url><![CDATA[xml-tanfolyam]]></url>
+		<kategria><![CDATA[Webmester]]></kategria>
+		<tanf_id><![CDATA[9]]></tanf_id>
+		<modulid><![CDATA[9]]></modulid>
+		<modulnv><![CDATA[XML alapismeretek]]></modulnv>
+		<oklevl><![CDATA[Oklevél]]></oklevl>
+		<modullers><![CDATA[<p>Sokat hallott rövidítés: <strong>XML</strong>. Szinte valamennyi webmester találkozott már XML dokumentummal. De vajon sikerült kiaknáznia a benne rejlõ lehetõségeket? Napi használatú eszközévé tennie, amivel a szokásos munkáját érdemben megkönnyítené?
+Tanfolyamunk célja, hogy ezt bebizonyítva felfegyverezze a hallgatóságot az XML gazdag eszköztárával.</p>
+<p>A tanfolyam során a hallgatók sokféle technika (<strong>XHTML, XSLT, XPath, SVG,  CSS</strong>, stb.) együttes használatával élõ példákon tanulják meg, hogy miként építhetõ be az XML a honlap készítés, Web publikálás napi folyamatába.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Linux haladó rendszergazda]]></tanfolyamnv>
+		<url><![CDATA[linux-rendszergazda-halado-tanfolyam]]></url>
+		<kategria><![CDATA[Linux]]></kategria>
+		<tanf_id><![CDATA[11]]></tanf_id>
+		<modulid><![CDATA[11]]></modulid>
+		<modulnv><![CDATA[Linux haladó rendszergazda]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>A tanfolyam során elsajátíthatja egy <strong>Linux</strong> rendszergazda mindennapi munkavégzéséhez elengedhetetlen rendszer-konfigurálási ismereteket, a leggyakoribb hibák elhárítását. A tanfolyam ismeretanyagát <strong>Debian</strong> disztribúció használata közben sajátítják el a résztvevõk, de külön vállalati igények szerint egyéb disztribúció is szóba jöhet, mint pl. <strong>RedHat Enterprise vagy CentOS</strong>. <br> A konfigurálás alapvetõen karakteres felületen történik (editor használatával), de ismertetésre kerülnek a webes felületen keresztül történõ konfigurálás lehetõségei is (Webmin). A tanfolyam elvégzése után a résztvevõk képesek lesznek egy irodai hálózat kiszolgálására, Internetre csatlakoztatására és védelmére.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Linux rendszergazdai alapismeretek]]></tanfolyamnv>
+		<url><![CDATA[linux-rendszergazda-kezdo-tanfolyam]]></url>
+		<kategria><![CDATA[Linux]]></kategria>
+		<tanf_id><![CDATA[13]]></tanf_id>
+		<modulid><![CDATA[13]]></modulid>
+		<modulnv><![CDATA[Linux rendszergazdai alapismeretek]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>A tanfolyam során megismerkedhet egy <strong>Linux</strong> disztribúció telepítésével, grafikus és karakteres felületen a rendszer konfigurálásával. A tanfolyam elvégzése után a résztvevõ képes lesz a Linux-ot önállóan telepíteni, hálózatba konfigurálni, és azon a legalapvetõbb szerver szolgáltatásokat (fájl és nyomtató, DNS, Web, Levelezõ) alap szinten üzemeltetni.<br><br> A tanfolyam során használt disztribúció <strong>DEBIAN</strong>,&nbsp; <strong>RedHat Enterprise vagy CentOS</strong>, de külön kérésre egyéb terjesztés is szóba jöhet.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Windows Server 2012 R2]]></tanfolyamnv>
+		<url><![CDATA[windows-szerver-tanfolyam]]></url>
+		<kategria><![CDATA[Windows Server]]></kategria>
+		<tanf_id><![CDATA[15]]></tanf_id>
+		<modulid><![CDATA[15]]></modulid>
+		<modulnv><![CDATA[Windows Server 2012 R2]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>A tanfolyam alatt végignézzük az összes feladatot, ami egy gyakorló <strong>Windows szerver</strong> rendszergazdának napi munkáját kiteszi. A következõ tanfolyamot <strong>Windows Srever 2012 R2</strong> környezetben tartjuk.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Adatbázis-kezelés haladóknak - Access]]></tanfolyamnv>
+		<url><![CDATA[adatbazis-access-halado-tanfolyam]]></url>
+		<kategria><![CDATA[Office]]></kategria>
+		<tanf_id><![CDATA[29]]></tanf_id>
+		<modulid><![CDATA[29]]></modulid>
+		<modulnv><![CDATA[Adatbázis-kezelés haladóknak - Access]]></modulnv>
+		<oklevl><![CDATA[Oklevél]]></oklevl>
+		<modullers><![CDATA[<p>A tanfolyam során az alapfokú tanfolyam tananyagára építve a hallgatók megismerkednek a <strong>Microsoft Access</strong> által nyújtott alkalmazásfejlesztést támogató segédeszközök használatával és mûködésével. A kurzus elvégzése után képesek lesznek többtáblás adatbázisokra épülõ felhasználói felület alapszintû felépítésére. Összetettebb, akár több lépcsõs lekérdezéseket készítenek, melyeket akár futás közbeni is tudnak paraméterezni egy erre szolgáló ûrlapon. Megtanulják hogyan lehet és mikor érdemes az adatbázist és a felhasználói felületet szétválasztani, hogy az adatbázist központilag tudják kezelni, és az is kiderül, hogyan lehet Excel adatokat csatolni vagy importálni az Acces-be, majd a lekérdezések eredményeit visszatölteni Excel-be.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Adatbázis-kezelési alapismeretek - Access]]></tanfolyamnv>
+		<url><![CDATA[adatbazis-access-tanfolyam]]></url>
+		<kategria><![CDATA[Office]]></kategria>
+		<tanf_id><![CDATA[30]]></tanf_id>
+		<modulid><![CDATA[30]]></modulid>
+		<modulnv><![CDATA[Adatbázis-kezelési alapismeretek - Access]]></modulnv>
+		<oklevl><![CDATA[Oklevél]]></oklevl>
+		<modullers><![CDATA[<p>A tanfolyam során a hallgatók megismerkednek a <strong>relációs adatbázis-kezelés</strong> elméleti alapjaival. Megtanulják, mi a különbség a táblázatkezelõk és az adatbázis-kezelõk között, mikor melyiket kell alkalmazni. A kurzus elvégzése után képesek lesznek többtáblás adatbázisok létrehozására, és azokon alapvetõ adatfeldolgozási mûveletek elvégzésére. A gyakorlati feladatokat a <strong>Microsoft Access</strong> segítségével oldják meg.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Csoportmunka számítógépes támogatása - Outlook]]></tanfolyamnv>
+		<url><![CDATA[oulook-csoportmunka-tanfolyam]]></url>
+		<kategria><![CDATA[Office]]></kategria>
+		<tanf_id><![CDATA[32]]></tanf_id>
+		<modulid><![CDATA[32]]></modulid>
+		<modulnv><![CDATA[Csoportmunka számítógépes támogatása - Outlook]]></modulnv>
+		<oklevl><![CDATA[Oklevél]]></oklevl>
+		<modullers><![CDATA[A tanfolyam során a hallgatók megismerik a csoportos dokumentumkezelés, üzenetváltás, és erõforrás-kezelés lehetõségeit.
+A háttérben a <strong>Microsoft Exchange Szerver</strong>, az elõtérben a Microsoft Word, Excel, Access, és legfõképpen az <strong>Outlook</strong> programok csoportmunka-támogatását vizsgálják meg alaposabban.]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Gépkezelési alapismeretek]]></tanfolyamnv>
+		<url><![CDATA[gepkezelo]]></url>
+		<kategria><![CDATA[Office]]></kategria>
+		<tanf_id><![CDATA[33]]></tanf_id>
+		<modulid><![CDATA[33]]></modulid>
+		<modulnv><![CDATA[Gépkezelési alapismeretek]]></modulnv>
+		<oklevl><![CDATA[Oklevél]]></oklevl>
+		<modullers><![CDATA[A tanfolyam során a hallgatók megismerik a napjainkban legelterjedtebben használatos személyi számítógépek (PC-k) fõbb felépítési és mûködési paramétereit, majd gyakorlatokon keresztül megtanulják az alapvetõ felhasználói, kezelõi feladatok végrehajtását Windows környezetben. ]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Internetfelhasználói ismeretek]]></tanfolyamnv>
+		<url><![CDATA[internet_alap]]></url>
+		<kategria><![CDATA[Office]]></kategria>
+		<tanf_id><![CDATA[34]]></tanf_id>
+		<modulid><![CDATA[34]]></modulid>
+		<modulnv><![CDATA[Internetfelhasználói ismeretek]]></modulnv>
+		<oklevl><![CDATA[Oklevél]]></oklevl>
+		<modullers><![CDATA[A tanfolyam során a hallgatók megismerkednek az Internet történetével, felépítésével, az ott elérhetõ szolgáltatások használatával. 
+A tanfolyam elvégzése után képesek lesznek internetkapcsolatot létesíteni és kihasználni a világháló nyújtotta lehetõségeket.]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Prezentáció készítés - PowerPoint]]></tanfolyamnv>
+		<url><![CDATA[powerpoint-prezentacio-tanfolyam]]></url>
+		<kategria><![CDATA[Office]]></kategria>
+		<tanf_id><![CDATA[35]]></tanf_id>
+		<modulid><![CDATA[35]]></modulid>
+		<modulnv><![CDATA[Prezentáció készítés - PowerPoint]]></modulnv>
+		<oklevl><![CDATA[Oklevél]]></oklevl>
+		<modullers><![CDATA[A tanfolyam során a hallgatók megismerik a prezentációk lényegét, készítésük és bemutatásuk módját. Eszközként a Microsoft Office komponensét, a <strong>Microsoft Power Point</strong> programot használjuk. A kurzus elvégzése után képesek lesznek hatékonyan és gyorsan igényes kivitelû bemutatók készítésére, azokba külsõ adatforrásból (Word, Excel, stb.) származó adatok, grafikonok beillesztésére, a diákon professzionális animációk alkalmazására.]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Szövegszerkesztés haladóknak - Word]]></tanfolyamnv>
+		<url><![CDATA[szovegszerkesztes-word-halado-tanfolyam]]></url>
+		<kategria><![CDATA[Office]]></kategria>
+		<tanf_id><![CDATA[36]]></tanf_id>
+		<modulid><![CDATA[36]]></modulid>
+		<modulnv><![CDATA[Szövegszerkesztés haladóknak - Word]]></modulnv>
+		<oklevl><![CDATA[Oklevél]]></oklevl>
+		<modullers><![CDATA[A tanfolyam során a hallgatók alapszintû ismereteiket bõvítik ki. Megismerkednek a <strong>Microsoft Word</strong> fejlettebb, a mindennapi munkát könnyebbé tevõ lehetõségeivel, és egyben az általános kezelési ismereteik is fejlõdnek.]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Szövegszerkesztési alapismeretek - Word]]></tanfolyamnv>
+		<url><![CDATA[szovegszerkesztes-word-tanfolyam]]></url>
+		<kategria><![CDATA[Office]]></kategria>
+		<tanf_id><![CDATA[37]]></tanf_id>
+		<modulid><![CDATA[37]]></modulid>
+		<modulnv><![CDATA[Szövegszerkesztési alapismeretek - Word]]></modulnv>
+		<oklevl><![CDATA[Oklevél]]></oklevl>
+		<modullers><![CDATA[A tanfolyam során a hallgatók alapszinten megismerik a napjainkban legelterjedtebben használatos Microsoft Office programcsomag <strong>Microsoft Word</strong> komponensét.
+A kurzus elvégzése után képesek lesznek a mindennapi munka folyamán felmerülõ egyszerûbb szerkesztési feladatok önálló megoldására.]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Táblázatkezelés haladóknak - Excel]]></tanfolyamnv>
+		<url><![CDATA[tablazatkezeles-excel-halado-tanfolyam]]></url>
+		<kategria><![CDATA[Office]]></kategria>
+		<tanf_id><![CDATA[38]]></tanf_id>
+		<modulid><![CDATA[38]]></modulid>
+		<modulnv><![CDATA[Táblázatkezelés haladóknak - Excel]]></modulnv>
+		<oklevl><![CDATA[Oklevél]]></oklevl>
+		<modullers><![CDATA[<p>A tanfolyam során a hallgatók megismerkednek az <strong>Excel 2003, Excel 2007, Excel 2010 vagy Excel 2013</strong>&nbsp;haladóbb használatával, a hatékonyabb munkát segítõ tippekkel-trükkökkel, billentyûkombinációkkal. Segítséget kapnak az adatbevitellel, formázással, kijelölésekkel, navigációval, nézeti beállításokkal kapcsolatos olyan lehetõségekbe, amelyekrõl eddig nem is hallottak. Részletesen bemutatjuk az Excel haladóbb függvényeit és kitûnõ adatfeldolgozást segítõ eszközeit. A kurzus elvégzése után képesek lesznek összetettebb táblázatrendszerek kezelésére, azok gyors rendszerezésére, szûrésére, illetve kimutatások (PIVOT) készítésére.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Táblázatkezelési alapismeretek - Excel]]></tanfolyamnv>
+		<url><![CDATA[tablazatkezeles-excel-tanfolyam]]></url>
+		<kategria><![CDATA[Office]]></kategria>
+		<tanf_id><![CDATA[39]]></tanf_id>
+		<modulid><![CDATA[39]]></modulid>
+		<modulnv><![CDATA[Táblázatkezelési alapismeretek - Excel]]></modulnv>
+		<oklevl><![CDATA[Oklevél]]></oklevl>
+		<modullers><![CDATA[<p>A tanfolyam során a hallgatók megismerkednek a táblázatkezelés lényegével, felhasználási lehetõségeivel. Gyakorlatban megismerik a Microsoft Office programcsomag <strong>Microsoft Excel</strong> komponensét. A kurzus elvégzése után képesek lesznek egyszerû táblázatok összeállítására, a szükséges képletek, függvények alkalmazására, a lényeges információk grafikus ábrázolására.</p><p>Az oktatás során az Excel több verzióját is lehet használni, legyen az<strong> Excel 2003, Excel 2007, Excel 2010 vagy Excel 2013</strong>.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[SQL adatbázis-kezelés]]></tanfolyamnv>
+		<url><![CDATA[sql]]></url>
+		<kategria><![CDATA[Adatbázis]]></kategria>
+		<tanf_id><![CDATA[58]]></tanf_id>
+		<modulid><![CDATA[58]]></modulid>
+		<modulnv><![CDATA[SQL adatbázis-kezelés]]></modulnv>
+		<oklevl><![CDATA[Oklevél]]></oklevl>
+		<modullers><![CDATA[<ul><li>Adatelemzéssel, feldolgozással foglalkozik?</li><li>Rendszeres vagy ad-hoc riportokat kell készítenie?</li><li>Esetleg programozónak készül?</li><li>Érdekli az adattárolás-feldolgozás módszertana?</li></ul><p>Az SQL (Strucured Query Language) professzionális eszköz annak a kezében, aki tisztában van a relációs adatbázis-kezelés alapfogalmaival és gyakorlatával. A tanfolyamon pontosan ezt &nbsp;akét dolgot kapcsoljuk egybe.</p><p>Az <strong>SQL &nbsp;tanfolyam</strong> során a résztvevõk megismerkednek az adatbázis-kezelés elméleti alapjaival, majd gyakorlati példákon keresztül tanulják meg az adatbázis-tervezés lépéseit és az <strong>SQL</strong> lekérdezõ nyelvet, amit <strong>MySQL</strong> és <strong>Microsoft SQL</strong> környezetben is kipróbálnak.</p><p>Minden adatbázison alapuló alkalmazás sikerének kulcsa a helyes adatbázis terv, ezért erre nagyobb hangsúlyt fektetünk, hogy a részvevõk önállóan is képesek legyenek egy feladathoz akár több táblából álló adatmodellt tervezni. A terv kivitelezéséhez speciális, vizuális eszközöket használunk, melyek segítségével megtervezhetjük az adatbázist, szerkeszthetjük, futtathatjuk, illetve tárolhatjuk az SQL lekérdezéseket, sõt, a lekérdezések összeállításában is adnak vizuális segítséget.</p><p>Az SQL nyelvet leggyakrabban valamilyen programnyelvbe beágyazottan használjuk, emiatt a tanfolyam végén arra is mutatunk példát, hogy&nbsp;<strong>C# .NET </strong>környezetben hogyan kell csatlakozni egy adatbázishoz, abból adatokat lekérni, és megjeleníteni, vagy akár új adatokat felvinni.&nbsp;</p><p>A kurzus elvégzése után a résztvevõk képesek lesznek többtáblás adatbázis megtervezésére, megvalósítására és SQL szintû kezelésére.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Linux címtárszolgáltatás]]></tanfolyamnv>
+		<url><![CDATA[linux-cimtar-ldap-tanfolyam]]></url>
+		<kategria><![CDATA[Linux]]></kategria>
+		<tanf_id><![CDATA[60]]></tanf_id>
+		<modulid><![CDATA[60]]></modulid>
+		<modulnv><![CDATA[Linux címtárszolgáltatás]]></modulnv>
+		<oklevl><![CDATA[Oklevél]]></oklevl>
+		<modullers><![CDATA[A tanfolyam során az <strong>OpenLDAP</strong> programcsomagon keresztül kerül bemutatásra az LDAP címtárszolgáltatás és annak gyakorlati alkalmazása LINUX operációs rendszerben. A hallgatók példák segítségével megismerkednek a gyakran használt szerver alkalmazások LDAP támogatásával. Az LDAP ismertetéséhez kapcsolódóan a <strong>Linux-PAM</strong> lehetõségei is tárgyalásra kerülnek. A tanfolyamon használt disztribúció a <b>CentOS 5</b> (a Red Hat Linux Enterprise kiadással binárisan kompatibilis)]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Exchange Server 2010]]></tanfolyamnv>
+		<url><![CDATA[exchange-szerver-tanfolyam]]></url>
+		<kategria><![CDATA[Windows Server]]></kategria>
+		<tanf_id><![CDATA[62]]></tanf_id>
+		<modulid><![CDATA[62]]></modulid>
+		<modulnv><![CDATA[Exchange Server 2010]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>Az <strong>Exchange Server</strong> tanfolyamon a hallgatók megismerkedhetnek az elektronikus levelezés alapjaival, és gyakorlati tapasztalatot szerezhetnek a Microsoft alapú e-mail kliens/szerver rendszer mûködésérõl. A tanfolyam elvégzése után képesek lesznek Exchange szervert telepíteni, klienseket beállítani, kis és közepes méretû mukahelyek levelezési igényeit megoldani, <strong>Exchange szerver 2007</strong> és <strong>Exchange szerver 2010</strong> környezetben egyaránt.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Visual C#]]></tanfolyamnv>
+		<url><![CDATA[visualc-csharp-tanfolyam]]></url>
+		<kategria><![CDATA[dotNET]]></kategria>
+		<tanf_id><![CDATA[63]]></tanf_id>
+		<modulid><![CDATA[63]]></modulid>
+		<modulnv><![CDATA[Visual C#]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>A tanfolyam során a <strong>C# nyelv</strong> lehetõségein keresztül bemutatjuk a <strong>.NET Framework</strong> alapú alkalmazások létrehozását.. Sok egyszerû példán keresztül megismerhetik a C# nyelv elemeit, a Framework osztályait és a programozási technikákat.<br> <br> A tanfolyam egy sorozat elsõ, bevezetõ eleme, új ismeretet adhat azoknak, akik ismerkedni szeretnének a .NET Framework világával.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[ASP .NET]]></tanfolyamnv>
+		<url><![CDATA[asp-tanfolyam]]></url>
+		<kategria><![CDATA[dotNET]]></kategria>
+		<tanf_id><![CDATA[64]]></tanf_id>
+		<modulid><![CDATA[64]]></modulid>
+		<modulnv><![CDATA[ASP .NET]]></modulnv>
+		<oklevl><![CDATA[Oklevél]]></oklevl>
+		<modullers><![CDATA[A tanfolyam során a hallgatók a <strong>Visual Studio .NET </strong> fejlesztõ környezetet használva megismerkedhetnek az <strong>ASP .NET</strong>-ben rejlõ lehetõségekkel.
+Számos példán és alkalmazáson keresztül mutatjuk be az ASP .NET programozás rejtelmeit, a kiszolgáló oldali vezérlõk világát.]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[SQL adatbázis programozás]]></tanfolyamnv>
+		<url><![CDATA[sqlprog]]></url>
+		<kategria><![CDATA[Adatbázis]]></kategria>
+		<tanf_id><![CDATA[65]]></tanf_id>
+		<modulid><![CDATA[65]]></modulid>
+		<modulnv><![CDATA[SQL adatbázis programozás]]></modulnv>
+		<oklevl><![CDATA[Oklevél]]></oklevl>
+		<modullers><![CDATA[Ezt a tanfolyamunkat azoknak a hallgatóknak ajánljuk, akik szeretnék megismerni a vállalati körben talán legjobban elterjedt <strong>Microsoft SQL Server </strong> alapú adatbázisok programozási lehetõségeit.
+A tanfolyam során a résztvevõk elsajátithatják a szerver oldali adatbázisprogramozás, alkalmazásfejlesztés lépéseit.]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Joomla Webmester]]></tanfolyamnv>
+		<url><![CDATA[Joomla-tanfolyam]]></url>
+		<kategria><![CDATA[Webmester]]></kategria>
+		<tanf_id><![CDATA[71]]></tanf_id>
+		<modulid><![CDATA[711]]></modulid>
+		<modulnv><![CDATA[Joomla Webmester]]></modulnv>
+		<oklevl><![CDATA[Tanusítvány]]></oklevl>
+		<modullers><![CDATA[<p>A <strong>Joomla! </strong>az egyik legelterjedtebb, ingyenes tartalomkezelõ rendszer. Néhány perc alatt telepíthetõ egy webtárhelyre, és a megfelelõ felhasználói ismeretek birtokában néhány órányi munka után már indulhat is az új webhely. A Joomla alapú weboldal tartalmát saját magad alakíthatod és módosíthatod, frissítheted, menüpontokat hozhatsz létre, és a kinézetét is módosíthatod a sablonok segítségével. Végül, akár webáruházat is építhetsz. Tanfolyamunkat az utolsó kiadott stabil verzió bemutatásával tartjuk.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[HTML5-CSS3 a gyakorlatban]]></tanfolyamnv>
+		<url><![CDATA[HTML5-CSS3-tanfolyam]]></url>
+		<kategria><![CDATA[Webmester]]></kategria>
+		<tanf_id><![CDATA[72]]></tanf_id>
+		<modulid><![CDATA[721]]></modulid>
+		<modulnv><![CDATA[HTML5-CSS3 a gyakorlatban]]></modulnv>
+		<oklevl><![CDATA[Látogatási igazolás]]></oklevl>
+		<modullers><![CDATA[<p>Manapság egyre több szó esik a <strong>HTML5 és a CSS3</strong> szabványról. Ennek kapcsán a fejlesztõk általában azt a kérdést teszik fel, hogy mikor tudják használni élesben, mondjuk egy sima céges weboldalnál? Nos, a válasz az, hogy már most. Tanfolyamunk elsõsorban a HTML5/CSS3 azon újdonságaira koncentrál, amelyek a hétköznapi, klasszikus weboldalak fejlesztéséhez használhatók.<br> Természetesen nem maradhat ki az a téma sem, hogy a HTML5/CSS3 szabványokat nem, vagy csak részben támogató böngészõprogramok esetén milyen trükkökhöz, segédkönyvtárakhoz folyamodhatunk. Mivel a tanfolyam nem a webalkalmazás-fejlesztésrõl szól, ezért a HTML5 új API-jait (geolocation, web storage, stb.) csak nagyon érintõlegesen tárgyaljuk. <br> A tanfolyam elvégzése után a résztvevõ képes lesz az új szabványok figyelembe vételével megtervezni egy új weboldalt, átalakítani egy korábbit, és alkalmazni tudja a gyakorlatban jelenleg is használható újdonságokat.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[TCP/IP hálózatok, hálózati eszközök konfigurálása]]></tanfolyamnv>
+		<url><![CDATA[TCP-IP-switch-router-tanfolyam]]></url>
+		<kategria><![CDATA[Hálózat]]></kategria>
+		<tanf_id><![CDATA[73]]></tanf_id>
+		<modulid><![CDATA[731]]></modulid>
+		<modulnv><![CDATA[TCP/IP hálózatok, hálózati eszközök konfigurálása]]></modulnv>
+		<oklevl><![CDATA[Tanusítvány]]></oklevl>
+		<modullers><![CDATA[<p>A tanfolyamon résztvevõ megismeri a számítógépes hálózatok elméleti alapjait, az alkalmazható technológiákat,tudja használni a helyi hálózatokban alkalmazott eszközöket és szolgáltatásokat, képes lesz megtervezni egy kisebb méretû TCP/IP alapú helyi hálózatot, alapszinten képes lesz hálózati hibák keresésére és lokalizálására. A képzés során egy hálózati szimulációs program segítségével a résztvevõk alapszinten megtanulják a menedzselhetõ <strong>(pl.CISCO)</strong> hálózati eszközök konfigurálását is, olyan ismereteket szereznek, amiket <strong>CCNA vagy Network </strong> tanfolyamokon szoktak tanítani.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Microsoft virtualizációs megoldások alapjai - Hyper-V]]></tanfolyamnv>
+		<url><![CDATA[Hyper-V-tanfolyam]]></url>
+		<kategria><![CDATA[Windows Server]]></kategria>
+		<tanf_id><![CDATA[75]]></tanf_id>
+		<modulid><![CDATA[751]]></modulid>
+		<modulnv><![CDATA[Microsoft virtualizációs megoldások alapjai - Hyper-V]]></modulnv>
+		<oklevl><![CDATA[Tanusítvány]]></oklevl>
+		<modullers><![CDATA[A tanfolyamon a hallgatók megismerhetik a Microsoft Windows Server <strong>Hyper-V</strong> virtualizációs technológiáját. Képesek lesznek a virtualizációra használandó hardver kiválasztására, a 2008 R2 szerver Hyper-V szerepkörének beállítására, virtuális gépek és virtuális lemezek létrehozására és a rendszerek lokális vagy távoli felügyeletére.
+Megismerhetik a különálló és ingyenes Hyper-V szerver kiadást, és annak felügyeletét, rövid betekintést kapnak a System Center Virtual Machine Manager (SCVMM) mûködésébe is.
+]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[PHP programozás]]></tanfolyamnv>
+		<url><![CDATA[php-programozas-tanfolyam]]></url>
+		<kategria><![CDATA[Webmester]]></kategria>
+		<tanf_id><![CDATA[77]]></tanf_id>
+		<modulid><![CDATA[771]]></modulid>
+		<modulnv><![CDATA[PHP programozás]]></modulnv>
+		<oklevl><![CDATA[Tanusítvány]]></oklevl>
+		<modullers><![CDATA[<p>Az alapvetõ tartalom alapú webszerkesztés szabályait figyelembe véve, statikus oldalainkat életre keltjük a <strong>PHP programozási nyelv</strong> segítségével. A tanfolyamon a hallgatók megismerkednek a web-programozás kiszolgáló oldali lehetõségeivel, részletesen pedig a PHP nyelv használatát sajátítják el, melyhez számos elõre kidolgozott példa nyújt segítséget. Ezután megismerik az adatbázisok kezelésének alapjait, az SQL nyelvet, és speciálisan a MySQL adatbázis-kezelõ rendszert, illetve a PHP adatbázis-függvényeit.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Vállalati levelezés Linux környezetben]]></tanfolyamnv>
+		<url><![CDATA[linux-levelezes-postfix-tanfolyam]]></url>
+		<kategria><![CDATA[Linux]]></kategria>
+		<tanf_id><![CDATA[82]]></tanf_id>
+		<modulid><![CDATA[82]]></modulid>
+		<modulnv><![CDATA[Vállalati levelezés Linux környezetben]]></modulnv>
+		<oklevl><![CDATA[Oklevél]]></oklevl>
+		<modullers><![CDATA[<p>A tanfolyam során a hallgatók LINUX környezetben, gyakorlatokon keresztül megismerik az elektronikus levelezés mûködését, a levelezéssel kapcsolatos szolgáltatásokat. A képzés végén képesek lesznek levelezõ szervert telepíteni, beállítani, üzemeltetni, és különbözõ típusú kliensek számára további szolgáltatásokat nyújtani, mint webes felületû levelezés, vagy spam és vírus szûrés.<br> Disztribúció: <strong>Debian GNU/Linux</strong></p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Samba-LDAP a gyakorlatban]]></tanfolyamnv>
+		<url><![CDATA[samba-ldap]]></url>
+		<kategria><![CDATA[Linux]]></kategria>
+		<tanf_id><![CDATA[88]]></tanf_id>
+		<modulid><![CDATA[88]]></modulid>
+		<modulnv><![CDATA[Samba-LDAP a gyakorlatban]]></modulnv>
+		<oklevl><![CDATA[Oklevél]]></oklevl>
+		<modullers><![CDATA[A tanfolyam során hallgatóink a gyakorlatban is megismerhetik, hogy Windows kliensek számára hogyan készítünk <strong>PDC-t</strong>(Primary Domain Controller) és <strong>Samba szervert</strong> egy <strong>Debian Linux</strong>-ot futtató kiszolgálóból. A központi adminisztrációt <strong>OpenLDAP</strong>-al valósítjuk meg. Mevalósítjuk a <strong>csoportházirendet, és a központi profilt</strong> is. Végeredményül egy központilag karbantartott és felügyelt fájlszervert kapunk.]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Indesign alapismeretek]]></tanfolyamnv>
+		<url><![CDATA[kiadvanyszerkesztes-dtp-indesign-tanfolyam]]></url>
+		<kategria><![CDATA[Grafika]]></kategria>
+		<tanf_id><![CDATA[95]]></tanf_id>
+		<modulid><![CDATA[106]]></modulid>
+		<modulnv><![CDATA[Indesign alapismeretek]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>A modul során a témához tartozó nyomdai ismeretek átismétlése után, az <strong>Adobe InDesign</strong> kiadványszerkesztõ-tördelõ szoftvert ismerhetik meg a hallgatók. A program egyes fõ funkcióinak gyakorlati áttekintésével eljutunk az önálló kiadványszerkesztõi, illetve DTP-s munka elvégzéséig. <br> <br> A modul elvégzésével a résztvevõk képesek lesznek összetettebb kiadványok megtervezésére, és kivitelezésére, amennyiben a felhasznált nyersanyagok rendelkezésre állnak, vagy a tanfolyamhoz tartozó modulok anyagainak elsajátításával, Õk maguk készítik elõ azokat.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Modern és keresõbarát weboldalak tervezése]]></tanfolyamnv>
+		<url><![CDATA[keresobarat-webszabvany-seo-tanfolyam]]></url>
+		<kategria><![CDATA[Webmester]]></kategria>
+		<tanf_id><![CDATA[101]]></tanf_id>
+		<modulid><![CDATA[101]]></modulid>
+		<modulnv><![CDATA[Modern és keresõbarát weboldalak tervezése]]></modulnv>
+		<oklevl><![CDATA[Oklevél]]></oklevl>
+		<modullers><![CDATA[<p>Sokan úgy gondolják, hogy egy weboldal elkészítése kizárólag a weboldal megjelenésének grafikai megtervezésébõl, majd a látványterv HTML és CSS segítségével történõ "megrajzolásából" áll.</p><p>&nbsp;<strong>De vajon a HTML és a web tényleg csak és kizárólag a vizuális látványról szól?</strong></p><p>Hiába kreatív és attraktív a weboldal, ha a célközönség nem találja meg, akkor a befektetett munka mit sem ér. Manapság egyre nagyobb hangsúlyt kap a weboldal azon része is, ami közvetlenül nem látható. A gondosan megtervezett, webszabványokon alapuló, minõségi weboldal-kód az alapja többek között a weboldal megtalálhatóságának, a <strong>keresõoptimalizálásnak</strong> (SEO), az akadálymentes honlapfejlesztésnek, végsõ soron a felhasználók megelégedettségének.</p><p>Hallgatóink egészen az alapoktól megtanulják, hogy miképpen lehet olyan keresõbarát és szabványos HTML kódot írni, ami tisztán a weboldal szemantikai tartalomleírására szolgál. Mindezt a nyelv legmodernebb, <strong>HTML5</strong> verzióján keresztül. Gyakorlati példák segítségével részletesen foglalkozunk a tartalom és megjelenés szétválasztásával, a szemantikailag korrekt <strong>HTML</strong> kódolás alapjaival, a keresõoptimalizálás (<strong>SEO</strong>) és az akadálymentes webfejlesztés megoldásaival.</p><p>Természetesen a jó tartalomhoz felhasználóbarát és attraktív megjelenésnek is társulnia kell. Ennek fényében a tanfolyamon terítékre kerül a weboldalak megjelenését meghatározó, legmodernebb <strong>CSS3</strong> nyelv is, a webes kép- és videóformátumokkal, valamint a webes tipográfiával együtt.</p><p>A munkaerõpiacon ezt a feladatkört <strong>SiteBuilding</strong>-nek nevezik, amikor a grafikai tervbõl a <strong>Site Bulider</strong> felépíti a HTML-CSS változatot.</p><p>A megszerzett ismereteket nagyon hatékonyan lehet használni a különbözõ tartalomkezelõ rendszerek, mint a <strong>Joomla, Drupal, Wordpress</strong>, stb. <strong>sablonjainak</strong> elkészítésekor vagy módosításakor.</p><p>&nbsp;</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Excel makróprogramozás - VBA]]></tanfolyamnv>
+		<url><![CDATA[excel-makro-vba-tanfolyam]]></url>
+		<kategria><![CDATA[Office]]></kategria>
+		<tanf_id><![CDATA[103]]></tanf_id>
+		<modulid><![CDATA[103]]></modulid>
+		<modulnv><![CDATA[Excel makróprogramozás - VBA]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>Az Excel használata során elõbb-utóbb találkozunk azzal a problémával, hogy gyakran ugyanazt a több, esetleg sok lépésbõl álló mûveletsort kell végrehajtani. Az ilyen feladatokat célszerû automatizálni, így gyorsabban, hatékonyabban dolgozhatunk. Az automatizálást az Excel programozásával érhetjük el, melynek nyelve a <strong>Visual Basic for Application, rövidítve VBA.</strong> Érdemes vele megismerkedni, mert a többi Office alkalmazás is programozható ezen a nyelven.</p><p>A tanfolyam célja, hogy megismertessük a gyakorlott Microsoft Excel felhasználókkal azokat a lehetõségeket, melyek túlmutatnak a beépített menük és parancsok használatán, és amelyekkell feladatokat automatizálhatunk, vagy új funkciókat illeszthetünk be az alkalmazásba.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Projectmanagement]]></tanfolyamnv>
+		<url><![CDATA[project-tanfolyam]]></url>
+		<kategria><![CDATA[Office]]></kategria>
+		<tanf_id><![CDATA[110]]></tanf_id>
+		<modulid><![CDATA[121]]></modulid>
+		<modulnv><![CDATA[Projectmanagement]]></modulnv>
+		<oklevl><![CDATA[Oklevél]]></oklevl>
+		<modullers><![CDATA[A tanfolyam elvégzése után a hallgatóság rendelkezni fog azokkal az ismeretekkel, amelyek segítségével hatékonyan alkalmazhatják a Microsoft Office Project program eszközeit, a szervezetünknél felmerülõ projektek megtervezésében, végrehajtásában és követésében. A lehetséges egyedi beállítások alkalmazásával a létre tudják majd hozni azokat a megjelenítéseket, adat-összeállításokat, amire a saját projekt gyakorlatukban szükség lehet. A szükséges, adatszolgáltatási igényeknek gyorsan és hatékonyan fognak eleget tenni.]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Adobe Acrobat ismeretek]]></tanfolyamnv>
+		<url><![CDATA[acrobat-tanfolyam]]></url>
+		<kategria><![CDATA[Grafika]]></kategria>
+		<tanf_id><![CDATA[111]]></tanf_id>
+		<modulid><![CDATA[67]]></modulid>
+		<modulnv><![CDATA[Adobe Acrobat ismeretek]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[Az Adobe Acrobat folyamatosan fejlõdik, az újabb és újabb verziók egyre több lehetõséget kínálnak a felhasználóknak, mint pl. Video-k beágyazása vagy digitális aláírás használata. <br />A képzésben résztvevõk megismerik a PDF állományokban rejlõ lehetõségeket, használatuk elõnyeit, létrehozásuk és szerkesztésük módjait. A tanfolyam elvégzése után képesek lesznek különbözõ alkalmazásokból, vagy akár teljesen üres állapotból PDF állományok létrehozására, szerkesztésére. Megtanulják, hogy az Acrobat alkalmazás segítségével hogyan, és milyen tartalmakat helyezhetnek el a PDF állományban, és a létrejövõ fájlokat milyen módon tudják közösen használni, digitálisan hitelesíteni]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[JavaScript programozás alapjai]]></tanfolyamnv>
+		<url><![CDATA[Javascript-tanfolyam]]></url>
+		<kategria><![CDATA[Webmester]]></kategria>
+		<tanf_id><![CDATA[113]]></tanf_id>
+		<modulid><![CDATA[792]]></modulid>
+		<modulnv><![CDATA[JavaScript programozás alapjai]]></modulnv>
+		<oklevl><![CDATA[Tanusítvány]]></oklevl>
+		<modullers><![CDATA[<p>Elõbb vagy utóbb minden webfejlesztõ szembesül azzal, hogy a meglévõ HTML és CSS ismeretei már nem elégségesek igazán interaktív és dinamikus viselkedést biztosító weboldalak elkészítéséhez. Napjainkban a <strong>HTML5</strong> technológiák és a webalkalmazások színre lépésével ez különösen igaz. Tanfolyamunk elsõsorban azoknak szól, akik ezen megfontolásból elhatározták, hogy továbblépnek a <strong>JavaScript</strong> felé, de az elsõ lépések megtételéhez támogatást és világos iránymutatást szeretnének.</p>
+
+<p>A tanfolyam a JavaScript (ECMAScript) nyelven és a <strong>Document Object Model (DOM)</strong> szabványon keresztül megismerteti a hallgatókat a kliens oldali programozás alapelveivel. Bemutatjuk a JavaScript történetét és szerepét a weboldalakon. Tisztázzuk a JavaScript-hez kapcsolódó, kicsit összekeveredett fogalmakat. Megnézzük, hogy napjainkban milyen webszabványok segítik szabályozott mederbe terelni a kliens oldali programozást, illetve azt, hogy ezeket a különbözõ böngészõprogramok hogyan és milyen mértékben támogatják.</p>
+
+<p>Az elméleti alapok lefektetése után gyakorlati példákon keresztül megismerkedünk a modern DOM szkriptelés lehetõségeivel, az egyes elemek elérésével és manipulálásával. Megtanuljuk, hogy a felhasználói interakció és egyéb események hatására, hogyan változtathatja viselkedését a weboldal. Végezetül áttekintjük, hogy ugyanezen feladatok elvégzését hogyan egyszerûsítik az elterjedt JavaScript keretrendszerek, esetünkben a <strong>jQuery</strong>.</p>
+]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Joomla sminkmester (Templates)]]></tanfolyamnv>
+		<url><![CDATA[Joomla-sablon-template-tanfolyam]]></url>
+		<kategria><![CDATA[Webmester]]></kategria>
+		<tanf_id><![CDATA[115]]></tanf_id>
+		<modulid><![CDATA[794]]></modulid>
+		<modulnv><![CDATA[Joomla sminkmester (Templates)]]></modulnv>
+		<oklevl><![CDATA[Tanusítvány]]></oklevl>
+		<modullers><![CDATA[<p>Megismerted a Joomla alaprendszert? Megtaláltad a szükséges és legfontosabb kiegészítéseket? De nem találsz olyan sablont, ami megfelel ügyfeleid igényeinek? Gyere el, és tanuld meg az egyedi Joomla sablonok kialakítását!<br><br>A haladó Joomla tanfolyam célja, hogy megismertesse önt a Joomla sablonok anatómiájával. Körbejárjuk a Jooma sablon kezelõfelületét, a multi stíluslap funkciót, valamint a Joomla belsõ kódszerkesztõjét, a sablonkezelõ felületet. A tréning <strong>1.6 -1.8 Joomla template</strong> keretrendszerre épül, <strong>HTML5-CSS3</strong> alapokon és a <strong>W3C</strong> ajánlásait követi. <br><br>A Joomla sablon keretrendszerét egy üres sablonon fogjuk megismerni, ami <strong>Blank Joomla Templates</strong> névre hallgat. A sablon több elrendezést is támogatni fog (<strong>muti layout</strong>), tehát egy, két és három hasábos funkcióra is képes lesz. Ezt követõen egy elõre elkészített grafikus képernyõtervet feldarabolunk és az elõkészített sablonra szabjuk.<br><br>A tanfolyam második részében egy ingyenesen letölthetõ HTML-CSS, sablont (http://www.free-css.com )alakítunk át Joomla Template-re.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[A Java programozás alapjai]]></tanfolyamnv>
+		<url><![CDATA[java-programozas-tanfolyam]]></url>
+		<kategria><![CDATA[Java]]></kategria>
+		<tanf_id><![CDATA[116]]></tanf_id>
+		<modulid><![CDATA[796]]></modulid>
+		<modulnv><![CDATA[A Java programozás alapjai]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>A tanfolyam célja, hogy a programozásban nem járatos, ám a programozás iránt kedvet és elhivatottságot érzõ, a számítógép kezelésében képzett felhasználók számára olyan ismereteket nyújtson, amelyek segítségével maguk is képesek <strong>asztali, grafikus felületû Java-alkalmazásokat készíteni.</strong><br><br>A tanfolyam nagy hangsúlyt fektet a strukturált és <strong>objektum-orientált programozási módszerek</strong> és gondolkodásmód elsajátítására, a <strong>Java nyelvi konstrukcióira</strong>, valamint a <strong>Swing keretrendszer</strong> bemutatására.<br><br>A tanfolyam során számos kisebb és egy nagyméretû, objektum-orientált szoftverfejlesztést követõ példát vesznek végig a hallgatók a népszerû <strong>NetBeans vagy Eclipse fejlesztõkörnyezet</strong> segítségével.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[jQuery alapismeretek]]></tanfolyamnv>
+		<url><![CDATA[jquery-tanfolyam]]></url>
+		<kategria><![CDATA[Webmester]]></kategria>
+		<tanf_id><![CDATA[117]]></tanf_id>
+		<modulid><![CDATA[797]]></modulid>
+		<modulnv><![CDATA[jQuery alapismeretek]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>A jQuery napjaink legnépszerûbb, ingyenes, böngészõfüggetlen JavaScript függvénykönyvtára, amely jelentõsen leegyszerûsíti szinte az összes kliens oldali programozási feladatot. A tanfolyamon résztvevõk az alap jQuery és a ráépülõ jQuery UI segítségével képesek lesznek elegáns, interaktivitásban gazdag, megnövelt felhasználói élményt biztosító webes felületek létrehozására.<br><br>A tanfolyam elején tisztázzuk, hogy a jQuery-nek milyen szerepe lehet a weboldalon, és hogyan kapcsolódik a weboldal HTML/CSS/JavaScript rétegeihez. Megtanuljuk hogyan lehet jQuery kiválasztókat írni a DOM elemek összegyûjtéséhez, majd hogyan lehet az így összegyûjtött elemeket többszörösen manipulálni. Ezt követõen megismerkedünk a jQuery eseménykezelõ modelljével és animációs effektusaival. Röviden betekintünk az AJAX technológia kliens oldali használatába a jQuery-n keresztül. Végezetül a jQuery UI gyûjtemény felületi komponenseinek használatával, egyedi megjelenést biztosító konfigurálásával foglalkozunk.<br><br>A tanfolyam egyes témáit a nélkülözhetetlen elméleti alapok lefektetése után olyan példákon gyakoroljuk, amelyek a hétköznapi feladatokban is gyakran elõkerülhetnek.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Wordpress webmester]]></tanfolyamnv>
+		<url><![CDATA[wordpress-webmester-tanfolyam]]></url>
+		<kategria><![CDATA[Webmester]]></kategria>
+		<tanf_id><![CDATA[118]]></tanf_id>
+		<modulid><![CDATA[798]]></modulid>
+		<modulnv><![CDATA[Wordpress webmester]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>Szeretne Ön gyorsan és egyszerûen professzionális web helyeket készíteni? Akkor érdemes megismerkednie egy korszerû tartalomkezelõvel! Igen, ilyenbõl több is elérhetõ (Drupal, Joomla, Wordpress, stb.), mégis, melyiket érdemes választani? Nos, erre a kérdésre mi sem tudunk egyértelmû választ adni ( megvannak a megfelelõ források, ahol különbözõ összehasonlításokat olvashatunk ), emiatt vettük fel a képzési palettánkra a három legelterjedtebb ingyenes, nyílt forráskódú CMS-t.</p><p>&nbsp;<strong>A Wordpress tanfolyamon</strong> megismerheti, hogy hogyan lehet ezt a tartalomkezelõt telepíteni, beállítani, alapszinten testre szabni. Megmutatjuk, hogy a rendszer <strong>mit tud alapból</strong>, és milyen sok mindenre vehetõ rá a <strong>rengeteg ingyenes bõvítmény</strong> segítségével. Hangsúlyt fektetünk a keresõmotor optimalizálásra, és csattanóként bemutatunk egy ingyenes <strong>webshop</strong> modult is. Megtanulhatja, hogy alapszinten hogyan tudja a WordPress megjelenését a saját igényeire formálni, és hogy milyen biztonsági óvintézkedéseket kell tennie, hogy megvédje honlapját a hekkertámadásoktól.</p><p>A tanfolyam során használható saját notebook is, és rendelkezésre bocsájtunk egy olyan webtárhelyet is, ahol kipróbálhatja magát igaziból.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Drupal webmester]]></tanfolyamnv>
+		<url><![CDATA[drupal-webmester-tanfolyam]]></url>
+		<kategria><![CDATA[Drupal]]></kategria>
+		<tanf_id><![CDATA[119]]></tanf_id>
+		<modulid><![CDATA[52]]></modulid>
+		<modulnv><![CDATA[Drupal webmester]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>A képzés során a hallgatók elsajátítják a Drupal 7 rendszer telepítését, biztonságos üzemeltetését és testre szabását, valamint képesek lesznek a meglévõ szolgáltatások használata mellett az igények szerinti bõvítésre és a honlap megjelenésének megváltoztatására modulok, illetve sminkek segítségével.</p><p>A modul elvégzése után a hallgató képes lesz a Drupal tartalomkezelelõ rendszer segítségével korszerû, rugalmasan bõvíthetõ céges/szervezeti honlapok megtervezésére és megvalósítására, vagy a megvalósítás koordinálására a Drupal tartalomkezelõ segítségével. Képes lesz a fejlesztési lehetõségek/területek meghatározására, egyéni fejlesztést igénylõ feladatok irányítására, külsõ fejlesztõ bevonásával.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Drupal sminkmester]]></tanfolyamnv>
+		<url><![CDATA[drupal-smink-tanfolyam]]></url>
+		<kategria><![CDATA[Drupal]]></kategria>
+		<tanf_id><![CDATA[120]]></tanf_id>
+		<modulid><![CDATA[110]]></modulid>
+		<modulnv><![CDATA[Drupal sminkmester]]></modulnv>
+		<oklevl><![CDATA[tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>A képzés célja, hogy a hallgató <strong>Drupal 7</strong> rendszerekhez önállóan képes legyen arculatokat feldolgozni, kialakítani. Az oktatásban fókuszában a Drupal sminkek és azzal kapcsolatos ismeretek elsajátítása áll, de a képzés érint alapvetõ arculatfeldolgozással (sitebuilderi teendõkkel) kapcsolatos témaköröket is. A képzésnek nem célja, hogy mély programozói ismereteket adjon, de érinti a Drupalon kívül a HTML, CSS, PHP és JavaScript ismeretkörét is.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Drupal programozó tanfolyam]]></tanfolyamnv>
+		<url><![CDATA[drupal-modulfejlesztes-programozas]]></url>
+		<kategria><![CDATA[Drupal]]></kategria>
+		<tanf_id><![CDATA[121]]></tanf_id>
+		<modulid><![CDATA[111]]></modulid>
+		<modulnv><![CDATA[Drupal programozó tanfolyam]]></modulnv>
+		<oklevl><![CDATA[Tanusítvány]]></oklevl>
+		<modullers><![CDATA[<p>A modul elvégzése során a hallgatók megismerik a <strong>Drupal 7</strong> rendszer felépítését, mûködését fejlesztõi/programozói szempontból. Ezáltal képesek lesznek a Drupal portálmotort, mint alkalmazás-fejlesztõ keretrendszert használni.</p><p>Megtanulják, hogy hogyan készíthetnek saját kiterjesztéseket a rendszerhez, vagy hogyan tudnak a Drupal alaprendszeréhez (felhasználó, tartalom, form stb. kezelés) kapcsolódva, azon módosításokat eszközölni.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Webdesign-Photoshop]]></tanfolyamnv>
+		<url><![CDATA[webtervezes-webdesign-photoshop-tanfolyam]]></url>
+		<kategria><![CDATA[Webmester]]></kategria>
+		<tanf_id><![CDATA[122]]></tanf_id>
+		<modulid><![CDATA[200]]></modulid>
+		<modulnv><![CDATA[Webdesign-Photoshop]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>Ebben a modulban a hallgatók megismerik a <strong>weboldalak tervezéséhez</strong> nélkülözhetetlen elméleti és gyakorlati tudnivalókat. Áttekintik a tervezés szempontjait, alapszabályait, majd a <strong>Photoshop</strong> aktuális verziójából megismerik azon eszközök használatát, melyek nélkülözhetetlenek a weboldalak egyes grafikai elemeinek tervezéséhez. A feladatokat konkrét, létezõ tervek alapján végzik. A modul végére képesek lesznek önálló látványtervek készítésére, amely alapja lehet a megrendelõvel történõ egyeztetéseknek, és a végleges, HTML változat elkészítésének.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Rugalmas webtervezés mobil eszközökre]]></tanfolyamnv>
+		<url><![CDATA[mobil-webtervezes-responsive-webdesign]]></url>
+		<kategria><![CDATA[Webmester]]></kategria>
+		<tanf_id><![CDATA[125]]></tanf_id>
+		<modulid><![CDATA[799]]></modulid>
+		<modulnv><![CDATA[Rugalmas webtervezés mobil eszközökre]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>Napjainkban egyre nagyobb az igény, hogy egy weboldal ne csak a hagyományos számítógépek kijelzõjén jelenjen meg esztétikusan, hanem a mobileszközök (mobiltelefonok, táblagépek) kijelzõjén is. Az okostelefonok és a táblagépek ugyan elvileg gond nélkül megjelenítik a hagyományos felépítésû oldalakat, de ezeken a készülékeken igazi felhasználói élményt mégiscsak a mobilra optimalizált megjelenítés biztosít.</p><p>&nbsp;Amikor a webfejlesztõ azzal szembesül, hogy az általa fejlesztett weboldalból mobil megjelenést is csinálnia kell, több lehetõség közül választhat. Egyik lehetõség, hogy elkészíti ugyanannak a weboldalnak egy teljesen önálló, kifejezetten mobilra optimalizált mutánsát. A másik lehetõség, hogy az eredeti weboldal megjelenését úgy alakítja ki, hogy az rugalmasan alkalmazkodjon a kijelzõk eltérõ méretéhez.</p><p>&nbsp;Tanfolyamunk középpontjában ez utóbbi technika, az úgynevezett <strong>Responsive Web Design (RWD)</strong> áll. Bár viták folynak arról, hogy a fent említett két lehetõség közül melyiknek mi az elõnye és a hátránya, abban egyetértés van, hogy a Responsive Web Design alkalmazása kis és közepes honlapok esetén gyorsabb, egyszerûbb és költséghatékonyabb lehet.</p><p>&nbsp;A <strong>Responsive Web Design</strong> alkalmazásához alapvetõen azt kell jól elsajátítani, hogy a weboldal vázszerkezete, a rajta megjelenõ elemek (betûk, képek, stb.) méretezése hogyan lehet teljesen rugalmas. Ehhez egy szemléletváltásra is szükség van, hiszen a fejlesztõk többsége hagyományosan mindent méretet pixelben definiál.</p><p>&nbsp;A tanfolyamon a nélkülözhetetlen elméleti alapok lefektetésével párhuzamosan közösen átalakítunk egy hagyományos, pixel alapú méretezéssel készült weboldalt, rugalmas, mobileszközökön is optimális megjelenéssel rendelkezõ weboldallá.</p><p>&nbsp;A tanfolyam elvégzésével a hallgatók képesek lesznek már méglévõ weboldalakat, CMS sablonokat rugalmas megjelenésûvé átalakítani, illetve új weboldalakat már eleve ezen elv mentén elkészíteni.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[JavaScript és JQuery - a biztos alapok]]></tanfolyamnv>
+		<url><![CDATA[javascript-jquery-programozas-tanfolyam]]></url>
+		<kategria><![CDATA[Webmester]]></kategria>
+		<tanf_id><![CDATA[126]]></tanf_id>
+		<modulid><![CDATA[800]]></modulid>
+		<modulnv><![CDATA[JavaScript és JQuery - a biztos alapok]]></modulnv>
+		<oklevl><![CDATA[Tanusítvány]]></oklevl>
+		<modullers><![CDATA[<p>A tanfolyam a JavaScript (ECMAScript) nyelven és a <strong>Document Object Model (DOM)</strong> szabványon keresztül megismerteti a hallgatókat a kliens oldali programozás alapelveivel. Bemutatjuk a JavaScript történetét és szerepét a weboldalakon. Tisztázzuk a JavaScript-hez kapcsolódó, kicsit összekeveredett fogalmakat. Megnézzük, hogy napjainkban milyen webszabványok segítik szabályozott mederbe terelni a kliens oldali programozást, illetve azt, hogy ezeket a különbözõ böngészõprogramok hogyan és milyen mértékben támogatják.</p><p>Az elméleti alapok lefektetése után gyakorlati példákon keresztül megismerkedünk a modern DOM szkriptelés lehetõségeivel, az egyes elemek elérésével és manipulálásával.</p><p>A tanfolyam második részében tisztázzuk, hogy a jQuery-nek milyen szerepe lehet a weboldalon, és hogyan kapcsolódik a weboldal HTML/CSS/JavaScript rétegeihez. Megtanuljuk hogyan lehet jQuery kiválasztókat írni a DOM elemek összegyûjtéséhez, majd hogyan lehet az így összegyûjtött elemeket többszörösen manipulálni. Ezt követõen megismerkedünk a jQuery eseménykezelõ modelljével és animációs effektusaival. Röviden betekintünk az AJAX technológia kliens oldali használatába a jQuery-n keresztül.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[TCP/IP hálózatok és eszközök haladóknak]]></tanfolyamnv>
+		<url><![CDATA[tcp-ip-halozatok-cisco-eszkozok-halado-tanfolyam]]></url>
+		<kategria><![CDATA[Hálózat]]></kategria>
+		<tanf_id><![CDATA[128]]></tanf_id>
+		<modulid><![CDATA[801]]></modulid>
+		<modulnv><![CDATA[TCP/IP hálózatok és eszközök haladóknak]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>Ezen a tanfolyamon a<a href="../halozat/TCP-IP-switch-router-tanfolyam.php" target="_blank" data-mce-href="../halozat/TCP-IP-switch-router-tanfolyam.php"> TCP/IP hálózatok, hálózati eszközök konfigurálása</a> alaptanfolyamra építve további betekintést nyújtunk a menedzselhetõ, programozható Cisco eszközök használatába, konfigurálásába. A résztvevõk a gyakorlatban megismerhetik a VLAN-ok létrehozását, a különbözõ routuóing protokollokat, forgalom és port szûrési módokat, és felkészülhetnek az IPv6 áttérésre is.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[WordPress Sminkmester]]></tanfolyamnv>
+		<url><![CDATA[Wordpress-sablon-template-theme-tanfolyam]]></url>
+		<kategria><![CDATA[Wordpress]]></kategria>
+		<tanf_id><![CDATA[129]]></tanf_id>
+		<modulid><![CDATA[802]]></modulid>
+		<modulnv><![CDATA[WordPress Sminkmester]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>A WordPress tartalomkezelõ rendszer számos gyárilag beépített sablonnal rendelkezik, és ha ez valakinek nem lenne elég, akkor az internetrõl további ingyenes vagy fizetõs sablonokat is le tud hozzá tölteni. Vannak azonban olyan webfejlesztési projektek, amikor ezek a sablonok valamilyen oknál fogva mégsem alkalmasak teljesen a készülõ honlaphoz. Például az egyik ilyen eset lehet, ha egy már meglévõ, statikus (azaz nem tartalomkezelõ rendszerre épülõ) honlapot szeretnénk WordPress-re átültetni úgy, hogy az arculat alapjaiban ne változzon meg. Ilyenkor jöhet szóba egy saját fejlesztésû, egyedi WordPress sablon elkészítése.</p><p>Tanfolyamunk célja, hogy a hallgató képes legyen önállóan WordPress sablonokat kialakítani. Akár egy meglévõ webarculat alapján, akár teljesen nulláról kiindulva. A tanfolyam fókuszában a WordPress sablonokkal kapcsolatos alapszintû ismeretek elsajátítása áll, de érinti az arculatfeldolgozással (sitebuilderi teendõkkel) kapcsolatos ismereteket is. A képzésnek nem célja, hogy professzionális sablonok elkészítéséhez szükséges mély webprogramozói ismereteket adjon, de azért a szükséges mértékben a HTML, a CSS és a PHP nyelvekkel kapcsolatos alapvetõ ismeretkört is bõvítheti.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Linux otthon és a kisirodában - SOHO]]></tanfolyamnv>
+		<url><![CDATA[linux-otthoni-irodai-hasznalat-tanfolyam]]></url>
+		<kategria><![CDATA[Linux]]></kategria>
+		<tanf_id><![CDATA[130]]></tanf_id>
+		<modulid><![CDATA[803]]></modulid>
+		<modulnv><![CDATA[Linux otthon és a kisirodában - SOHO]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>A résztvevõk a kifejezetten gyakorlat orientált tanfolyam elvégzésével megismerhetik a Linux mûködését, grafikus felületét és azokat a programokat amelyekkel kiválthatják a fizetõs alkalmazásokat.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Linux Shell-programozás]]></tanfolyamnv>
+		<url><![CDATA[linux-shell-script-programozas]]></url>
+		<kategria><![CDATA[Linux]]></kategria>
+		<tanf_id><![CDATA[131]]></tanf_id>
+		<modulid><![CDATA[804]]></modulid>
+		<modulnv><![CDATA[Linux Shell-programozás]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>A tanfolyami résztvevõk egy elõre telepített Linux rendszeren, a gyakorlatban ismerkednek meg a LINUX parancssori (bash, shell) felülettel. Megtanulják használni Linux karakteres felületét (konzol), a gyakori linuxos parancsokat, megértik a jogosultságokat, a bash mûködését. Képesek lesznek önállóan vagy idõzített módon futtatható kisebb célprogramokat készíteni, amelyek nagy segítségére lehetnek egy Linux felhasználónak, a rendszergazdáknak pedig egyenesen nélkülözhetetlen.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Android programozás alapok]]></tanfolyamnv>
+		<url><![CDATA[android-programozas-tanfolyam]]></url>
+		<kategria><![CDATA[Programozás]]></kategria>
+		<tanf_id><![CDATA[132]]></tanf_id>
+		<modulid><![CDATA[805]]></modulid>
+		<modulnv><![CDATA[Android programozás alapok]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p><span>A tanfolyam során a&nbsp;<strong>Java</strong>&nbsp;nyelv használatával mutatjuk meg&nbsp;az&nbsp;</span><strong>Android</strong><span>&nbsp;platform lehetõségeit</span><span>.&nbsp;</span><span>A mobil programozás napjaink húzó ágazata, ezért érdemes megismerni. A tanfolyam során &nbsp;a résztvevõk megismerkednek a Java nyelv legszükségesebb alapelemeivel, majd kifejezetten Android rendszeren futó alkalmazás&nbsp;</span><span>készítésének fázisaival.</span></p><p><span>A képzés végén képesek lesznek Android fejlesztéshez szükséges fejlesztõrendszer telepítésére, használatára, megismerik az Android rendszert, és meg tudnak tervezni, majd megvalósítani egyszerûbb Android alkalmazásokat, amelyeket publikálni tudnak az erre szolgáló piactéren.</span></p><p><span>A tudást mi adjuk, az ötleteket a hallgatók hozzák. E kettõ nyerõ páros lesz.</span></p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Webfejlesztés Google Web Toolkit (GWT) technológiával]]></tanfolyamnv>
+		<url><![CDATA[java-gwt-tanfolyam]]></url>
+		<kategria><![CDATA[Java]]></kategria>
+		<tanf_id><![CDATA[133]]></tanf_id>
+		<modulid><![CDATA[806]]></modulid>
+		<modulnv><![CDATA[Webfejlesztés Google Web Toolkit (GWT) technológiával]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>A Google Web Toolkit a Google által fejlesztett AJAX fejlesztõi eszköztár (toolkit), amit felhasználtak szinte az összes termékükben, mint például a Google Mail, Google Drive vagy Google Maps. A fõ újdonság a Java-JavaScript fordítóban van: a fejlesztõ elvégezheti a kódolást és a felhasználói felület hibakeresését Java nyelvet használva, majd legenerálja a végleges HTML/JavaScript kódot és használhatja. Az elkészült webes AJAX-os alkalmazás az összes modern böngészõt támogatja. A keretrendszer legfõbb elõnye, hogy komplex kliens oldali funkcionalitást lehet megvalósítani Objektumorientált környezetben.</p><p>A tanfolyam elvégzésével a résztvevõk képessé válnak olyan dinamikus webalkalmazások elkészítésére, amely funkcionalitásban felveheti a versenyt a natív asztali alkalmazásokkal.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Java programoz&#225;s haladóknak]]></tanfolyamnv>
+		<url><![CDATA[java-halado-tanfolyam]]></url>
+		<kategria><![CDATA[Java]]></kategria>
+		<tanf_id><![CDATA[134]]></tanf_id>
+		<modulid><![CDATA[807]]></modulid>
+		<modulnv><![CDATA[Java programoz&#225;s haladóknak]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>A tanfolyam nagy hangsúlyt fektet a strukturált és objektum-orientált programozási módszerek és gondolkodásmód elsajátítására, a Java nyelvi konstrukcióira, valamint a különbözõ webes keretrendszerek bemutatására.</p><p>A tanfolyam során számos kisebb és egy nagyméretû, objektum-orientált szoftverfejlesztést követõ példát vesznek végig a hallgatók a népszerû Eclipse fejlesztõkörnyezet, Apache Tomcat webszerver és MySQL adatbázis segítségével. A tanfolyam elvégzésével a résztvevõk képesek lesznek összetett asztali, illetve webes Java-alkalmazásokat készíteni.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Java fejlesztés Spring keretrendszerrel]]></tanfolyamnv>
+		<url><![CDATA[java-spring-tanfolyam]]></url>
+		<kategria><![CDATA[Java]]></kategria>
+		<tanf_id><![CDATA[135]]></tanf_id>
+		<modulid><![CDATA[808]]></modulid>
+		<modulnv><![CDATA[Java fejlesztés Spring keretrendszerrel]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>A Spring az egyik legnépszerûbb nyíltforrású Java alkalmazás keretrendszer. Gyakran emlegetik a Java eszközök svájci bicskájaként is, erõs integrációs szerepe miatt. A tanfolyam célja bemutatni a keretrendszert magát, alapfogalmait, architektúráját, a különbözõ modulok szerepét és azok használatát komplex példákon keresztül. Az oktatás során számos területrõl kap betekintést a hallgató, amelyek ugyan nem Spring specifikus ismeretek, de feltétlenül szükségesek a tanfolyami anyag megértéséhez. Ilyen téma többek közt számos tervezési minta megismerése, adatbázis elméleti fogalmak, architektúrális megfontolások. &nbsp;A tanfolyam végére a hallgató képes lesz összeállítani egy minden réteget lefedõ, Spring alapú nagyvállalati alkalmazást.&nbsp;</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Szoftverfejlesztés Java Enterprise Edition környezetben - JEE]]></tanfolyamnv>
+		<url><![CDATA[Java-Enterprise-JEE-tanfolyam]]></url>
+		<kategria><![CDATA[Java]]></kategria>
+		<tanf_id><![CDATA[136]]></tanf_id>
+		<modulid><![CDATA[809]]></modulid>
+		<modulnv><![CDATA[Szoftverfejlesztés Java Enterprise Edition környezetben - JEE]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>A Java Enterprise Edition (JavaEE) egy széles körben elterjedt vállalati Java programozási platform. A platform szabványai lehetõvé teszik a vállalati környezet igényeinek magas szintû kiszolgálását többrétegû, megbízható, biztonságos és skálázható alkalmazások segítségével.</p><p>A tanfolyam gyakorlatai Eclipse és Netbeans fejlesztõkörnyezetek segítségével kerülnek bemutatásra, Apache Tomcat, GlassFish és JBoss alkalmazásszervereken MySql adatbázissal.</p><p>A tanfolyam elvégzésével a résztvevõk gyakorlati példákon keresztül elsajátítják a JavaEE komponensek használatát és képessé válnak vállalati szintû alkalmazások tervezésére, fejlesztésére és összeállítására.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Tesztelés JAVA platformon]]></tanfolyamnv>
+		<url><![CDATA[Java-teszteles-tanfolyam]]></url>
+		<kategria><![CDATA[Java]]></kategria>
+		<tanf_id><![CDATA[137]]></tanf_id>
+		<modulid><![CDATA[810]]></modulid>
+		<modulnv><![CDATA[Tesztelés JAVA platformon]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>Fejlett tesztelési folyamatokkal és technikákkal nagyban növelhetõ a fejlesztés hatékonysága és ez által az átadott termék minõsége. Napjainkban sok eszköz áll rendelkezésre a teszteléshez, de ezek önmagunkban keveset érnek egy átgondolt tesztelési stratégia nélkül. A tanfolyam célja, hogy átfogó képet adjon a Java fejlesztési környezetben (Java Standard Edition és Java Enterprise Edition) jól alkalmazható tesztelési típusokról konkrét gyakorlati példákon keresztül.</p><p>A tanfolyam elvégzésével a résztvevõk életszerû példákon keresztül elsajátítják a tesztelés lényegi elemeit és képessé válnak a különbözõ teszt típusok alkalmazására.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Tervezési minták és refaktoring Java környezetben]]></tanfolyamnv>
+		<url><![CDATA[Java-tervezesi-mintak-UML-refactoring]]></url>
+		<kategria><![CDATA[Java]]></kategria>
+		<tanf_id><![CDATA[138]]></tanf_id>
+		<modulid><![CDATA[811]]></modulid>
+		<modulnv><![CDATA[Tervezési minták és refaktoring Java környezetben]]></modulnv>
+		<oklevl><![CDATA[tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>A tanfolyam célja gyakorlati példákon keresztül megismertetni a fejlesztõket a legelterjedtebb <strong>tervezési mintákkal</strong> (design patterns), és <strong>refaktoring módszerekkel</strong> (a már mûködõ kód átírása, mely során annak funkcionalitása nem változik, de a kód maga átláthatóbbá, könnyebben továbbfejleszthetõvé válik).</p><p>A gyakorlati példákban nagy hangsúlyt fektetünk a <strong>tiszta, átlátható kód</strong> készítésére, valamint az általánosan elterjedt konvenciók bemutatására és alkalmazására. Ebben nagy segítséget nyújtanak a különbözõ fejlesztõkörnyezetek erre a célra kifejlesztett funkciói is.</p><p>A tanfolyam elvégzésével a résztvevõk elsajátítják a Java nyelv objektumorientált képességeinek megfelelõ alkalmazását és képessé válnak mások számára is könnyen továbbfejleszthetõ kód készítésére, ezáltal növelve a fejlesztés hatékonyságát és a termék karbantarthatóságát.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Keresztplatformos Mobilalkalmazás-fejlesztés - PhoneGap]]></tanfolyamnv>
+		<url><![CDATA[webapp-mobil-alkalmazas-phonegap-cordova-tanfolyam]]></url>
+		<kategria><![CDATA[Webmester]]></kategria>
+		<tanf_id><![CDATA[139]]></tanf_id>
+		<modulid><![CDATA[813]]></modulid>
+		<modulnv><![CDATA[Keresztplatformos Mobilalkalmazás-fejlesztés - PhoneGap]]></modulnv>
+		<oklevl><![CDATA[tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<div class="info"><p>A HTML5 és a mobilplatformok fejlõdése immár lehetõséget ad valóban használható keresztplatformos mobilalkalmazások fejlesztésére, melyeket helyes implementáció esetén a felhasználó nem tud megkülönböztetni a natív alkalmazásoktól, ugyanakkor kódjuk 90-100%-ban megegyezik az összes platformon.</p><p>A <strong>PhoneGap</strong> a legelterjedtebb keresztplatformos fejlesztõkörnyezet, mely immár nyílt foráskódú (<strong>Apache Cordova</strong> néven), ugyanakkor az Adobe ad mögé hátteret és támogatást.</p><p>A tanfolyam során megismerjük a mobilfejlesztés alapjait, az alkalmazás publikálásának követelményeit, és hogy ezeket hogyan valósíthatjuk meg PhoneGap használatával. Elkészítünk egy mûködõ alkalmazást Android, iOS és Windows Phone platformokra, majd megtanuljuk optimalizálni és hatékonyan tesztelni az alkalmazásainkat.</p><p>A képzés végén a hallgatók képesek lesznek keresztplatformos mobilalkalmazások fejlesztésére és publikálására, ismerni fogják a PhoneGap lehetõségeit és korlátait, az alkalmazások lokális fordításának folyamatát, valamint a PhoneGap Build szolgáltatás használatát. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p></div>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Visual Studio 2015 és C# 6.0 újdonságok]]></tanfolyamnv>
+		<url><![CDATA[visual-studio-2015-c-sharp-tanfolyam]]></url>
+		<kategria><![CDATA[dotNET]]></kategria>
+		<tanf_id><![CDATA[140]]></tanf_id>
+		<modulid><![CDATA[814]]></modulid>
+		<modulnv><![CDATA[Visual Studio 2015 és C# 6.0 újdonságok]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p>A tanfolyam során a hamarosan megjelenõ <strong> Visual Studio 2015 </strong> fejlesztõkörnyezet, a <strong> C# 6.0 </strong> programozási nyelv és a <strong> .NET 4.6 </strong> keretrendszer új eszközeit és szolgáltatásait ismertetjük meg. Egyszerû példákon keresztül demonstráljuk, hogyan segítik az új lehetõségek az ipari alkalmazásfejlesztést és hogyan illeszkednek a jelenlegi eszköztárba. Kitérünk a <strong> .NET Compiler Platformra </strong> is, ami az ismertetett újdonságok nagy részének bevezetését lehetõvé tette a nyelvbe és a fejlesztõeszközbe.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Excel automatizálás]]></tanfolyamnv>
+		<url><![CDATA[excel-automatizalas-makro-vba-tanfolyam]]></url>
+		<kategria><![CDATA[Excel]]></kategria>
+		<tanf_id><![CDATA[141]]></tanf_id>
+		<modulid><![CDATA[815]]></modulid>
+		<modulnv><![CDATA[Excel automatizálás]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<h3><strong>Microsoft Excel-lel dolgozik? Rendszeresen ismétlõdõ, idõrabló feladatai vannak?</strong></h3><p>Tanítsa meg az Excel-t a feladatsor elvégzésére! Ha egyszer helyesen megtanítja, Õ&nbsp;<strong>százszor vagy akár ezerszer gyorsabban&nbsp;</strong>végrehajtja az automatizált folyamatot, mint Ön csinálta kézzel, hajdanán!</p><p>Az Excel képes arra, hogy a saját nyelvén rögzíti az Ön által elvégzett lépéseket. Ezt nevezzük makró rögzítésnek. A rögzített makrót bármikor, bármennyiszer, óriási sebességgel le tudja játszani, azaz megismétli a â€œmegtanultâ€ mûveletsort. A rögzített makró azonban csak azokkal az adatokkal fog helyesen dolgozni, amelyekkel a rögzítés során találkozott. Az ismétlõdõ feladatainkat legtöbbször más-más adatokon végezzük, de ugyanazokkal a lépésekkel haladunk.</p><p>A mi dolgunk a tanfolyam során az, hogy egy kicsit megismerjük az Excel saját nyelvét. Ez azért fontos, hogy a rögzített makróban meg tudjuk különböztetni a lényeges pontokat, meg tudjuk változtatni a makrót úgy, hogy tetszõleges adatokkal is mindig helyesen mûködjön.</p><p>Az Excel automatizálás tanfolyamon&nbsp;<strong>nem tanulunk programozni, és nem is várjuk el senkitõl, hogy tudjon&nbsp;</strong>. Ez a nagyon hatékony&nbsp;<strong>egy nap&nbsp;</strong>arra lesz jó, hogy az Ön által végzett munkát jelentõsen fel tudja gyorsítani, ezáltal sokkal hatékonyabban dolgozhat. Olyan típusú feladatok automatizásására mutatunk példákat, amelyek munkafolyamata jól definiálható, nem, vagy csak nagyon ritkán változnak a végrehajtandó lépések.</p><p><br></p><p><strong>A tanfolyam elvégzése után a résztvevõ képes lesz</strong></p><ul><li>Egyszerû makrók rögzítésére,</li><li>A felvett makró kód értelmezésére és módosítására</li><li>Képletek, számított oszlopok automatikus beillesztésére</li><li>Szûrések makrózására</li><li>PIVOT táblák automatizált létrehozására</li><li>Egy feladat megoldási lépéseinek struktúrálására</li></ul>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Bevezetés az Angular JS keretrendszerbe]]></tanfolyamnv>
+		<url><![CDATA[angular-js-tanfolyam]]></url>
+		<kategria><![CDATA[Webmester]]></kategria>
+		<tanf_id><![CDATA[142]]></tanf_id>
+		<modulid><![CDATA[816]]></modulid>
+		<modulnv><![CDATA[Bevezetés az Angular JS keretrendszerbe]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<p dir="ltr"><span>A tanfolyam során a </span><span>JavaScript </span><span>nyelvre épülõ </span><strong>AngularJS </strong><span>keretrendszer lehetõségeit mutatjuk be. Az AngularJS napjainkban a webes világ igen népszerû kliens oldali megoldása, ezért érdemes megismerni. A Google mûhelyébõl induilt útjára, egyre több helyen lehet vele találkozni. </span></p><p dir="ltr"><span>Az AngularJS kiterjeszti a HTML-t új elemkkel és attribútumokkal, így jelentõs mértékben megkönnyíti az <strong>Ajax</strong> alapú webalkalmazások készítését, legyen szó akár <strong>SPA</strong> (Single Page Aplication) fejlesztésrõl.</span></p><p>A képzés végén a résztvevõk képesek lesznek az AngularJS használatával olyan webalkalmazások kliens oldali kódjának elkészítésére, hogy a felhasználó szinte észre se vegye, hogy nem egy asztali alkalmazást használ.</p>]]></modullers>
+	</node>
+	<node>
+		<tanfolyamnv><![CDATA[Excel PIVOT tábla mesterkurzus]]></tanfolyamnv>
+		<url><![CDATA[excel-kimutatas-pivot-tabla-tanfolyam]]></url>
+		<kategria><![CDATA[Excel]]></kategria>
+		<tanf_id><![CDATA[143]]></tanf_id>
+		<modulid><![CDATA[817]]></modulid>
+		<modulnv><![CDATA[Excel PIVOT tábla mesterkurzus]]></modulnv>
+		<oklevl><![CDATA[Tanúsítvány]]></oklevl>
+		<modullers><![CDATA[<ul class="list-9"><li>Gyakran dolgozol Excel-lel?</li><li>Adatok összesítésével, szûrésével, elemzésével foglalkozol?</li><li>Használsz már PIVOT táblákat, de megismernéd mélyebben?</li><li>Le akarod nyûgözni munkatársaidat vagy a fõnöködet?</li><li>Egyszerûen csak növelnéd munkaerõ értékedet?</li></ul><p>Ha bármelyik kérdésre IGEN a válaszod, szánj rá egy napot, és ismerd meg, fedezd fel a Microsoft Excel egyik legerõteljesebb eszközét!&nbsp;A kimutatások (PIVOT táblák) a megfelelõen elõkészített forrásadatok összesítésére, és az eredmények prezentálására szolgálnak.&nbsp;Egy táblázatos adathalmaz több szempont szerinti csoportosított részösszegzésére nem találhatsz jobb szerszámot.</p><p>Ha nem készítettél még ilyesmit, vagy nem vagy biztos benne, hogy tudod mi ez, akkor&nbsp;<strong>nézd meg az oldal alján a bemutató videót!</strong></p><h3>Mit fogunk tanulni?</h3><p>Az egy napos workshop során az alapok rövid bemutatása után megismertetjük a PIVOT táblákban rejlõ haladóbb lehetõségeket, és a nap végén rövid ízelítõt mutatunk az ingyenes POWER PIVOT beépülõ modulból, amellyel végre áthágható az Excel fizikai korlátja, és segítségével akár több millió sorból álló forrásadatból is tudunk kimutatást készíteni.</p><ul class="list-4"><li>A nap végére a résztvevõk megértik, hogy hogyan kell elõkészíteni egy adatforrást úgy, hogy PIVOT riportot tudjunk belõle csinálni, és képesek lesznek egyszerûbb és összetettebb kimutatások elkészítésére, formázására és menedzselésére.</li><li>Megértik, milyen kapcsolatban van az eredeti adatforrás a PIVOT táblával, és hogyan tudják a dinamikusan változó adatokkal együtt naprakészen tartani a kimutatást.</li><li>Megtanulják, hogyan kell ugyanazon adatforrásból több, különbözõ PIVOT táblát készíteni, azokat látványos szûröfelülettel ellátni, és kimutatás diagramokkal fûszerezve, nagyon hatásos, és használható, interaktív Dashboard-okat készíteni.</li><li>Végül megtapasztalhatják, hogy miért is gondolják az Excel inygenes POWERPIVOT bõvítményét forradalminak, és megértik annak mûködését, alapszintû szolgáltatásait.</li></ul><p>A nap workshop jellegû, gyakorlati feladatok megoldása történik. Természetesen mindenki külön számítógépen dolgozik, de lehet hozni saját Laptop-ot is.</p><p>Az Excel verzió 2010 vagy 2013.</p>]]></modullers>
+	</node>
+</data>

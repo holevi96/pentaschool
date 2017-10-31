@@ -1,0 +1,17 @@
+/* TEAM */
+  Developer: Michael Schönrock
+  Website: michaelschoenrock.com
+  From: Munich, Germany
+
+  Developer: Sven Hofmann
+  Website: hofmannsven.com
+  Twitter: @hofmannsven
+  From: Munich, Germany
+
+  Localization: Yoram Schaffer, Angelo Salvatore Scotto Rosato
+
+/* PLUGIN */
+  Language: English / German / Hebrew / Italian
+  Platform: WordPress
+  GitHub Download: https://github.com/flymke/mark-posts
+  WordPress Download: http://wordpress.org/plugins/mark-posts/

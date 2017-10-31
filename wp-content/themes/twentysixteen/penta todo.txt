@@ -1,0 +1,9 @@
+pentaschool
+
+a válasz megtekintésénél is legyen ott az ajanlás és lehessen aktiválni.
+
+tanfolyami oldalon jelenjen meg az az ajanlás ami nem draft
+
+legyen kulon oldal az ajanlásoknak.
+
+kéne tudni sorrendet és szurest, - kategoria rendszer... - már létrejon a kategoria csk nem adodik hozzá a posthoz valamiert...
