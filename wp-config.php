@@ -17,16 +17,16 @@
 
 // ** MySQL beállítások - Ezeket a szolgálatótól lehet beszerezni ** //
 /** Adatbázis neve */
-define('DB_NAME', '05245_devpenta');
+define('DB_NAME', 'pentaschool');
 
 /** MySQL felhasználónév */
-define('DB_USER', '05245_devpenta');
+define('DB_USER', 'root');
 
 /** MySQL jelszó. */
-define('DB_PASSWORD', 'ropika');
+define('DB_PASSWORD', '');
 
 /** MySQL  kiszolgáló neve */
-define('DB_HOST', 'mysql.viacomkft.hu');
+define('DB_HOST', 'localhost');
 
 /** Az adatbázis karakter kódolása */
 define('DB_CHARSET', 'utf8mb4');
