@@ -951,7 +951,7 @@ div[data-overlay] ul {
 }
 .btn--primary,
 .btn--primary:visited {
-  background: #4a90e2;
+  background: #4a90e2 !important;
   border-color: #4a90e2;
 }
 .btn--primary .btn__text,
