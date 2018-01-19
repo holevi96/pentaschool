@@ -69,7 +69,7 @@ $table_prefix  = 'pe_';
  * Erősen ajánlott, hogy a bővítmény- és sablonfejlesztők használják a WP_DEBUG
  * konstansot.
  */
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
 
 /* Ennyi volt, kellemes blogolást! */
 

@@ -6898,7 +6898,7 @@ a[data-lightbox]:hover {
   display: inline-block;
   text-align: center;
 }
-.process-2:before {
+.process-2 div:before {
   content: '';
   position: absolute;
   width: 100%;

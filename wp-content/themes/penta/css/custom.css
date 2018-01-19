@@ -1,1 +1,58 @@
 /*! Place your custom styles here */
+.tab__content ul li span {
+    top: -5px;
+    position: relative;
+}
+.tab__content ul li i {
+    padding-right: 17px;
+}
+.idopontok.boxed.boxed--border span {
+    color: #000;
+    text-transform: uppercase;
+    position: relative;
+    top: -5px;
+    font-weight: bold;
+}
+
+.idopontok.boxed.boxed--border li {
+    color: #000;
+    margin-left: 35px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 6px;
+    padding-top: 1px;
+}
+
+
+.flexbox {
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    overflow: hidden;
+}
+.flexbox .col {
+    flex: 1;
+    margin:10px;
+}
+@media all and (max-width: 767px) {
+    .flexbox{
+        display:block !important;
+    }
+}
+
+.more-options-button{
+    background: #fff; width:100%
+}
+.tanf-price{
+    font-weight:700;
+    font-size:36px;
+    color:#777 !important;
+    margin-top:20px;
+    display:inline-block;
+    margin-right:20px;
+}
+.process-number{
+    position: absolute;
+    z-index: 10;
+    left: 24px;
+    font-size: 15px;
+}

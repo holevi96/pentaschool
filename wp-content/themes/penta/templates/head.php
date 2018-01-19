@@ -8,6 +8,7 @@
         <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/stack-interface.css" rel="stylesheet" type="text/css" media="all">
         <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/socicon.css" rel="stylesheet" type="text/css" media="all" />
         <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/flickity.css" rel="stylesheet" type="text/css" media="all" />
         <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
         <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/theme-charcoal.css" rel="stylesheet" type="text/css" media="all" />
         <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/custom.css" rel="stylesheet" type="text/css" media="all" />
