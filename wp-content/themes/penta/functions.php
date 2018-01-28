@@ -32,7 +32,7 @@ function penta_scripts() {
   wp_deregister_script('jquery');
   wp_enqueue_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js', array(  ), null, true );
   if( get_post_type( $post ) === "tanfolyamok" && is_singular()){
-    wp_enqueue_script( 'flip.js', 'https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js', array( 'jquery' ), false, true );
+    wp_enqueue_script( 'justflipit.min.js', get_stylesheet_directory_uri() . '/js/justflipit.min.js', array( 'jquery' ), false, true );
     wp_enqueue_script( 'single-tanfolyamok.js', get_stylesheet_directory_uri() . '/js/single-tanfolyamok.js', array( 'jquery' ), false, true );
 
 
