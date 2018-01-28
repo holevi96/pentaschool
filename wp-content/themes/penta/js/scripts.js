@@ -2631,9 +2631,7 @@ mr = (function (mr, $, window, document){
                 currentTab.closest('.tabs-container').find('.tabs-content').append(tabContentClone);
             });
         });
-        jQuery("#card").flip({
-            trigger: 'manual'
-        });
+
         $('.tabs > li').on('click', function(){
             var clickedTab = $(this), hash;
             mr.tabs.activateTab(clickedTab);
@@ -2703,6 +2701,9 @@ mr = (function (mr, $, window, document){
     };
 
     mr.components.documentReady.push(mr.tabs.documentReady);
+    jQuery("#card").flip({
+        trigger: 'manual'
+    });
     return mr;
 
 }(mr, jQuery, window, document));
