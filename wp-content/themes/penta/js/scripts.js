@@ -2703,7 +2703,9 @@ mr = (function (mr, $, window, document){
     mr.components.documentReady.push(mr.tabs.documentReady);
 
     jQuery(".card").flip({
-        trigger: 'hover'
+        trigger: 'hover',
+        front: '.front',
+        back: '.back'
     });
     return mr;
 
