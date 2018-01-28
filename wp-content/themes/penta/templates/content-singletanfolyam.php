@@ -66,7 +66,7 @@
                      $cnt = 0;
                   foreach ($kiirasok as $kiiras) { ?>
                   <li class="<?php echo ($cnt==0)?"active":"";?> bg--primary">
-                    <div class="tab__title "> <span class="h5 color--primary"><?php echo get_field('kezdes',$kiiras->ID); ?> - <?php echo get_field('vege',$kiiras->ID); ?></span></div>
+                    <div class="tab__title "> <span class="h4 color--primary"><?php echo get_field('kezdes',$kiiras->ID); ?> - <?php echo get_field('vege',$kiiras->ID); ?></span></div>
                     <div class="tab__content flexbox">
                       <div class="col-md-4  col boxed boxed--border bg--primary">
                         <ul>
