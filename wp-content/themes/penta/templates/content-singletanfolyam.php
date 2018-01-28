@@ -81,8 +81,8 @@
                         </ul>
                       </div>
                         <div class="col-md-4 col boxed boxed--border card" >
-                            <div class="front">
-                                <div class="  box-shadow bg--secondary feature" style="">
+
+                                <div class="front  box-shadow bg--secondary feature" style="">
                                     <h4>Jelentkezz a tanfolyamra!</h4>
 
                                     <p>
@@ -108,8 +108,8 @@
                                         <span class="btn__text" style="color:#fff">Jelentkezés</span>
                                     </a>
                                 </div>
-                            </div>
-                            <div class="back">
+
+                            <div class="back  box-shadow bg--secondary feature" style="">
                                 <a class="btn btn--sm btn--primary reszletes_idopontok">
                                     <span class="btn__text" style="color:#fff">Bezárás</span>
                                 </a>
