@@ -37,5 +37,11 @@ function penta_scripts() {
 
 
   }
+
+  wp_enqueue_script( 'parallax.js', get_stylesheet_directory_uri() . '/js/parallax.js', array( 'jquery' ), false, true );
+  wp_enqueue_script( 'smooth-scroll.min.js', get_stylesheet_directory_uri() . '/js/smooth-scroll.min.js', array( 'jquery' ), false, true );
+  wp_enqueue_script( 'scripts.js', get_stylesheet_directory_uri() . '/js/scripts.js', array( 'jquery' ), false, true );
+  wp_enqueue_script( 'flickity.min.js', get_stylesheet_directory_uri() . '/js/flickity.min.js', array( 'jquery' ), false, true );
+  wp_enqueue_script( 'custom.js', get_stylesheet_directory_uri() . '/js/custom.js', array( 'jquery' ), false, true );
 }
 add_action ('wp_enqueue_scripts', 'penta_scripts');
