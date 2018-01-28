@@ -67,7 +67,7 @@
                   <li class="active bg--primary">
                     <div class="tab__title "> <span class="h5 color--primary"><?php echo get_field('kezdes',$kiiras->ID); ?> - <?php echo get_field('vege',$kiiras->ID); ?></span></div>
                     <div class="tab__content flexbox">
-                      <div class="col-md-4 col-sm-6 col boxed boxed--border bg--primary">
+                      <div class="col-md-4  col boxed boxed--border bg--primary">
                         <ul>
                           <li><i class="icon icon--sm icon-Money"></i> <span>Listaár: <big><?php the_field('listaar');?> Ft.</big></span></li>
                           <hr>
@@ -79,26 +79,40 @@
                           <hr>
                         </ul>
                       </div>
-                      <div class="col-md-4 col-sm-6 col boxed boxed--border">
-                        <div class="  box-shadow bg--secondary feature" style="
-">
-                          <h4>Jelentkezz a tanfolyamra!</h4>
-                          <p>
-                            <span class="tanf-price"><?php echo get_field('akcios_ar',$kiiras->ID); ?> Ft</span>  <strike><?php the_field('listaar');?> Ft.</strike>
-                          </p>
+                        <div id="card">
+                            <div class="col-md-4 col boxed boxed--border front">
+                                <div class="  box-shadow bg--secondary feature" style="">
+                                    <h4>Jelentkezz a tanfolyamra!</h4>
 
-                          <div class="idopontok boxed boxed--border" style=" margin-top: 10px;"><i class="icon icon--sm icon-Stopwatch"></i> <span>7 alkalom:</span>
-                            <h4>Napszak:</h4>
-                            <p><?php echo get_field('napszak',$kiiras->ID); ?></p>
-                            <h4>Besztás:</h4>
-                            <p><?php echo get_field('beosztas',$kiiras->ID); ?></p>
-                          </div>
-                          <a class="btn btn--lg btn--primary" href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#">
-                            <span class="btn__text" style="color:#fff">Jelentkezés</span>
-                          </a>
+                                    <p>
+                                        <span class="tanf-price"><?php echo get_field('akcios_ar', $kiiras->ID); ?>
+                                            Ft</span> <strike><?php the_field('listaar'); ?> Ft.</strike>
+                                    </p>
+
+                                    <div class="idopontok boxed boxed--border" style=" margin-top: 10px;">
+                                        <!--<i class="icon icon--sm icon-Stopwatch"></i> <span>7 alkalom:</span>-->
+
+                                        <h4>Napszak:</h4>
+                                        <p><?php echo get_field('napszak', $kiiras->ID); ?></p>
+
+                                        <h4>Időbeosztás:</h4>
+
+                                        <p><?php echo get_field('ido_beosztas', $kiiras->ID); ?></p>
+                                        <a class="btn btn--sm btn--primary reszletes_idopontok" href="#">
+                                            <span class="btn__text" style="color:#fff">Időpontok részletesen</span>
+                                        </a>
+                                    </div>
+                                    <a class="btn btn--lg btn--primary"
+                                       href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#">
+                                        <span class="btn__text" style="color:#fff">Jelentkezés</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col boxed boxed--border back">
+                                back
+                            </div>
                         </div>
-                      </div>
-                      <div class="col-md-4 col-sm-12 col boxed boxed--border bg--primary">
+                      <div class="col-md-4 col boxed boxed--border bg--primary">
                         <div class=" box-shadow">
                           <h4 style="color:#fff;" class="color--primary1 .type--uppercase">Egyéb lehetőségek: </h4>
                           <p>

@@ -33,7 +33,7 @@
     flex: 1;
     margin:10px;
 }
-@media all and (max-width: 767px) {
+@media all and (max-width: 992px) {
     .flexbox{
         display:block !important;
     }
