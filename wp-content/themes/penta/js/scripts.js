@@ -2630,9 +2630,7 @@ mr = (function (mr, $, window, document){
                 tabContent.remove();
                 currentTab.closest('.tabs-container').find('.tabs-content').append(tabContentClone);
             });
-            jQuery("#card").flip({
-                trigger: 'manual'
-            });
+
         });
         
         $('.tabs > li').on('click', function(){
