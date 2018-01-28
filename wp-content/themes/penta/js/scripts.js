@@ -2701,7 +2701,6 @@ mr = (function (mr, $, window, document){
     };
 
     mr.components.documentReady.push(mr.tabs.documentReady);
-
     jQuery(".card").flip({
         trigger: 'manual',
         front: '.front',
