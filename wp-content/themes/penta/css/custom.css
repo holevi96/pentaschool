@@ -23,7 +23,7 @@
 }
 
 
-/*.flexbox {
+.flexbox {
     display: -webkit-flex !important;
     display: -ms-flexbox !important;
     display: flex !important;
@@ -38,7 +38,7 @@
         display:block !important;
     }
 }
-*/
+
 .more-options-button{
     background: #fff; width:100%
 }
