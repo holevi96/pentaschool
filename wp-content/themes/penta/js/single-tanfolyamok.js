@@ -5,6 +5,6 @@ jQuery(document).ready(function(){
     jQuery( "body" ).delegate( ".reszletes_idopontok", "click", function(e) {
         console.log('asd')
         e.preventDefault();
-        jQuery(".card").flip('toggle');
+        jQuery(".card").eq(0).flip('toggle');
     });
 })
