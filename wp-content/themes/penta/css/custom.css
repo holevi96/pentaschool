@@ -59,7 +59,7 @@
 .tanfolyam-kiirasok-box{
     overflow:hidden;
     width:100% !important;
-    height: 500px;
+    height: 600px;
     position: relative;
     border: 1px solid #ccc;
     -webkit-perspective: 800px;
@@ -69,6 +69,7 @@
 }
 .card{
     position: absolute;
+    padding:0px;
     -webkit-transition: -webkit-transform 1s;
     -moz-transition: -moz-transform 1s;
     -o-transition: -o-transform 1s;
@@ -81,7 +82,9 @@
 }
 .card>div{
     display: block;
-    line-height: 260px;
+    height: 100%;
+    width:100%;
+    background:#fff;
     position: absolute;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;

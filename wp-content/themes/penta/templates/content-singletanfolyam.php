@@ -110,7 +110,9 @@
                                 </div>
                             </div>
                             <div class="back">
-                                back
+                                <a class="btn btn--sm btn--primary reszletes_idopontok">
+                                    <span class="btn__text" style="color:#fff">Bezárás</span>
+                                </a>
                             </div>
                         </div>
                       <div class="col-md-4 col boxed boxed--border bg--primary">
