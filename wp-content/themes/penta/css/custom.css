@@ -68,7 +68,6 @@
     perspective: 800px;
 }
 .card{
-    position: absolute;
     padding:0px;
     -webkit-transition: -webkit-transform 1s;
     -moz-transition: -moz-transform 1s;
