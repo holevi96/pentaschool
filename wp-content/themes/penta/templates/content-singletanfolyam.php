@@ -84,7 +84,7 @@
 ">
                           <h4>Jelentkezz a tanfolyamra!</h4>
                           <p>
-                            <span class="tanf-price"><?php echo get_field('akcios_ar',$kiiras->ID); ?> Ft</span></big></big></big>  <strike><?php the_field('listaar');?> Ft.</strike>
+                            <span class="tanf-price"><?php echo get_field('akcios_ar',$kiiras->ID); ?> Ft</span>  <strike><?php the_field('listaar');?> Ft.</strike>
                           </p>
 
                           <div class="idopontok boxed boxed--border" style=" margin-top: 10px;"><i class="icon icon--sm icon-Stopwatch"></i> <span>7 alkalom:</span>
