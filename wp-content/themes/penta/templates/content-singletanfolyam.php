@@ -63,8 +63,9 @@
               <div class="tabs-container tabs--folder tanfolyam-kiirasok-box">
                 <ul class="tabs ">
                  <?php if(count($kiirasok) > 0){
+                     $cnt = 0;
                   foreach ($kiirasok as $kiiras) { ?>
-                  <li class="active bg--primary">
+                  <li class="<?php echo ($cnt==0)?"active":"";?> bg--primary">
                     <div class="tab__title "> <span class="h5 color--primary"><?php echo get_field('kezdes',$kiiras->ID); ?> - <?php echo get_field('vege',$kiiras->ID); ?></span></div>
                     <div class="tab__content flexbox">
                       <div class="col-md-4  col boxed boxed--border bg--primary">
@@ -136,7 +137,7 @@
 
                     </div>
                   </li>
-                  <?php } }; ?>
+                  <?php $cnt++; } }; ?>
                 </ul>
               </div>
             </div>
