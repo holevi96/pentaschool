@@ -98,7 +98,7 @@
                                         <h4>Időbeosztás:</h4>
 
                                         <p><?php echo get_field('ido_beosztas', $kiiras->ID); ?></p>
-                                        <a class="btn btn--sm btn--primary reszletes_idopontok" href="#">
+                                        <a class="btn btn--sm btn--primary reszletes_idopontok">
                                             <span class="btn__text" style="color:#fff">Időpontok részletesen</span>
                                         </a>
                                     </div>
