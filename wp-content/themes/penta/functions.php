@@ -26,3 +26,14 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+
+function penta_scripts() {
+  global $post;
+  wp_deregister_script('jquery');
+  wp_enqueue_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js', array(  ), null, true );
+  if( get_post_type( $post ) === "tanfolyamok" && is_singular()){
+    wp_enqueue_script( 'single-tanfolyamok.js', get_stylesheet_directory_uri() . '/js/single-tanfolyamok.js', array( 'jquery' ), false, true );
+
+  }
+}
+add_action ('wp_enqueue_scripts', 'penta_scripts');

@@ -70,13 +70,13 @@
                       <div class="col-sm-4 col boxed boxed--border bg--primary">
                         <ul>
                           <li><i class="icon icon--sm icon-Money"></i> <span>Listaár: <big><?php the_field('listaar');?> Ft.</big></span></li>
-                          </hr>
+                          <hr>
                           <li><i class="icon icon--sm icon-Add-User"></i> <span>Szabad helyek száma: <big><?php echo get_field('maximum_letszam',$kiiras->ID); ?></big></span></li>
-                          </hr>
+                          <hr>
                           <li><i class="icon icon--sm icon-Teacher"></i> <span>Oktató: <big><?php echo get_post(get_field('tanar',$kiiras->ID)[0])->post_title; ?></big></span></li>
-                         </hr>
+                         <hr>
                           <li><i class="icon icon--sm icon-Map2"></i> <span>Helyszín: <big><?php echo get_post(get_field('helyszin',$kiiras->ID)[0])->post_title; ?></big></span></li>
-                          </hr>
+                          <hr>
                         </ul>
                       </div>
                       <div class="col-sm-4 col boxed boxed--border">

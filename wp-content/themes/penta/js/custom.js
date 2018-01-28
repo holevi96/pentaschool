@@ -1,3 +1,3 @@
 jQuery(document).ready(function(){
-	jQuery('.tanfolyam-kiirasok-box .tabs-content').addClass('bg--primary')
+	jQuery('.tanfolyam-kiirasok-box .tabs-content').addClass('bg--primary');
 })
