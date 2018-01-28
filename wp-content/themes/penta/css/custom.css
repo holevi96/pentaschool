@@ -90,7 +90,11 @@
     -o-backface-visibility: hidden;
     backface-visibility: hidden;
 }
+.card .front {
+    background: red;
+}
 .card .back {
+    background:blue;
     -webkit-transform: rotateY( 180deg );
     -moz-transform: rotateY( 180deg );
     -o-transform: rotateY( 180deg );
