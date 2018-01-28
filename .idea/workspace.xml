@@ -32,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="content-singletanfolyam.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="content-singletanfolyam.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/templates/content-singletanfolyam.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6192609">
-              <caret line="70" column="64" selection-start-line="70" selection-start-column="64" selection-end-line="70" selection-end-column="64" />
+            <state vertical-scroll-proportion="-19.307692">
+              <caret line="82" column="73" selection-start-line="82" selection-start-column="73" selection-end-line="82" selection-end-column="73" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#article#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#article#0;n#!!top" expanded="true" />
@@ -80,15 +80,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2703" column="0" selection-start-line="2703" selection-start-column="0" selection-end-line="2703" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.74211097">
+              <caret line="2705" column="23" selection-start-line="2705" selection-start-column="23" selection-end-line="2705" selection-end-column="23" />
               <folding>
-                <marker date="1517154869414" expanded="true" signature="24180:24210" placeholder="..." />
-                <marker date="1517154869414" expanded="true" signature="34184:34198" placeholder="..." />
-                <marker date="1517154869414" expanded="true" signature="34281:34295" placeholder="..." />
+                <marker date="1517155606752" expanded="true" signature="24180:24210" placeholder="..." />
+                <marker date="1517155606752" expanded="true" signature="34184:34198" placeholder="..." />
+                <marker date="1517155606752" expanded="true" signature="34281:34295" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -179,10 +179,10 @@
         <option value="$PROJECT_DIR$/wp-content/themes/penta/js/custom.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/penta/css/custom.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/penta/js/single-tanfolyamok.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/penta/js/scripts.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/penta/templates/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/penta/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/penta/templates/content-singletanfolyam.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/penta/js/scripts.js" />
       </list>
     </option>
   </component>
@@ -816,26 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/js/single-tanfolyamok.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2703" column="0" selection-start-line="2703" selection-start-column="0" selection-end-line="2703" selection-end-column="0" />
-          <folding>
-            <marker date="1517154869414" expanded="true" signature="24180:24210" placeholder="..." />
-            <marker date="1517154869414" expanded="true" signature="34184:34198" placeholder="..." />
-            <marker date="1517154869414" expanded="true" signature="34281:34295" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/templates/head.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.5">
@@ -870,14 +850,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/templates/content-singletanfolyam.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6192609">
-          <caret line="70" column="64" selection-start-line="70" selection-start-column="64" selection-end-line="70" selection-end-column="64" />
+        <state vertical-scroll-proportion="-19.307692">
+          <caret line="82" column="73" selection-start-line="82" selection-start-column="73" selection-end-line="82" selection-end-column="73" />
           <folding>
             <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#article#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#article#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#div#0;n#div#2;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#article#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#p#1;n#div#0;n#div#2;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#article#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#p#2;n#div#0;n#div#2;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#article#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/js/single-tanfolyamok.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74211097">
+          <caret line="2705" column="23" selection-start-line="2705" selection-start-column="23" selection-end-line="2705" selection-end-column="23" />
+          <folding>
+            <marker date="1517155606752" expanded="true" signature="24180:24210" placeholder="..." />
+            <marker date="1517155606752" expanded="true" signature="34184:34198" placeholder="..." />
+            <marker date="1517155606752" expanded="true" signature="34281:34295" placeholder="..." />
           </folding>
         </state>
       </provider>

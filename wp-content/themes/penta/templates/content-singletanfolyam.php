@@ -80,7 +80,7 @@
                           <hr>
                         </ul>
                       </div>
-                        <div class="col-md-4 col boxed boxed--border" id="card">
+                        <div class="col-md-4 col boxed boxed--border card" >
                             <div class="front">
                                 <div class="  box-shadow bg--secondary feature" style="">
                                     <h4>Jelentkezz a tanfolyamra!</h4>
