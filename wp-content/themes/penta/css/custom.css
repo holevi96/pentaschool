@@ -60,3 +60,6 @@
     overflow:hidden;
     width:100% !important;
 }
+.card{
+    height: 500px;
+}
