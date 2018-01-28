@@ -67,7 +67,7 @@
                   <li class="active bg--primary">
                     <div class="tab__title "> <span class="h5 color--primary"><?php echo get_field('kezdes',$kiiras->ID); ?> - <?php echo get_field('vege',$kiiras->ID); ?></span></div>
                     <div class="tab__content flexbox">
-                      <div class="col-sm-4 col boxed boxed--border bg--primary">
+                      <div class="col-md-4 col-sm-6 col boxed boxed--border bg--primary">
                         <ul>
                           <li><i class="icon icon--sm icon-Money"></i> <span>Listaár: <big><?php the_field('listaar');?> Ft.</big></span></li>
                           <hr>
@@ -79,7 +79,7 @@
                           <hr>
                         </ul>
                       </div>
-                      <div class="col-sm-4 col boxed boxed--border">
+                      <div class="col-md-4 col-sm-6 col boxed boxed--border">
                         <div class="  box-shadow bg--secondary feature" style="
 ">
                           <h4>Jelentkezz a tanfolyamra!</h4>
@@ -98,7 +98,7 @@
                           </a>
                         </div>
                       </div>
-                      <div class="col-sm-4 col boxed boxed--border bg--primary">
+                      <div class="col-md-4 col-sm-12 col boxed boxed--border bg--primary">
                         <div class=" box-shadow">
                           <h4 style="color:#fff;" class="color--primary1 .type--uppercase">Egyéb lehetőségek: </h4>
                           <p>
