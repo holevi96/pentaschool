@@ -84,20 +84,36 @@
 
                                 <div class="front  box-shadow bg--secondary feature" style="">
                                     <h4>Jelentkezz a tanfolyamra!</h4>
+                                    <p>
+                                        <span class="tanf-price"><?php echo get_field('akcios_ar', $kiiras->ID); ?>
+                                            Ft</span> <strike><?php the_field('listaar'); ?> Ft.</strike>
+                                    </p>
 
 
 
-<!--                                    <div class="idopontok boxed boxed--border" style=" margin-top: 10px;">-->
-<!--                                        <!--<i class="icon icon--sm icon-Stopwatch"></i> <span>7 alkalom:</span>-->-->
-<!---->
-<!---->
-<!--                                       -->
-<!---->
-<!--                                    </div>-->
                                     <a class="btn btn--lg btn--primary"
                                        href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#">
                                         <span class="btn__text" style="color:#fff">Jelentkezés</span>
                                     </a>
+
+                                    <div class="more-buttons">
+                                        <h4 style="color:#fff;" class="color--primary1 .type--uppercase">Egyéb lehetőségek: </h4>
+                                        <p>
+                                            <a class="btn btn--lg btn more-options-button" href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#" >
+                                                <span class="btn__text">Érdekel egy <br/> későbbi időpontban!</span>
+                                            </a>
+                                        </p>
+                                        <p>
+                                            <a class="btn btn--lg more-options-button" href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#" style="background: #fff;">
+                                                <span class="btn__text">Kérdésem van!</span>
+                                            </a>
+                                        </p>
+                                        <p>
+                                            <a class=" btn btn--lg more-options-button" href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#" style="background: #fff;">
+                                                <span class="btn__text">Céges ajánlatot kérek!</span>
+                                            </a>
+                                        </p>
+                                    </div>
                                 </div>
 
 <!--                            <div class="back  box-shadow bg--secondary feature" style="">-->
@@ -116,26 +132,8 @@
                             <a class="btn btn--sm btn--primary reszletes_idopontok">
                                 <span class="btn__text" style="color:#fff">Időpontok részletesen</span>
                             </a>
-                            <p>
-                                        <span class="tanf-price"><?php echo get_field('akcios_ar', $kiiras->ID); ?>
-                                            Ft</span> <strike><?php the_field('listaar'); ?> Ft.</strike>
-                            </p>
-                            <h4 style="color:#fff;" class="color--primary1 .type--uppercase">Egyéb lehetőségek: </h4>
-                            <p>
-                                <a class="btn btn--lg btn more-options-button" href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#" >
-                                    <span class="btn__text">Érdekel egy <br/> későbbi időpontban!</span>
-                                </a>
-                            </p>
-                            <p>
-                                <a class="btn btn--lg more-options-button" href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#" style="background: #fff;">
-                                    <span class="btn__text">Kérdésem van!</span>
-                                </a>
-                            </p>
-                            <p>
-                                <a class=" btn btn--lg more-options-button" href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#" style="background: #fff;">
-                                    <span class="btn__text">Céges ajánlatot kérek!</span>
-                                </a>
-                            </p>
+
+
 
                         </div>
                       </div>
