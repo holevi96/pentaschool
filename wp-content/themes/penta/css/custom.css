@@ -106,13 +106,13 @@
     -o-transform: rotateY( 180deg );
     transform: rotateY( 180deg );
 }
-.front.btn--lg {
+.front .btn--lg {
     padding-top: 1.580357em;
     padding-bottom: 1.580357em;
     padding-right: 4.482143em;
     padding-left: 4.482143em;
 }
-.more-buttons.btn--lg {
+.more-buttons .btn--lg {
     padding-top: 0.580357em;
     padding-bottom: 0.580357em;
     padding-right: 4.482143em;
