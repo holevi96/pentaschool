@@ -90,12 +90,12 @@
                                     </p>
 
 
-
+                                    <p>
                                     <a class="btn btn--lg btn--primary"
                                        href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#">
                                         <span class="btn__text" style="color:#fff">Jelentkezés</span>
                                     </a>
-
+                                    </p>
                                     <div class="more-buttons">
                                         <h4 style="color:#fff;" class="color--primary1 .type--uppercase">Egyéb lehetőségek: </h4>
                                         <p>
