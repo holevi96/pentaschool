@@ -66,7 +66,7 @@
                      $cnt = 0;
                   foreach ($kiirasok as $kiiras) { ?>
                   <li class="<?php echo ($cnt==0)?"active":"";?> bg--primary">
-                    <div class="tab__title "> <span class="h4 color--primary"><?php echo get_field('kezdes',$kiiras->ID); ?> - <?php echo get_field('vege',$kiiras->ID); ?></span></div>
+                    <div class="tab__title "> <span class="h6 color--primary"><?php echo get_field('kezdes',$kiiras->ID); ?> - <?php echo get_field('vege',$kiiras->ID); ?></span></div>
                     <div class="tab__content flexbox">
                       <div class="col-md-4  col boxed boxed--border bg--primary">
                         <ul>
@@ -87,32 +87,13 @@
 
 
 
-                                    <div class="idopontok boxed boxed--border" style=" margin-top: 10px;">
-                                        <!--<i class="icon icon--sm icon-Stopwatch"></i> <span>7 alkalom:</span>-->
-
-
-                                        <p>
-                                        <span class="tanf-price"><?php echo get_field('akcios_ar', $kiiras->ID); ?>
-                                            Ft</span> <strike><?php the_field('listaar'); ?> Ft.</strike>
-                                        </p>
-                                        <h4 style="color:#fff;" class="color--primary1 .type--uppercase">Egyéb lehetőségek: </h4>
-                                        <p>
-                                            <a class="btn btn--lg btn more-options-button" href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#" >
-                                                <span class="btn__text">Érdekel egy <br/> későbbi időpontban!</span>
-                                            </a>
-                                        </p>
-                                        <p>
-                                            <a class="btn btn--lg more-options-button" href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#" style="background: #fff;">
-                                                <span class="btn__text">Kérdésem van!</span>
-                                            </a>
-                                        </p>
-                                        <p>
-                                            <a class=" btn btn--lg more-options-button" href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#" style="background: #fff;">
-                                                <span class="btn__text">Céges ajánlatot kérek!</span>
-                                            </a>
-                                        </p>
-
-                                    </div>
+<!--                                    <div class="idopontok boxed boxed--border" style=" margin-top: 10px;">-->
+<!--                                        <!--<i class="icon icon--sm icon-Stopwatch"></i> <span>7 alkalom:</span>-->-->
+<!---->
+<!---->
+<!--                                       -->
+<!---->
+<!--                                    </div>-->
                                     <a class="btn btn--lg btn--primary"
                                        href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#">
                                         <span class="btn__text" style="color:#fff">Jelentkezés</span>
@@ -126,7 +107,7 @@
 <!--                            </div>-->
                         </div>
                       <div class="col-md-4 col boxed boxed--border bg--primary">
-                        <div class=" box-shadow">
+                        <div class="third-box box-shadow">
                             <h4>Napszak:</h4>
                             <p><?php echo get_field('napszak', $kiiras->ID); ?></p>
                             <h4>Időbeosztás:</h4>
@@ -135,7 +116,26 @@
                             <a class="btn btn--sm btn--primary reszletes_idopontok">
                                 <span class="btn__text" style="color:#fff">Időpontok részletesen</span>
                             </a>
-
+                            <p>
+                                        <span class="tanf-price"><?php echo get_field('akcios_ar', $kiiras->ID); ?>
+                                            Ft</span> <strike><?php the_field('listaar'); ?> Ft.</strike>
+                            </p>
+                            <h4 style="color:#fff;" class="color--primary1 .type--uppercase">Egyéb lehetőségek: </h4>
+                            <p>
+                                <a class="btn btn--lg btn more-options-button" href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#" >
+                                    <span class="btn__text">Érdekel egy <br/> későbbi időpontban!</span>
+                                </a>
+                            </p>
+                            <p>
+                                <a class="btn btn--lg more-options-button" href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#" style="background: #fff;">
+                                    <span class="btn__text">Kérdésem van!</span>
+                                </a>
+                            </p>
+                            <p>
+                                <a class=" btn btn--lg more-options-button" href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#" style="background: #fff;">
+                                    <span class="btn__text">Céges ajánlatot kérek!</span>
+                                </a>
+                            </p>
 
                         </div>
                       </div>
