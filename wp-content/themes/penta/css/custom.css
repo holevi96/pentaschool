@@ -43,12 +43,13 @@
     background: #fff; width:100%
 }
 .tanf-price{
-    font-weight:700;
-    font-size:36px;
-    color:#777 !important;
-    margin-top:20px;
-    display:inline-block;
-    margin-right:20px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #777 !important;
+    margin-top: 20px;
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 18px;
 }
 .process-number{
     position: absolute;
@@ -57,9 +58,8 @@
     font-size: 15px;
 }
 .tanfolyam-kiirasok-box{
-    overflow:hidden;
-    width:100% !important;
-    height: 600px;
+    overflow: hidden;
+    width: 100% !important;
     position: relative;
     border: 1px solid #ccc;
     -webkit-perspective: 800px;
@@ -67,54 +67,53 @@
     -o-perspective: 800px;
     perspective: 800px;
 }
-.card{
-    padding:0px;
-    -webkit-transition: -webkit-transform 1s;
-    -moz-transition: -moz-transform 1s;
-    -o-transition: -o-transform 1s;
-    transition: transform 1s;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    -webkit-transform-origin: 50% 50%;
-}
-.card>div{
-    display: block;
-    height: 100%;
-    width:100%;
-    background:#fff;
-    position: absolute;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -o-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-.card .front {
-   /* background: red;*/
-}
-.card .back {
-   /* background:blue;*/
-    -webkit-transform: rotateY( 180deg );
-    -moz-transform: rotateY( 180deg );
-    -o-transform: rotateY( 180deg );
-    transform: rotateY( 180deg );
-}
-.card.flipped {
-    -webkit-transform: rotateY( 180deg );
-    -moz-transform: rotateY( 180deg );
-    -o-transform: rotateY( 180deg );
-    transform: rotateY( 180deg );
-}
+
+
 .front .btn--lg {
     padding-top: 1.580357em;
     padding-bottom: 1.580357em;
     padding-right: 4.482143em;
     padding-left: 4.482143em;
+    width: 100%;
+}
+.front h4 {
+    font-size: 24px;
+    padding-bottom: 8px;
+    margin-left: 0;
 }
 .more-buttons .btn--lg {
-    padding-top: 0.580357em;
-    padding-bottom: 0.580357em;
-    padding-right: 4.482143em;
-    padding-left: 4.482143em;
+    padding-top: 0.680357em;
+    padding-bottom: 0.680357em;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto !important;
+    display: block !important;
+}
+li big {
+    background: #fff;
+    color: #666666;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 17px;
+    float: right;
+    margin-top: 11px;
+}
+.bg--primary .boxed:not(.imagebg) i {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 41px;
+    margin-right: 10px;
+}
+.idobeosztas {
+    margin-top: 44px;
+}
+.idobeosztas big {
+    margin-top: 9px;
+}
+.idobeosztas span {
+    top: 10px;
+    position: relative;
 }

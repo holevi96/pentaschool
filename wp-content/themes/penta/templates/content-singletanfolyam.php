@@ -70,13 +70,13 @@
                     <div class="tab__content flexbox">
                       <div class="col-md-4  col boxed boxed--border bg--primary">
                         <ul>
-                          <li><i class="icon icon--sm icon-Money"></i> <span>Listaár: <big><?php the_field('listaar');?> Ft.</big></span></li>
+                          <li><i class="icon icon--sm icon-Money"></i> <span>Listaár:</span><big><?php the_field('listaar');?> Ft.</big></li>
                           <hr>
-                          <li><i class="icon icon--sm icon-Add-User"></i> <span>Szabad helyek száma: <big><?php echo get_field('maximum_letszam',$kiiras->ID); ?></big></span></li>
+                          <li><i class="icon icon--sm icon-Add-User"></i> <span>Szabad helyek:</span><big><?php echo get_field('maximum_letszam',$kiiras->ID); ?></big></li>
                           <hr>
-                          <li><i class="icon icon--sm icon-Teacher"></i> <span>Oktató: <big><?php echo get_post(get_field('tanar',$kiiras->ID)[0])->post_title; ?></big></span></li>
+                          <li><i class="icon icon--sm icon-Teacher"></i> <span>Oktató:</span><big><?php echo get_post(get_field('tanar',$kiiras->ID)[0])->post_title; ?></big></li>
                          <hr>
-                          <li><i class="icon icon--sm icon-Map2"></i> <span>Helyszín: <big><?php echo get_post(get_field('helyszin',$kiiras->ID)[0])->post_title; ?></big></span></li>
+                          <li><i class="icon icon--sm icon-Map2"></i> <span>Helyszín:</span><big><?php echo get_post(get_field('helyszin',$kiiras->ID)[0])->post_title; ?></big></li>
                           <hr>
                         </ul>
                       </div>
@@ -93,11 +93,11 @@
                                     <p>
                                     <a class="btn btn--lg btn--primary"
                                        href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#">
-                                        <span class="btn__text" style="color:#fff">Jelentkezés</span>
+                                        <span class="btn__text" style="color:#fff;width:100%">Jelentkezés</span>
                                     </a>
                                     </p>
+                                    <hr>
                                     <div class="more-buttons">
-                                        <h4 style="color:#fff;" class="color--primary1 .type--uppercase">Egyéb lehetőségek: </h4>
                                         <p>
                                             <a class="btn btn--lg btn more-options-button" href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#" >
                                                 <span class="btn__text">Érdekel egy <br/> későbbi időpontban!</span>
@@ -124,14 +124,52 @@
                         </div>
                       <div class="col-md-4 col boxed boxed--border bg--primary">
                         <div class="third-box box-shadow">
-                            <h4>Napszak:</h4>
-                            <p><?php echo get_field('napszak', $kiiras->ID); ?></p>
-                            <h4>Időbeosztás:</h4>
+                            <div class="napszak">
+                                <?php $napszak = get_field('napszak', $kiiras->ID);
+                                if($napszak=='esti'){?>
+                                    <i class="icon icon--sm icon-Half-Moon"></i>
+                                <?php }else{ ?>
+                                    <i class="icon icon--sm icon-Sun"></i>
+                                <?php }
+                                ?>
+                                <span>Napszak:</span>
+                                <big><?php echo $napszak; ?></big>
 
-                            <p><?php echo get_field('ido_beosztas', $kiiras->ID); ?></p>
-                            <a class="btn btn--sm btn--primary reszletes_idopontok">
-                                <span class="btn__text" style="color:#fff">Időpontok részletesen</span>
-                            </a>
+                            </div>
+                            <div class="idobeosztas">
+                                <?php
+                                    $megadas = get_field('alkalmak_megadasa',$kiiras->ID);
+
+                                    if($megadas == 'napok'){?>
+                                        <h5>A tanfolyam napjai:</h5>
+                                        <ul>
+                                            <li><?php echo get_field('kezdes',$kiiras->ID);?></li>
+                                            <?php $tovabbi_napok = get_field('tovabbi_napok',$kiiras->ID);
+                                            if($tovabbi_napok){
+                                                foreach ($tovabbi_napok as $nap) {?>
+                                                  <li><?php echo $nap['tovabbi_nap'];?></li>
+                                                <?php }
+
+                                            }?>
+                                            <li><?php echo get_field('vege',$kiiras->ID);?></li>
+                                        </ul>
+                                    <?php }else if($megadas == 'kezdet-veg'){ ?>
+                                        <span>Kezdete:</span>
+                                        <big><?php echo get_field('kezdes',$kiiras->ID);?></big>
+                                        <hr>
+                                        <span>Vége:</span>
+                                        <big><?php echo get_field('vege',$kiiras->ID);?></big>
+                                        <hr>
+                                        <span>Napi beosztás:</span>
+                                        <big><?php echo get_field('napi_beosztas',$kiiras->ID);?></big>
+                                        <hr>
+                                    <?php }?>
+
+                                <span>Időbeosztás:</span>
+                                 <big><?php echo get_field('idobeosztas', $kiiras->ID); ?></big>
+                                <hr>
+                            </div>
+
 
 
 
