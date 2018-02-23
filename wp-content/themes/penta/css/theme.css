@@ -951,8 +951,9 @@ div[data-overlay] ul {
 }
 .btn--primary,
 .btn--primary:visited {
-  background: #4a90e2 !important;
-  border-color: #4a90e2;
+  background: #E46B3C!important;
+  border-color: #E46B3C;
+  border-radius: 13px;
 }
 .btn--primary .btn__text,
 .btn--primary:visited .btn__text {
@@ -2772,7 +2773,7 @@ a {
   background: #fafafa;
 }
 .bg--primary {
-  background: #4a90e2;
+  background: #4D5C6D;
 }
 .bg--primary p,
 .bg--primary span,
@@ -5644,7 +5645,7 @@ p .material-icons:first-child {
 }
 /*! -- Stack Boxes -- */
 .boxed {
-  border-radius: 6px;
+  border-radius: 0px;
 }
 .boxed .background-image-holder {
   border-radius: 6px;

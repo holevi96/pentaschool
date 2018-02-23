@@ -45,3 +45,38 @@ function penta_scripts() {
   wp_enqueue_script( 'custom.js', get_stylesheet_directory_uri() . '/js/custom.js', array( 'jquery' ), false, true );
 }
 add_action ('wp_enqueue_scripts', 'penta_scripts');
+
+
+// [inline_video foo="foo-value"]
+function inline_video_func( $atts ) {
+  $a = shortcode_atts( array(
+      'text' => 'Video cím',
+      'link' => 'https://www.youtube.com/embed/6p45ooZOOPo?autoplay=1',
+  ), $atts );
+
+  ob_start();
+  ?>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="video video-1 boxed boxed--lg imagebg text-center-xs" data-overlay="2">
+            <div class="background-image-holder"> <img alt="background" src="img/agency-2.jpg"> </div>
+            <div class="modal-instance">
+              <div class="video-play-icon video-play-icon--sm modal-trigger"></div>
+              <div class="modal-container">
+                <div class="modal-content bg-dark" data-width="60%" data-height="60%"> <iframe data-src="<?php echo $a['link']; ?>" allowfullscreen="allowfullscreen"></iframe> </div>
+              </div>
+            </div>
+            <h2><?php echo $a['text']; ?></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<?php
+  $out1 = ob_get_clean();
+  return $out1;
+}
+add_shortcode( 'inline_video', 'inline_video_func' );

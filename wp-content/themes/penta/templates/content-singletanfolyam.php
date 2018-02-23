@@ -29,7 +29,7 @@
             <div class="col-md-6 col-sm-4 col-xs-12">
               <div class="video-cover border--round box-shadow-wide">
                 <div class="background-image-holder"> <img alt="image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/inner-4.jpg"> </div>
-                <div class="video-play-icon"></div> <iframe data-src="https://www.youtube.com/embed/6p45ooZOOPo?autoplay=1" allowfullscreen="allowfullscreen"></iframe> </div>
+                <div class="video-play-icon"></div> <iframe data-src="<?php echo get_field('demovideo'); ?>" allowfullscreen="allowfullscreen"></iframe> </div>
             </div>
           </div>
         </div>
@@ -68,9 +68,20 @@
                   <li class="<?php echo ($cnt==0)?"active":"";?> bg--primary">
                     <div class="tab__title "> <span class="h6 color--primary"><?php echo get_field('kezdes',$kiiras->ID); ?> - <?php echo get_field('vege',$kiiras->ID); ?></span></div>
                     <div class="tab__content flexbox">
-                      <div class="col-md-4  col boxed boxed--border bg--primary">
+                      <div class="col-md-4  col boxed boxed--border bg--primary left-col">
                         <ul>
-                          <li><i class="icon icon--sm icon-Money"></i> <span>Listaár:</span><big><?php the_field('listaar');?> Ft.</big></li>
+                            <li>
+                            <?php $napszak = get_field('napszak', $kiiras->ID);
+                            if($napszak=='esti'){?>
+                                <i class="icon icon--sm icon-Half-Moon"></i>
+                            <?php }else{ ?>
+                                <i class="icon icon--sm icon-Sun"></i>
+                            <?php }
+                            ?>
+                            <span>Napszak:</span>
+                            <big><?php echo $napszak; ?></big>
+                            </li>
+<!--                          <li><i class="icon icon--sm icon-Money"></i> <span>Listaár:</span><big>--><?php //the_field('listaar');?><!-- Ft.</big></li>-->
                           <hr>
                           <li><i class="icon icon--sm icon-Add-User"></i> <span>Szabad helyek:</span><big><?php echo get_field('maximum_letszam',$kiiras->ID); ?></big></li>
                           <hr>
@@ -80,14 +91,27 @@
                           <hr>
                         </ul>
                       </div>
-                        <div class="col-md-4 col boxed boxed--border" >
+                        <div class="col-md-4 col boxed boxed--border mid-col" >
 
                                 <div class="front  box-shadow bg--secondary feature" style="">
                                     <h4>Jelentkezz a tanfolyamra!</h4>
-                                    <p>
-                                        <span class="tanf-price"><?php echo get_field('akcios_ar', $kiiras->ID); ?>
-                                            Ft</span> <strike><?php the_field('listaar'); ?> Ft.</strike>
-                                    </p>
+                                    <?php
+                                        $listaar = get_field('listaar');
+                                        $akcios = get_field('akcios_ar', $kiiras->ID);
+                                        $van_e_akcio = false;
+                                        $szazalek = 0;
+                                        if($akcios<$listaar){
+                                            $van_e_akcio = true;
+                                            $szazalek = round((1-($akcios / $listaar))*100);
+                                        }
+                                    ?>
+                                    <div class="tanf-price">
+                                        <h4><?php echo get_field('akcios_ar', $kiiras->ID); ?>Ft</h4>
+                                        <?php if($van_e_akcio): ?>
+                                        <strike><?php the_field('listaar'); ?> Ft.</strike>
+                                            <span><?php echo $szazalek; ?> % kedvezmény!</span>
+                                        <?php endif; ?>
+                                    </div>
 
 
                                     <p>
@@ -122,20 +146,9 @@
 <!--                                </a>-->
 <!--                            </div>-->
                         </div>
-                      <div class="col-md-4 col boxed boxed--border bg--primary">
+                      <div class="col-md-4 col boxed boxed--border bg--primary right-col">
                         <div class="third-box box-shadow">
-                            <div class="napszak">
-                                <?php $napszak = get_field('napszak', $kiiras->ID);
-                                if($napszak=='esti'){?>
-                                    <i class="icon icon--sm icon-Half-Moon"></i>
-                                <?php }else{ ?>
-                                    <i class="icon icon--sm icon-Sun"></i>
-                                <?php }
-                                ?>
-                                <span>Napszak:</span>
-                                <big><?php echo $napszak; ?></big>
-
-                            </div>
+                            <h3>Beosztás</h3>
                             <div class="idobeosztas">
                                 <?php
                                     $megadas = get_field('alkalmak_megadasa',$kiiras->ID);
@@ -185,5 +198,125 @@
           </div>
         </div>
       </section>
+        <section class="switchable">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7">
+                        <h2>Tanfolyam leírása:</h2>
+                        <?php the_content(); ?>
+                    </div>
+                    <div class="col-sm-4 col-md-3">
+                        <div class="text-block">
+                            <h5><strong>Kapcsolódó tanfolyamok:</strong></h5>
+                            <p>
+                                <ul>
+                                    <?php 
+                                        $kapcs = get_field('kapcsolodo_tanfolyam');
+                                        if($kapcs){
+                                            foreach ($kapcs as $tanf) {?>
+                                                <li><a href="<?php echo get_permalink($tanf);?>"><?php echo get_post($tanf)->post_title; ?></a></li>
+                                            <?php }
+                                        }
+                                    ?>
+                                </ul>
+                            </p>
+                        </div>
+                       <?php echo dynamic_sidebar('primary'); ?>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1>Tematika</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="process-2">
+                        <?php
+                        $tematika = get_field('tematika');
+
+                        $cnt = 1;
+                        if($tematika):
+                            foreach ($tematika as $tema) {?>
+                                <div class="col-sm-3">
+                                    <span class="process-number"><?php echo $cnt; ?></span>
+                                    <div class="process__item">
+                                        <h5><?php echo $tema['cim']; ?></h5>
+                                        <p><?php echo $tema['leiras']; ?></p>
+                                    </div>
+                                </div>
+                           <?php $cnt++; }
+
+                        endif;
+                        ?>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="slider slider--inline-arrows" data-arrows="true" data-timing="8000">
+                            <ul class="slides">
+                                <?php
+                                $ajanlasok = get_posts(array(
+                                    "post_type" => 'ajanlasok',
+                                    "numberposts" => -1
+                                ));
+                                foreach ($ajanlasok as $ajanlas) {?>
+                                    <li>
+                                        <div class="row">
+                                            <div class="testimonial">
+                                                <div class="col-md-2 col-md-offset-1 col-sm-4 col-xs-6 text-center"> <img class="testimonial__image" alt="Image" src="img/avatar-round-1.png"> </div>
+                                                <div class="col-md-7 col-md-offset-1 col-sm-8 col-xs-12"> <span class="h3">“We’ve been using Stack to prototype designs quickly and
+										efficiently. Needless to say we’re hugely impressed by the style and value.”
+										</span>
+                                                    <h5>Maguerite Holland</h5> <span>Interface Designer — Yoke</span> </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                <?php }
+
+                                ?>
+
+                                <li>
+                                    <div class="row">
+                                        <div class="testimonial">
+                                            <div class="col-md-2 col-md-offset-1 col-sm-4 col-xs-6 text-center"> <img class="testimonial__image" alt="Image" src="img/avatar-round-4.png"> </div>
+                                            <div class="col-md-7 col-md-offset-1 col-sm-8 col-xs-12"> <span class="h3">“I've been using Medium Rare's templates for a couple of years now and Stack is without a doubt their best work yet. It's fast, performant and absolutely stunning.”
+										</span>
+                                                <h5>Lucas Nguyen</h5> <span>Freelance Designer</span> </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="row">
+                                        <div class="testimonial">
+                                            <div class="col-md-2 col-md-offset-1 col-sm-4 col-xs-6 text-center"> <img class="testimonial__image" alt="Image" src="img/avatar-round-3.png"> </div>
+                                            <div class="col-md-7 col-md-offset-1 col-sm-8 col-xs-12"> <span class="h3">“Variant has been a massive plus for my workflow — I can now get live mockups out in a matter of hours, my clients really love it.”
+										</span>
+                                                <h5>Rob Vasquez</h5> <span>Interface Designer — Yoke</span> </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </div>
 <?php endwhile; ?>

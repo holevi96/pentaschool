@@ -42,14 +42,20 @@
 .more-options-button{
     background: #fff; width:100%
 }
-.tanf-price{
+.tanf-price h4{
     font-weight: 700;
-    font-size: 45px;
+    font-size: 50px !important;
     color: #777 !important;
     margin-top: 20px;
     display: block;
     margin-right: 20px;
-    margin-bottom: 18px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.tanf-price span{
+    color:#888;
+    margin-bottom: 17px;
+    display: inline-block;
 }
 .process-number{
     position: absolute;
@@ -61,13 +67,27 @@
     overflow: hidden;
     width: 100% !important;
     position: relative;
-    border: 1px solid #ccc;
+    border: 0px solid #ccc;
     -webkit-perspective: 800px;
     -moz-perspective: 800px;
     -o-perspective: 800px;
-    perspective: 800px;
+    perspective: 3px;
 }
+.tanfolyam-kiirasok-box .left-col{
 
+border-top-left-radius:13px;
+
+border-bottom-left-radius: 13px;
+}
+.tanfolyam-kiirasok-box .mid-col strike{
+    font-size:18px;
+}
+.tanfolyam-kiirasok-box .right-col{
+
+border-top-right-radius: 13px;
+
+border-bottom-right-radius: 13px;
+}
 
 .front .btn--lg {
     padding-top: 1.580357em;
@@ -78,7 +98,7 @@
 }
 .front h4 {
     font-size: 24px;
-    padding-bottom: 8px;
+    padding-bottom: 5px;
     margin-left: 0;
 }
 .more-buttons .btn--lg {
@@ -88,6 +108,8 @@
     padding-left: 0;
     text-align: center;
     width: 80%;
+    border-radius: 14px;
+    box-shadow: 2px 2px #ccc;
     margin: 0 auto !important;
     display: block !important;
 }
@@ -95,7 +117,7 @@ li big {
     background: #fff;
     color: #666666;
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 13px;
     margin-left: 17px;
     float: right;
     margin-top: 11px;
