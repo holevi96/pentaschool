@@ -10,7 +10,7 @@
     <footer>
       <?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>
     </footer>
-    <?php comments_template('/templates/comments.php'); ?>
+
 
   </article>-->
     <div class="main-container">
@@ -117,7 +117,7 @@
                                     <p>
                                     <a class="btn btn--lg btn--primary"
                                        href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#">
-                                        <span class="btn__text" style="color:#fff;width:100%">Jelentkezés</span>
+                                        <span class="btn__text" style="color:#fff;width:100%"><a  href="<?php echo get_permalink($kiiras->ID); ?>?jelentkezes">Jelentkezés</a></span>
                                     </a>
                                     </p>
                                     <hr>
@@ -236,7 +236,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="tematika">
             <div class="container">
                 <div class="row">
                     <div class="process-2">
@@ -244,8 +244,12 @@
                         $tematika = get_field('tematika');
 
                         $cnt = 1;
+                        $cnt2 = 0;
                         if($tematika):
                             foreach ($tematika as $tema) {?>
+                                <?php if($cnt2 == 0): ?>
+                                        <div class="row">
+                                <?php endif; ?>
                                 <div class="col-sm-3">
                                     <span class="process-number"><?php echo $cnt; ?></span>
                                     <div class="process__item">
@@ -253,6 +257,9 @@
                                         <p><?php echo $tema['leiras']; ?></p>
                                     </div>
                                 </div>
+                                 <?php $cnt2++; if($cnt2 == 4): ?>
+                                            </div>
+                                <?php $cnt2 = 0; endif; ?>
                            <?php $cnt++; }
 
                         endif;
@@ -263,7 +270,15 @@
             </div>
         </section>
 
-
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1>Ajánlások</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section>
             <div class="container">
                 <div class="row">
@@ -275,42 +290,21 @@
                                     "post_type" => 'ajanlasok',
                                     "numberposts" => -1
                                 ));
-                                foreach ($ajanlasok as $ajanlas) {?>
+                                foreach ($ajanlasok as $ajanlas) {
+                                    $image = wp_get_attachment_image_src( get_post_thumbnail_id( $ajanlas->ID ), 'full' )[0];
+                                    ?>
                                     <li>
                                         <div class="row">
                                             <div class="testimonial">
-                                                <div class="col-md-2 col-md-offset-1 col-sm-4 col-xs-6 text-center"> <img class="testimonial__image" alt="Image" src="img/avatar-round-1.png"> </div>
-                                                <div class="col-md-7 col-md-offset-1 col-sm-8 col-xs-12"> <span class="h3">“We’ve been using Stack to prototype designs quickly and
-										efficiently. Needless to say we’re hugely impressed by the style and value.”
-										</span>
-                                                    <h5>Maguerite Holland</h5> <span>Interface Designer — Yoke</span> </div>
+                                                <div class="col-md-2 col-md-offset-1 col-sm-4 col-xs-6 text-center"> <img class="testimonial__image" alt="Image" src="<?php echo $image; ?>"> </div>
+                                                <div class="col-md-7 col-md-offset-1 col-sm-8 col-xs-12"> <span class="h3"><?php echo $ajanlas->post_content; ?></span>
+                                                    <h5><?php echo get_field('keresztnev',$ajanlas->ID); ?></h5> <span><?php echo get_field('cegnev',$ajanlas->ID); ?></span> </div>
                                             </div>
                                         </div>
                                     </li>
                                 <?php }
 
                                 ?>
-
-                                <li>
-                                    <div class="row">
-                                        <div class="testimonial">
-                                            <div class="col-md-2 col-md-offset-1 col-sm-4 col-xs-6 text-center"> <img class="testimonial__image" alt="Image" src="img/avatar-round-4.png"> </div>
-                                            <div class="col-md-7 col-md-offset-1 col-sm-8 col-xs-12"> <span class="h3">“I've been using Medium Rare's templates for a couple of years now and Stack is without a doubt their best work yet. It's fast, performant and absolutely stunning.”
-										</span>
-                                                <h5>Lucas Nguyen</h5> <span>Freelance Designer</span> </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="row">
-                                        <div class="testimonial">
-                                            <div class="col-md-2 col-md-offset-1 col-sm-4 col-xs-6 text-center"> <img class="testimonial__image" alt="Image" src="img/avatar-round-3.png"> </div>
-                                            <div class="col-md-7 col-md-offset-1 col-sm-8 col-xs-12"> <span class="h3">“Variant has been a massive plus for my workflow — I can now get live mockups out in a matter of hours, my clients really love it.”
-										</span>
-                                                <h5>Rob Vasquez</h5> <span>Interface Designer — Yoke</span> </div>
-                                        </div>
-                                    </div>
-                                </li>
                             </ul>
                         </div>
                     </div>
