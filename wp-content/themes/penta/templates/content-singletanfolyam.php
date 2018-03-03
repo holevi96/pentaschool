@@ -116,8 +116,8 @@
 
                                     <p>
                                     <a class="btn btn--lg btn--primary"
-                                       href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#">
-                                        <span class="btn__text" style="color:#fff;width:100%"><a  href="<?php echo get_permalink($kiiras->ID); ?>?jelentkezes">Jelentkezés</a></span>
+                                       href="<?php echo get_permalink($kiiras->ID); ?>?jelentkezes">
+                                        <span class="btn__text" style="color:#fff;width:100%">Jelentkezés</span>
                                     </a>
                                     </p>
                                     <hr>

@@ -13,14 +13,14 @@ get_header(); ?>
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
         <?php
-		
+
 
         // Start the loop.
         while ( have_posts() ) : the_post(); ?>
 			<h2><?php echo  get_post(get_field('kapcsolodo_tanfolyam',get_the_ID())[0])->post_title; ?></h2>
 			<h3>Kezdés: <?php echo get_field('kezdes'); ?></h3>
 		<?php if(isset($_GET['jelentkezes'])):
-			$form = GFFormsModel::get_form_meta(1); 
+			$form = GFFormsModel::get_form_meta(1);
 			?>
 			<?php if(!isset($_GET['online'])): ?>
 				<p><?php echo $form['description']; ?></p>
@@ -43,12 +43,12 @@ get_header(); ?>
 		if(isset($_GET['kerdes'])){
 			  do_shortcode('[gravityform id="4" title="true" description="true" ajax="false"]');
 		}
-		
-		endwhile; 
-		
+
+		endwhile;
+
 		?>
-		
-        
+
+
 
     </main><!-- .site-main -->
 

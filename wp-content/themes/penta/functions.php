@@ -32,10 +32,13 @@ function penta_scripts() {
   wp_deregister_script('jquery');
   wp_enqueue_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js', array(  ), null, true );
   if( get_post_type( $post ) === "tanfolyamok" && is_singular()){
-    wp_enqueue_script( 'justflipit.min.js', get_stylesheet_directory_uri() . '/js/justflipit.min.js', array( 'jquery' ), false, true );
+
     wp_enqueue_script( 'single-tanfolyamok.js', get_stylesheet_directory_uri() . '/js/single-tanfolyamok.js', array( 'jquery' ), false, true );
 
 
+
+  }else if(get_post_type( $post ) === "tanfolyam-kiiras" && is_singular()){
+    wp_enqueue_script( 'granim.js', get_stylesheet_directory_uri() . '/js/granim.min.js', array( 'jquery' ), false, true );
   }
 
   wp_enqueue_script( 'parallax.js', get_stylesheet_directory_uri() . '/js/parallax.js', array( 'jquery' ), false, true );
@@ -276,12 +279,10 @@ add_filter( 'gform_field_value_ar', 'populate_ar' );
 
 add_action( 'gform_pre_submission', 'pre_submission_handler' );
 function pre_submission_handler( $form ) {
-  $dir = __DIR__;
 
-  $filename = $dir . "\pdf\jelentkezes_" . time() . ".pdf";
-  $filename = str_replace('\\',"/",$filename);
-  PC::tag($filename);
-  $_POST['input_34'] = $filename;
+  //PC::tag($filename);
+  $url = get_stylesheet_directory_uri() . "/pdf/jelentkezes_" . time() . ".pdf";
+  $_POST['input_34'] = $url;
 }
 
 
@@ -577,7 +578,15 @@ function generate_pdf( $entry, $form ) {
   // Render the HTML as PDF
   $dompdf->render();
   $output = $dompdf->output();
-  file_put_contents(rgar( $entry, '34' ), $output);
+  $theme_url = rgar( $entry, '34' );
+
+  $dir = __DIR__;
+  $x = explode('/', $theme_url);
+  $pdf_name = $x[count($x)-1];
+  $filename = $dir . "\\pdf\\".$pdf_name;
+  $filename = str_replace('\\',"/",$filename);
+  PC::debug($filename);
+  file_put_contents($filename, $output);
 
 }
 add_action( 'gform_after_submission_7', 'varolista_save', 10, 2 );

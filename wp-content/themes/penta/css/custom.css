@@ -166,3 +166,42 @@ li big {
 input{
     color:#333 !important;
 }
+label.gfield_label {
+    width: 100%;
+    border:none;
+}
+label.gfield_label:before{
+    display:none;
+
+}
+.gfield_checkbox label {
+    width: 25px !important;
+}
+.gfield_radio label{
+    width: 25px !important;
+    border:none !important;
+}
+.gfield_radio span{
+    float: left;
+    width: 40px;
+    display: block;
+    position: relative;
+    top: 4px;
+    margin-left: 35px;
+}
+.gfield_radio span:before{
+    content:'';
+    position: absolute;
+    display: block;
+    width: 19px;
+    height: 19px;
+    border: 1px solid #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    left: -33px;
+    top: 0px;
+}
+.gform_page_fields table{
+    color:#000 !important
+}

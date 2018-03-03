@@ -7388,6 +7388,7 @@ label {
   -moz-transition: 0.3s ease;
   opacity: 0;
   left: 0;
+  margin-right: 0;
 }
 .input-radio input:checked + label {
   border-color: #4a90e2;
