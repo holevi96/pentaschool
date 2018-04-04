@@ -130,6 +130,10 @@ li big {
     float: right;
     margin-top: 11px;
 }
+big.full{
+    background:#E46B3C!important;
+    color:#fff;
+}
 .bg--primary .boxed:not(.imagebg) i {
     color: #fff;
     border: 1px solid #fff;
@@ -204,4 +208,46 @@ label.gfield_label:before{
 }
 .gform_page_fields table{
     color:#000 !important
+}
+hr{
+    margin:15px;
+}
+.tabs--folder .tabs-content{
+    padding: 10px;
+}
+
+.add_list_item[src$="wp-content/plugins/gravityforms/images/blankspace.png"] {
+    background: url("../img/cell-4-4-480.png");
+    background-color: white;
+    background-position: 3px 1px;
+    background-size: 25px 25px !important;
+    background-repeat: no-repeat;
+    border: none !important;
+    width: 31px !important;
+    height: 30px !important;
+    vertical-align: middle !important;
+    /* opacity: 0.5; */
+    padding: 11px;
+    border-radius: 6px;
+}
+.delete_list_item[src$="wp-content/plugins/gravityforms/images/blankspace.png"] {
+    background: url("../img/minus-outline.png");
+    background-color: white;
+    background-position: 3px 1px;
+    background-size: 25px 25px !important;
+    background-repeat: no-repeat;
+    border: none !important;
+    width: 31px !important;
+    height: 30px !important;
+    vertical-align: middle !important;
+    /* opacity: 0.5; */
+    padding: 11px;
+    border-radius: 6px;
+}
+.bg--dark table th{
+    background: transparent;
+    color:#fff;
+}
+.gform_wrapper table.gfield_list tr td.gfield_list_icons{
+    width:60px !important;
 }

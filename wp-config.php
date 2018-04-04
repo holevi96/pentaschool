@@ -17,7 +17,7 @@
 
 // ** MySQL beállítások - Ezeket a szolgálatótól lehet beszerezni ** //
 /** Adatbázis neve */
-define('DB_NAME', 'pentaschool');
+define('DB_NAME', 'penta');
 
 /** MySQL felhasználónév */
 define('DB_USER', 'root');

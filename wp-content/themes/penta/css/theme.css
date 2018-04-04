@@ -182,7 +182,7 @@ strong {
   font-weight: 600;
 }
 hr {
-  margin: 1.85714286em 0;
+  margin: 16px 0;
   border-color: #fafafa;
 }
 a:hover,
@@ -4261,7 +4261,7 @@ table.border--round {
   border: 1px solid #3f3f3f;
 }
 .bg--dark table th {
-  background: #3f3f3f;
+  background: transparent;
   color: #fff;
 }
 .bg--dark .table--alternate-row tbody tr:nth-child(even) {
@@ -6326,7 +6326,7 @@ a.block:hover > .feature {
   overflow: hidden;
   position: relative;
   bottom: 8px;
-  padding: 1.85714286em;
+  padding: 0.857143em;
   border: 1px solid #ECECEC;
   border-radius: 0 0 6px 6px;
 }
@@ -6908,7 +6908,7 @@ a[data-lightbox]:hover {
   height: 2px;
   top: 0.92857143em;
   left: 0;
-  /* background: #4a90e2; */
+  background: #4a90e2;
 }
 @media all and (max-width: 767px) {
   .process-2:before {

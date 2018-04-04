@@ -34,6 +34,16 @@
           </div>
         </div>
       </section>
+        <section class="space--sm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <?php the_content(); ?>
+                    </div>
+                </div>
+            </div>
+        </section>
+
       <section class="space--sm">
         <div class="container">
           <div class="row">
@@ -64,9 +74,31 @@
                 <ul class="tabs ">
                  <?php if(count($kiirasok) > 0){
                      $cnt = 0;
+                     $honapok = array();
+                     $honapok[1] = 'Január';
+                     $honapok[2] = 'Február';
+                     $honapok[3] = 'Március';
+                     $honapok[4] = 'Április';
+                     $honapok[5] = 'Május';
+                     $honapok[6] = 'Június';
+                     $honapok[7] = 'Július';
+                     $honapok[8] = 'Augusztus';
+                     $honapok[9] = 'Szeptember';
+                     $honapok[10] = 'Október';
+                     $honapok[11] = 'November';
+                     $honapok[12] = 'December';
                   foreach ($kiirasok as $kiiras) { ?>
                   <li class="<?php echo ($cnt==0)?"active":"";?> bg--primary">
-                    <div class="tab__title "> <span class="h6 color--primary"><?php echo get_field('kezdes',$kiiras->ID); ?> - <?php echo get_field('vege',$kiiras->ID); ?></span></div>
+                      <?php
+
+                      $kezdes_str = get_field('kezdes',$kiiras->ID);
+                      $kezdes_honap = $honapok[(int)substr($kezdes_str,5,2)];
+                      $kezdes_nap = substr($kezdes_str,8,2);
+
+
+
+                      ?>
+                    <div class="tab__title "> <span class="h6 color--primary"><?php echo $kezdes_honap . ' ' . $kezdes_nap ; ?> </span></div>
                     <div class="tab__content flexbox">
                       <div class="col-md-4  col boxed boxed--border bg--primary left-col">
                         <ul>
@@ -83,12 +115,21 @@
                             </li>
 <!--                          <li><i class="icon icon--sm icon-Money"></i> <span>Listaár:</span><big>--><?php //the_field('listaar');?><!-- Ft.</big></li>-->
                           <hr>
-                          <li><i class="icon icon--sm icon-Add-User"></i> <span>Szabad helyek:</span><big><?php echo get_field('maximum_letszam',$kiiras->ID); ?></big></li>
+                            <?php
+                            $szabad_helyek = get_field('maximum_letszam',$kiiras->ID)- get_field('beiratkozva',$kiiras->ID);
+                            $betelt = (get_field('maximum_letszam',$kiiras->ID) == get_field('beiratkozva',$kiiras->ID));
+                            ?>
+                          <li><i class="icon icon--sm icon-Add-User"></i> <span>Szabad helyek:</span><big class="<?php echo ($betelt)?'full':''; ?>" ><?php echo ($betelt)?'Betelt!': $szabad_helyek;  ?></big></li>
                           <hr>
+                            <li><i class=" icon--sm icon icon-Information"></i><big><?php echo (get_field('beiratkozva',$kiiras->ID)>=get_field('minimum_letszam',$kiiras->ID))?'Biztosan indul!':"Szervezés alatt!"; ?></big></li>
+                            <hr>
                           <li><i class="icon icon--sm icon-Teacher"></i> <span>Oktató:</span><big><?php echo get_post(get_field('tanar',$kiiras->ID)[0])->post_title; ?></big></li>
                          <hr>
                           <li><i class="icon icon--sm icon-Map2"></i> <span>Helyszín:</span><big><?php echo get_post(get_field('helyszin',$kiiras->ID)[0])->post_title; ?></big></li>
-                          <hr>
+
+
+
+
                         </ul>
                       </div>
                         <div class="col-md-4 col boxed boxed--border mid-col" >
@@ -115,12 +156,19 @@
 
 
                                     <p>
+                                        <?php if(!$betelt){ ?>
                                     <a class="btn btn--lg btn--primary"
                                        href="<?php echo get_permalink($kiiras->ID); ?>?jelentkezes">
                                         <span class="btn__text" style="color:#fff;width:100%">Jelentkezés</span>
                                     </a>
+                                     <?php }else{ ?>
+                                            <a class="btn btn--lg btn--primary"
+                                               href="<?php echo get_permalink($kiiras->ID); ?>?varolista">
+                                                <span class="btn__text" style="color:#fff;width:100%">Várólistára jelentkezés</span>
+                                            </a>
+                                        <?php }?>
                                     </p>
-                                    <hr>
+
                                     <div class="more-buttons">
                                         <p>
                                             <a class="btn btn--lg btn more-options-button" href="file:///C:/Users/DELL/Documents/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack%201.5.1/tanfolyam-oldal2.html#" >
@@ -203,7 +251,7 @@
                 <div class="row">
                     <div class="col-sm-8 col-md-7">
                         <h2>Tanfolyam leírása:</h2>
-                        <?php the_content(); ?>
+
                     </div>
                     <div class="col-sm-4 col-md-3">
                         <div class="text-block">
@@ -296,7 +344,7 @@
                                     <li>
                                         <div class="row">
                                             <div class="testimonial">
-                                                <div class="col-md-2 col-md-offset-1 col-sm-4 col-xs-6 text-center"> <img class="testimonial__image" alt="Image" src="<?php echo $image; ?>"> </div>
+                                                <div class="col-md-2 col-md-offset-1 col-sm-4 col-xs-6 text-center"> <img class="testimonial__image" alt="Image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/big-quote-marks-opening.png"> </div>
                                                 <div class="col-md-7 col-md-offset-1 col-sm-8 col-xs-12"> <span class="h3"><?php echo $ajanlas->post_content; ?></span>
                                                     <h5><?php echo get_field('keresztnev',$ajanlas->ID); ?></h5> <span><?php echo get_field('cegnev',$ajanlas->ID); ?></span> </div>
                                             </div>
