@@ -188,11 +188,6 @@
                                     </div>
                                 </div>
 
-<!--                            <div class="back  box-shadow bg--secondary feature" style="">-->
-<!--                                <a class="btn btn--sm btn--primary reszletes_idopontok">-->
-<!--                                    <span class="btn__text" style="color:#fff">Bezárás</span>-->
-<!--                                </a>-->
-<!--                            </div>-->
                         </div>
                       <div class="col-md-4 col boxed boxed--border bg--primary right-col">
                         <div class="third-box box-shadow">
@@ -203,7 +198,7 @@
 
                                     if($megadas == 'napok'){?>
                                         <h5>A tanfolyam napjai:</h5>
-                                        <ul>
+                                        <ul class="bullets">
                                             <li><?php echo get_field('kezdes',$kiiras->ID);?></li>
                                             <?php $tovabbi_napok = get_field('tovabbi_napok',$kiiras->ID);
                                             if($tovabbi_napok){
@@ -250,14 +245,27 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8 col-md-7">
-                        <h2>Tanfolyam leírása:</h2>
+                        <h3>Célközönség:</h3>
+                        <?php the_field('celkozonseg'); ?>
+                        <h3>Belépési feltételek:</h3>
+                        <?php if(get_field('belepesi_feltetelek')){ ?>
+                            <ul class="bullets">
+                                <?php foreach (get_field('belepesi_feltetelek') as $feltetel) { ?>
+                                    <li><?php echo $feltetel['feltetel']; ?></li>
+                               <?php } ?>
+                            </ul>
+                        <?php } ?>
+                        <h3>Igazolás</h3>
+                        <ul class="bullets">
+                            <li> <?php the_field('igazolas'); ?></li>
+                        </ul>
 
                     </div>
                     <div class="col-sm-4 col-md-3">
                         <div class="text-block">
                             <h5><strong>Kapcsolódó tanfolyamok:</strong></h5>
                             <p>
-                                <ul>
+                                <ul class="bullets">
                                     <?php 
                                         $kapcs = get_field('kapcsolodo_tanfolyam');
                                         if($kapcs){

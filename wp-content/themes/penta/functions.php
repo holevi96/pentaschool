@@ -33,14 +33,19 @@ function penta_scripts() {
   wp_enqueue_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js', array(  ), null, true );
   if( get_post_type( $post ) === "tanfolyamok" && is_singular()){
 
-    wp_enqueue_script( 'single-tanfolyamok.js', get_stylesheet_directory_uri() . '/js/single-tanfolyamok.js', array( 'jquery' ), false, true );
+
 
 
 
   }else if(get_post_type( $post ) === "tanfolyam-kiiras" && is_singular()){
     wp_enqueue_script( 'granim.js', get_stylesheet_directory_uri() . '/js/granim.min.js', array( 'jquery' ), false, true );
   }
-
+  else if(get_post_type( $post ) === "tanfolyamok" && is_archive()){
+      wp_enqueue_script( 'isotope.min.js', get_stylesheet_directory_uri() . '/js/isotope.min.js', array( 'jquery' ), false, true );
+      wp_enqueue_script( 'velocity.min.js', get_stylesheet_directory_uri() . '/js/velocity.min.js', array( 'jquery' ), false, true );
+      wp_enqueue_script( 'pentafilter.js', get_stylesheet_directory_uri() . '/js/pentafilter.js', array( 'jquery' ), false, true );
+      wp_enqueue_script( 'archive-tanfolyamok.js', get_stylesheet_directory_uri() . '/js/archive-tanfolyamok.js', array( 'jquery' ), false, true );
+  }
   wp_enqueue_script( 'parallax.js', get_stylesheet_directory_uri() . '/js/parallax.js', array( 'jquery' ), false, true );
   wp_enqueue_script( 'smooth-scroll.min.js', get_stylesheet_directory_uri() . '/js/smooth-scroll.min.js', array( 'jquery' ), false, true );
   wp_enqueue_script( 'scripts.js', get_stylesheet_directory_uri() . '/js/scripts.js', array( 'jquery' ), false, true );
