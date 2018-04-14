@@ -3,3 +3,5 @@ wp-includes
 wp-content/languages
 wp-content/upgrade
 wp-config.php
+
+\.idea/workspace\.xml
