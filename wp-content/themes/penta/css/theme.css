@@ -6845,18 +6845,18 @@ a[data-lightbox]:hover {
   margin-left: 1px;
 }
 @media all and (min-width: 768px) {
-  .process-1 .process__item:nth-child(odd) {
+  .process-1 .process__item.odd {
     text-align: right;
     padding-right: 3.71428571em;
   }
-  .process-1 .process__item:nth-child(odd):after {
+  .process-1 .process__item.odd:after {
     right: -0.92857143em;
   }
-  .process-1 .process__item:nth-child(even) {
+  .process-1 .process__item.even {
     margin-left: 50%;
     padding-left: 3.71428571em;
   }
-  .process-1 .process__item:nth-child(even):after {
+  .process-1 .process__item.even:after {
     left: -0.92857143em;
   }
 }

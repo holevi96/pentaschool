@@ -30,31 +30,7 @@ get_header(); ?>
             'orderby'			=> 'meta_value',
             'order'				=> 'ASC'
         ));
-        /*foreach($kiirasok as $kiiras){
-            $aktual_ids[] = get_post(get_field('kapcsolodo_tanfolyam',$kiiras->ID)[0])->ID;
-        }*/
-        PC::tag($aktual_ids);
 
-        /*$the_query = new WP_Query( array(
-            'post_type' => 'tanfolyamok',
-            'posts_per_page' => -1,
-            'meta_query' => array(
-                'relation' => 'OR',
-                    array(
-                        'key' => 'aktiv_tanfolyam_e', // name of custom field
-                        'value' => '1',
-                        'compare' => '=='
-                    ),
-                    array(
-                        'key' => 'aktiv_tanfolyam_e',
-                        'compare' => 'NOT EXISTS'
-                    )
-            ),
-            'post__in' => $aktual_ids
-
-
-
-        ));*/
 
         $the_query = new WP_Query(array(
             'post_type' => "tanfolyam-kiiras",

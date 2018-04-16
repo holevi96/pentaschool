@@ -42,8 +42,8 @@ function penta_scripts() {
   }
   else if(get_post_type( $post ) === "tanfolyamok" && is_archive()){
       wp_enqueue_script( 'isotope.min.js', get_stylesheet_directory_uri() . '/js/isotope.min.js', array( 'jquery' ), false, true );
-      wp_enqueue_script( 'velocity.min.js', get_stylesheet_directory_uri() . '/js/velocity.min.js', array( 'jquery' ), false, true );
-      wp_enqueue_script( 'pentafilter.js', get_stylesheet_directory_uri() . '/js/pentafilter.js', array( 'jquery' ), false, true );
+      
+      
       wp_enqueue_script( 'archive-tanfolyamok.js', get_stylesheet_directory_uri() . '/js/archive-tanfolyamok.js', array( 'jquery' ), false, true );
   }
   wp_enqueue_script( 'parallax.js', get_stylesheet_directory_uri() . '/js/parallax.js', array( 'jquery' ), false, true );
@@ -51,6 +51,8 @@ function penta_scripts() {
   wp_enqueue_script( 'scripts.js', get_stylesheet_directory_uri() . '/js/scripts.js', array( 'jquery' ), false, true );
   wp_enqueue_script( 'flickity.min.js', get_stylesheet_directory_uri() . '/js/flickity.min.js', array( 'jquery' ), false, true );
   wp_enqueue_script( 'custom.js', get_stylesheet_directory_uri() . '/js/custom.js', array( 'jquery' ), false, true );
+  wp_enqueue_script( 'velocity.min.js', get_stylesheet_directory_uri() . '/js/velocity.min.js', array( 'jquery' ), false, true );
+  wp_enqueue_script( 'pentafilter.js', get_stylesheet_directory_uri() . '/js/pentafilter.js', array( 'jquery' ), false, true );
 }
 add_action ('wp_enqueue_scripts', 'penta_scripts');
 
@@ -626,7 +628,7 @@ function wpb_load_widget() {
     register_widget( 'excelbazis_widget' );
 }
 add_action( 'widgets_init', 'wpb_load_widget' );
- include('excelbazis_feed_creator.php');
+ //include('excelbazis_feed_creator.php');
 // Creating the widget 
 class excelbazis_widget extends WP_Widget {
  

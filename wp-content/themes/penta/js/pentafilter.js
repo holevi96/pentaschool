@@ -1,11 +1,13 @@
  (function( $ ) {
  
-    $.fn.pentafilter = function(filterwrapper, options) {
+    $.fn.pentafilter = function(filterwrapper, options,callback) {
 		
 		 var settings = $.extend({
             // These are the defaults.
             time: 300
         }, options );
+
+
 		
 		var container = this;
 	
@@ -33,6 +35,9 @@
             }
             $('#'+filterwrapper + " .pentafilter").removeClass('active');
             $(this).toggleClass('active');
+			if (typeof callback == 'function') { // make sure the callback is a function
+				callback.call(this); // brings the scope to the callback
+			}
 		})
 		
 		

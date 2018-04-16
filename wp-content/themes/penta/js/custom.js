@@ -8,4 +8,11 @@ jQuery(document).ready(function(){
 		jQuery(item).find('label').text('')
 		console.log(val);
 	})
+	jQuery('.process-1 .process__item[visible="visible"]:nth-child(even)').addClass("even").removeClass("odd");
+		jQuery('.process-1 .process__item[visible="visible"]:nth-child(odd)').addClass("odd").removeClass("even");
+	jQuery('.tanfolyamok .tanfolyam').pentafilter('pentafilter-box',{},function(){
+		jQuery('.process-1 div[visible="visible"]:even').addClass("even").removeClass("odd");
+		jQuery('.process-1 div[visible="visible"]:odd').addClass("odd").removeClass("even");
+		
+	});
 })
