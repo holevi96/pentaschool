@@ -29,15 +29,18 @@
                     jQuery(container.selector + '.notfound').attr('visible','visible');
                 }
                 if(effect = 'fade'){
-                    jQuery(container.selector ).velocity("fadeOut", { duration: 300 })
-                    jQuery(container.selector + '[visible*="visible"]').velocity("fadeIn", { delay: 100, duration: 300 });
+                    jQuery(container.selector ).velocity("fadeOut", { duration: 300,complete: function(){
+						if (typeof callback == 'function') { // make sure the callback is a function
+							callback.call(this); // brings the scope to the callback
+						}
+					}  })
+                    jQuery(container.selector + '[visible*="visible"]').velocity("fadeIn", { delay: 100, duration: 300});
                 }
             }
             $('#'+filterwrapper + " .pentafilter").removeClass('active');
             $(this).toggleClass('active');
-			if (typeof callback == 'function') { // make sure the callback is a function
-				callback.call(this); // brings the scope to the callback
-			}
+			
+			
 		})
 		
 		

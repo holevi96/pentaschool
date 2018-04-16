@@ -6813,6 +6813,7 @@ a[data-lightbox]:hover {
   padding: 3.71428571em 0;
   position: relative;
   overflow: hidden;
+  min-height: 300px;
 }
 .process-1 .process__item {
   width: 50%;
