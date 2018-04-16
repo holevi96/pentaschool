@@ -622,7 +622,11 @@ function populate_kiiras( $value ) {
 
 }
 add_filter( 'gform_field_value_kiiras_fill', 'populate_kiiras' );
-
+function file_get_contents_utf8($fn) {
+     $content = file_get_contents($fn);
+      return mb_convert_encoding($content, 'UTF-8',
+          mb_detect_encoding($content, 'UTF-8, ISO-8859-1', true));
+}
 // Register and load the widget
 function wpb_load_widget() {
     register_widget( 'excelbazis_widget' );

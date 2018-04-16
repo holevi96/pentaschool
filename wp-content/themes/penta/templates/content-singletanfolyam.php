@@ -1,4 +1,4 @@
-<?php while (have_posts()) : the_post(); ?>
+﻿<?php while (have_posts()) : the_post(); ?>
   <article <?php post_class(); ?>>
     <!--<header>
       <h1 class="entry-title"><?php the_title(); ?></h1>
@@ -278,6 +278,8 @@
                             </p>
                         </div>
                        <?php echo dynamic_sidebar('primary'); ?>
+					  
+					   <?php echo file_get_contents_utf8('http://pentaschool.hu/Include/excelbazis_feed_html.txt'); ?>
                     </div>
                 </div>
             </div>
