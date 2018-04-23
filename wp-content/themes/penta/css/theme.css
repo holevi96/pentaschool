@@ -6828,6 +6828,7 @@ a[data-lightbox]:hover {
   height: 100%;
   left: 50%;
   top: 0;
+  z-index: 10;
   background: #4a90e2;
 }
 .process__item {
@@ -6838,12 +6839,14 @@ a[data-lightbox]:hover {
   content: '';
   display: none;
   width: 1.85714286em;
+  z-index: 20;
   height: 1.85714286em;
   background: #fff;
   border: 2px solid #4a90e2;
   border-radius: 50%;
   top: 0;
   margin-left: 1px;
+  position: absolute;
 }
 @media all and (min-width: 768px) {
   .process-1 .process__item.odd {

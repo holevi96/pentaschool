@@ -157,15 +157,16 @@ big.full{
 .third-box h3{
     color:#fff !important;
 }
-.process__item:after{
-    /*display: none !important;*/
+#tematika .process__item:after{
+    display: none !important;
 }
-.process__item:before{
+#tematika .process__item:before{
     display: none !important;
 }
 #tematika .process__item{
-    margin-top: 0;
+    margin-top: 25px;
     margin-bottom: 20px;
+    border:none;
 }
 input{
     color:#333 !important;
@@ -250,4 +251,59 @@ hr{
 }
 .gform_wrapper table.gfield_list tr td.gfield_list_icons{
     width:60px !important;
+}
+.tanfolyamok{
+    min-height: 400px;
+}
+.tanfolyamok .process__item:after{
+    display:block;
+    top: 20px;
+    z-index: 20;
+}
+#pentafilter-box{
+    margin-bottom: 15px;
+}
+.tanfolyamok .process__item{
+    border: 1px solid #d6cbcb;
+    padding: 5px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.tanfolyamok .process__item.even{
+    border-left: none;
+    left: 2px;
+    z-index: 20;
+    border-right: 4px solid;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.tanfolyamok .process__item.even:after{
+    margin-left: -1px;
+}
+.tanfolyamok .process__item.odd{
+    border-right:0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-left: 2px solid;
+}
+#pentafilter-box .pentafilter{
+    margin: 6px;
+}
+@media all and (max-width: 767px) {
+    .tanfolyamok .process__item{
+        border-left: 1px solid #d6cbcb !important;
+        margin-left: 0px;
+        z-index: 30 !important;
+        background: #fff;
+        border-right: 2px solid !important;
+        left: 0 !important;
+        border-top-left-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        padding-left: 45px;
+    }
+    .tanfolyamok .process__item:after{
+        left: 6px;
+    }
 }

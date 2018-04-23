@@ -13,8 +13,8 @@
 	
 		var effect = $('#'+filterwrapper).attr('effect-type');	
 		
-		$('#'+filterwrapper + " .pentafilter").click(function(){
-
+		$('#'+filterwrapper + " .pentafilter").click(function(e){
+                e.preventDefault();
                 if(!$(this).hasClass('active')){
 
                 var classList = $(this).attr('termName').split(/\s+/);

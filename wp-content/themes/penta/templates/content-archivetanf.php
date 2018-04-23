@@ -7,7 +7,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h1>Simple Title</h1>
+                        <h1>Az össezs tanfolyam</h1>
                     </div>
                 </div>
             </div>
@@ -22,8 +22,11 @@
                     ));
 
                     if ($the_query->have_posts()) : ?>
-                    <div id="pentafilter-box" effect-type="fade">
-                        <div class="pentafilter" termName="tanf">Összes</div>
+                    <div id="pentafilter-box" effect-type="fade" class="clearfix">
+
+                        <a class="btn btn--sm pentafilter" termName="tanf" href="#">
+                            <span class="btn__text">Összes</span>
+                        </a>
                         <?php
                         $categories = get_categories(array(
                             'orderby' => 'name',
@@ -31,11 +34,13 @@
                         ));
 
                         foreach ($categories as $category) { ?>
-                            <div class="pentafilter" termName="<?php echo $category->slug; ?>"><?php echo $category->name; ?></div>
+                            <a class="btn btn--sm pentafilter" termName="<?php echo $category->slug; ?>" href="#">
+                                <span class="btn__text"><?php echo $category->name; ?></span>
+                            </a>
                         <?php } ?>
                     </div>
-                    <div class="masonry">
-                        <div class=" masonry--active tanfolyamok">
+                    <div class="masonry clearfix">
+                        <div class=" masonry--active tanfolyamok clearfix">
 
                             <?php
                             // Start the Loop.
