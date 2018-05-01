@@ -5,52 +5,55 @@
 		<section>
 		
                 <div class="container">
-				<div class="row">
-				<?php
-        $aktual_ids = array();
-        $kiirasok = get_posts(array(
-            'post_type' => "tanfolyam-kiiras",
-            'numberposts' => -1,
-            'meta_key'			=> 'kezdes',
-            'orderby'			=> 'meta_value',
-            'order'				=> 'ASC'
-        ));
-
-
-        $the_query = new WP_Query(array(
-            'post_type' => "tanfolyam-kiiras",
-            'numberposts' => -1,
-            'meta_key'			=> 'kezdes',
-            'orderby'			=> 'meta_value',
-            'order'				=> 'ASC'
-        ));
-
-        if ($the_query->have_posts()) : ?>
-                    <div id="pentafilter-box" effect-type="fade" class="clearfix">
-
-                        <a class="btn btn--sm pentafilter" termName="tanf" href="#">
-                            <span class="btn__text">Összes</span>
-                        </a>
+                    <div class="col-md-3">
                         <?php
-                        $categories = get_categories(array(
-                            'orderby' => 'name',
+                        $aktual_ids = array();
+                        $kiirasok = get_posts(array(
+                            'post_type' => "tanfolyam-kiiras",
+                            'numberposts' => -1,
+                            'meta_key' => 'kezdes',
+                            'orderby' => 'meta_value',
                             'order' => 'ASC'
                         ));
 
-                        foreach ($categories as $category) { ?>
-                            <a class="btn btn--sm pentafilter" termName="<?php echo $category->slug; ?>" href="#">
-                                <span class="btn__text"><?php echo $category->name; ?></span>
-                            </a>
-                        <?php } ?>
+
+                        $the_query = new WP_Query(array(
+                            'post_type' => "tanfolyam-kiiras",
+                            'numberposts' => -1,
+                            'meta_key' => 'kezdes',
+                            'orderby' => 'meta_value',
+                            'order' => 'ASC'
+                        ));
+
+                        if ($the_query->have_posts()) : ?>
+                        <div id="pentafilter-box" effect-type="fade" class="clearfix">
+                            <div class="row">
+                                <a class="btn btn--sm pentafilter" termName="tanf" href="#">
+                                    <span class="btn__text">Összes</span>
+                                </a>
+                            </div>
+                            <?php
+                            $categories = get_categories(array(
+                                'orderby' => 'name',
+                                'order' => 'ASC'
+                            ));
+
+                            foreach ($categories as $category) { ?>
+                            <div class="row">
+                                <a class="btn btn--sm pentafilter" termName="<?php echo $category->slug; ?>" href="#">
+                                    <span class="btn__text"><?php echo $category->name; ?></span>
+                                </a>
+                            </div>
+                            <?php } ?>
+                        </div>
+                        <br>
+                        <div id="pentaesti-filter-box" effect-type="fade">
+                            <div class="pentafilter" termName="nappali">Nappali</div>
+                            <div class="pentafilter" termName="esti">Esti</div>
+                        </div>
                     </div>
-            <br>
-            <div id="pentaesti-filter-box" effect-type="fade">
-                <div class="pentafilter" termName="nappali">Nappali</div>
-                <div class="pentafilter" termName="esti">Esti</div>
-            </div>
-				</div>
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+
+                        <div class="col-md-9 col-sm-12 ">
                             <div class="process-1 tanfolyamok">
                                 <div class="process__item tanfolyam notfound" style="display:none;">
                                     <h4>Jelenleg nincs tanfolyamunk ebben a kategóriában.</h4>
@@ -88,7 +91,7 @@
                                 
                             </div>
                         </div>
-                    </div>
+
 					<?php endif; ?>
                 </div>
             </section>

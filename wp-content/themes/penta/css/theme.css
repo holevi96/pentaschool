@@ -6833,19 +6833,19 @@ a[data-lightbox]:hover {
 }
 .process__item {
   position: relative;
-  margin-top: 48px;
+  margin-top: -10px;
 }
 .process__item:after {
   content: '';
   display: none;
-  width: 1.85714286em;
+  width: 40px;
   z-index: 20;
-  height: 1.85714286em;
+  height: 40px;
   background: #fff;
   border: 2px solid #4a90e2;
   border-radius: 50%;
   top: 0;
-  margin-left: 1px;
+  margin-left: 0px;
   position: absolute;
 }
 @media all and (min-width: 768px) {
@@ -6854,20 +6854,20 @@ a[data-lightbox]:hover {
     padding-right: 3.71428571em;
   }
   .process-1 .process__item.odd:after {
-    right: -0.92857143em;
+    right: -21px;
   }
   .process-1 .process__item.even {
     margin-left: 50%;
     padding-left: 3.71428571em;
   }
   .process-1 .process__item.even:after {
-    left: -0.92857143em;
+    left: -20px;
   }
 }
 @media all and (max-width: 767px) {
   .process-1:before,
   .process-2:before {
-    left: 0.92857143em;
+    left: 21px;
   }
   .process-1 .process__item,
   .process-2 .process__item {
@@ -6876,7 +6876,7 @@ a[data-lightbox]:hover {
   }
   .process-1 .process__item:after,
   .process-2 .process__item:after {
-    left: 0;
+    left: -4px;
   }
 }
 .bg--dark .process-1:before,

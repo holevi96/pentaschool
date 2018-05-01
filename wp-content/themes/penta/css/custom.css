@@ -278,7 +278,7 @@ hr{
     border-bottom-left-radius: 0px;
 }
 .tanfolyamok .process__item.even:after{
-    margin-left: -1px;
+    margin-left: 0px;
 }
 .tanfolyamok .process__item.odd{
     border-right:0px;
@@ -288,22 +288,32 @@ hr{
 }
 #pentafilter-box .pentafilter{
     margin: 6px;
+    display: inline-block;
+    text-align: left;
+    margin-left: 15px;
 }
 @media all and (max-width: 767px) {
     .tanfolyamok .process__item{
         border-left: 1px solid #d6cbcb !important;
-        margin-left: 0px;
+        margin-left: 23px;
+        width: calc(100% - 23px);
         z-index: 30 !important;
         background: #fff;
         border-right: 2px solid !important;
-        left: 0 !important;
+        left: 0px !important;
         border-top-left-radius: 0 !important;
         border-bottom-left-radius: 0 !important;
         border-top-right-radius: 8px;
         border-bottom-right-radius: 8px;
         padding-left: 45px;
+        border-left: 0px !important;
     }
-    .tanfolyamok .process__item:after{
-        left: 6px;
+    .tanfolyamok .process__item.even:after{
+        left: -21px;
+        z-index: 100 !important;
+    }
+    .tanfolyamok .process__item.odd:after{
+        left: -21px;
+        z-index: 100 !important;
     }
 }
