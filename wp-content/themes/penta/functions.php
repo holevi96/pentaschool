@@ -295,7 +295,7 @@ function pre_submission_handler( $form ) {
 
 
 require_once 'vendor/autoload.php';
-PhpConsole\Helper::register();
+//PhpConsole\Helper::register();
 //require_once 'vendor/dompdf/dompdf/autoload.inc.php';
 use Dompdf\Dompdf;
 add_filter( 'gform_pre_render_1', 'populate_html' );

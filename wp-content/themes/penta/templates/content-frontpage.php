@@ -2,6 +2,16 @@
   <article <?php post_class(); ?>>
 
     <div class="main-container">
+        <section class="imagebg" data-overlay="4">
+            <div class="background-image-holder"> <img alt="background" src="<?php echo get_stylesheet_directory_uri(); ?>/img/keyboard.jpg"> </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1>Aktuális tanfolyamaink:</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
 		<section>
 		
                 <div class="container">
