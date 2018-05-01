@@ -292,6 +292,26 @@ hr{
     text-align: left;
     margin-left: 15px;
 }
+.excelbazis_box a{
+    display:block;
+    font-size: 12px;
+    margin-left: 10px;
+    position: relative;
+}
+.excelbazis_box a:before{
+    display:block;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    left: -18px;
+    top: 10px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 6px;
+    background: #ada4a4;
+    border: 1px solid #ada4a4;
+    content: '';
+}
 @media all and (max-width: 767px) {
     .tanfolyamok .process__item{
         border-left: 1px solid #d6cbcb !important;

@@ -31,15 +31,7 @@
             </div>
         </section>
 
-      <section class="space--sm">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-10 col-md-8">
-              <h2>Időpontok:<br></h2>
-            </div>
-          </div>
-        </div>
-      </section>
+
       <section>
   <?php
   $kiirasok = get_posts(array(
@@ -54,6 +46,16 @@
 
   ));
   ?>
+          <?php if($kiirasok): ?>
+          <section class="space--sm">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-10 col-md-8">
+                          <h2>Időpontok:<br></h2>
+                      </div>
+                  </div>
+              </div>
+          </section>
         <div class="container">
           <div class="row">
             <div class="col-sm-12">
@@ -227,6 +229,7 @@
             </div>
           </div>
         </div>
+          <?php endif; ?>
       </section>
         <section class="switchable">
             <div class="container">
