@@ -81,6 +81,25 @@
                                     $listaar = get_field('listaar',$kapcs_tanf);
                                     $akcios = get_field('akcios_ar');
 
+                                    $szabad_helyek = get_field('maximum_letszam') - get_field('beiratkozva');
+									$napszak = get_field('napszak');
+									if($napszak == 'nappali'){
+                                        $ikon = 'icon-Sun';
+                                    }else{
+                                        $ikon = 'icon-Half-Moon';
+                                    }
+
+									$elso_alkalom = get_field('kezdes');
+									$vege = get_field('vege');
+
+									if(get_field('alkalmak_megadasa') == 'napok'){
+                                        $idobeosztas = get_field('idobeosztas');
+                                    }else{
+                                        $idobeosztas = get_field('napi_beosztas') . ', ' . get_field('idobeosztas');
+                                    }
+
+									$excerpt = $kapcs_tanf->post_excerpt;
+
                                     $van_e_akcio = false;
                                     $szazalek = 0;
                                     if($akcios<$listaar){
@@ -88,14 +107,52 @@
                                         $szazalek = round((1-($akcios / $listaar))*100);
                                     }
                                     ?>
-                                    <div class="tanf-price">
-                                        <h4><?php echo $akcios; ?>Ft</h4>
-                                        <?php if($van_e_akcio): ?>
-                                            <strike><?php echo $listaar; ?> Ft.</strike>
-                                            <span><?php echo $szazalek; ?> % kedvezmény!</span>
-                                        <?php endif; ?>
+
+                                    <ul>
+                                        <li><i class="icon icon--sm  icon-Calendar-3"></i><span><?php echo $elso_alkalom . ' - '. $vege; ?></span></li>
+                                        <li><i class="icon icon--sm <?php echo $ikon; ?>"></i> <span><?php echo $idobeosztas; ?></span></li>
+                                        <li><b><?php echo $szabad_helyek; ?></b><span>szabad hely</span></li>
+                                    </ul>
+
+                                    <div class="row fooldal-ar">
+                                        <div class="col-md-6">
+                                            <?php if($van_e_akcio): ?>
+                                                <span class="kedvezmeny"><?php echo $szazalek; ?> % kedvezmény!</span>
+                                           <?php  endif;?>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <?php if($van_e_akcio): ?>
+                                            <div class="row">
+                                                <strike><?php echo number_format($listaar, 0, ',', ' '); ?> Ft.</strike>
+                                            </div>
+
+                                            <?php endif; ?>
+                                            <div class="row">
+                                                <span><?php echo number_format($akcios, 0, ',', ' '); ?>Ft</span>
+                                            </div>
+                                        </div>
+
+
                                     </div>
-                                   <p> <i><?php echo get_field("kezdes", get_the_ID()); ?></i></p>
+
+                                <div class="overlay">
+                                    <p class="clearfix"><?php echo get_post($ID)->post_excerpt; ?></p>
+                                    <div class="overlay-buttons">
+                                        <a class="btn btn--lg btn--primary"
+                                           href="<?php echo get_permalink($ID); ?>">
+                                            <span class="btn__text" style="color:#fff;width:100%">Részletek</span>
+                                        </a>
+                                        <a class="btn btn--lg more-options-button"
+                                           href="<?php echo get_permalink(); ?>?jelentkezes">
+                                            <span class="btn__text">Jelentkezés</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+
+
+
+
                                 </div>
 							<?php endwhile; ?>
                                 

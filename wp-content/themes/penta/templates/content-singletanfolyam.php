@@ -9,7 +9,7 @@
               <div class="switchable__text">
                 <h1><?php the_title(); ?></h1>
                 <p class="lead"></p>
-                <a class="btn btn--primary type--uppercase" href="#"> <span class="btn__text"><span>Jelentkezés</span></span>
+                <a class="btn btn--primary type--uppercase" href="#idopontok"> <span class="btn__text"><span>Jelentkezés</span></span>
                 </a>
               </div>
             </div>
@@ -32,7 +32,7 @@
         </section>
 
 
-      <section>
+      <section id="idopontok">
   <?php
   $kiirasok = get_posts(array(
       'post_type' => 'tanfolyam-kiiras',
@@ -136,9 +136,9 @@
                                         }
                                     ?>
                                     <div class="tanf-price">
-                                        <h4><?php echo get_field('akcios_ar', $kiiras->ID); ?>Ft</h4>
+                                        <h4><?php echo number_format($akcios, 0, ',', ' '); ?>Ft</h4>
                                         <?php if($van_e_akcio): ?>
-                                        <strike><?php the_field('listaar'); ?> Ft.</strike>
+                                        <strike><?php echo number_format($listaar, 0, ',', ' '); ?> Ft.</strike>
                                             <span><?php echo $szazalek; ?> % kedvezmény!</span>
                                         <?php endif; ?>
                                     </div>

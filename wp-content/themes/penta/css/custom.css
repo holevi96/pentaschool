@@ -286,6 +286,95 @@ hr{
     border-bottom-right-radius: 0px;
     border-left: 2px solid;
 }
+.tanfolyamok .process__item ul{
+
+width: 88%;
+}
+.tanfolyamok .process__item ul li {
+
+border-bottom: 1px solid #ccc;
+
+padding-bottom: 5px;
+
+padding-top: 11px;
+}
+.tanfolyamok .process__item ul li i{
+
+margin-right: 16px;
+}
+.tanfolyamok .process__item ul li b{
+
+font-size: 27px;
+
+margin-right: 21px;
+}
+.tanfolyamok .process__item ul li span{
+
+top: -5px;
+
+position: relative;
+}
+.tanfolyamok .process__item .fooldal-ar{
+
+}
+.tanfolyamok .process__item .fooldal-ar span{
+
+}
+.tanfolyamok .process__item .fooldal-ar span.kedvezmeny{
+
+}
+.tanfolyamok .process__item .fooldal-ar strike{
+
+}
+.tanfolyamok .process__item .fooldal-ar strike{
+
+}
+
+.tanfolyamok .process__item .overlay{
+    position: absolute;
+    bottom: 0;
+    background-color: #373334;
+    overflow: hidden;
+    width: 0;
+    color:#fff;
+    height: 100%;
+    transition: .5s ease;
+}
+.tanfolyamok .process__item.even .overlay {
+
+    right: 100%;
+    left: 0;
+
+}
+.tanfolyamok .process__item.even:hover .overlay {
+    width: 100%;
+    right: 0;
+}
+.tanfolyamok .process__item.odd .overlay {
+    left: 100%;
+    right: 0;
+}
+.tanfolyamok .process__item.odd:hover .overlay {
+    width: 100%;
+    left: 0;
+}
+.tanfolyamok .process__item .overlay p{
+padding-left: 33px;
+padding-right: 33px;
+padding-top: 30px;
+width: 400px;
+}
+.tanfolyamok .process__item .overlay .overlay-buttons{
+padding-left: 30px;
+padding-right: 30px;
+text-align: center;
+}
+.tanfolyamok .process__item .overlay .overlay-buttons a{
+width: 300px;
+border-radius: 7px;
+margin-left: 0px;
+margin-bottom: 6px;
+}
 #pentafilter-box .pentafilter{
     margin: 6px;
     display: inline-block;

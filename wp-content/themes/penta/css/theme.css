@@ -6850,8 +6850,9 @@ a[data-lightbox]:hover {
 }
 @media all and (min-width: 768px) {
   .process-1 .process__item.odd {
-    text-align: right;
+    text-align: left;
     padding-right: 3.71428571em;
+    padding-left: 40px;
   }
   .process-1 .process__item.odd:after {
     right: -21px;
