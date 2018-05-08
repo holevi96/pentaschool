@@ -174,6 +174,7 @@ input{
 label.gfield_label {
     width: 100%;
     border:none;
+    text-align: left;
 }
 label.gfield_label:before{
     display:none;
@@ -200,7 +201,7 @@ label.gfield_label:before{
     display: block;
     width: 19px;
     height: 19px;
-    border: 1px solid #fff;
+    border: 1px solid #ccc;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -254,14 +255,20 @@ hr{
 }
 .tanfolyamok{
     min-height: 400px;
+    /* padding-top: 80px; */
+    margin-top: -30px;
 }
 .tanfolyamok .process__item:after{
     display:block;
-    top: 20px;
+    top: 31px;
     z-index: 20;
 }
 #pentafilter-box{
     margin-bottom: 15px;
+}
+.home #pentafilter-box.fixed{
+    position: fixed;
+    top: 50px;
 }
 .tanfolyamok .process__item{
     border: 1px solid #d6cbcb;
@@ -289,6 +296,8 @@ hr{
 .tanfolyamok .process__item ul{
 
 width: 88%;
+
+margin-bottom: 12px;
 }
 .tanfolyamok .process__item ul li {
 
@@ -316,18 +325,34 @@ position: relative;
 }
 .tanfolyamok .process__item .fooldal-ar{
 
+margin-bottom: 55px;
 }
 .tanfolyamok .process__item .fooldal-ar span{
 
+float: right;
+
+margin-right: 59px;
+
+font-size: 24px;
 }
 .tanfolyamok .process__item .fooldal-ar span.kedvezmeny{
 
+float: left;
+
+font-size: 15px;
+
+display: block;
+
+margin-left: 0px;
 }
 .tanfolyamok .process__item .fooldal-ar strike{
 
 }
 .tanfolyamok .process__item .fooldal-ar strike{
 
+float: right;
+
+margin-right: 55px;
 }
 
 .tanfolyamok .process__item .overlay{
@@ -336,7 +361,9 @@ position: relative;
     background-color: #373334;
     overflow: hidden;
     width: 0;
+    z-index: 0;
     color:#fff;
+    border-radius: 10px;
     height: 100%;
     transition: .5s ease;
 }
@@ -359,21 +386,90 @@ position: relative;
     left: 0;
 }
 .tanfolyamok .process__item .overlay p{
-padding-left: 33px;
-padding-right: 33px;
-padding-top: 30px;
-width: 400px;
+
+padding-left: 33px;
+
+padding-right: 33px;
+
+padding-top: 30px;
+
+width: 297px;
 }
 .tanfolyamok .process__item .overlay .overlay-buttons{
-padding-left: 30px;
-padding-right: 30px;
-text-align: center;
+
+padding-left: 30px;
+
+padding-right: 30px;
+
+text-align: center;
 }
 .tanfolyamok .process__item .overlay .overlay-buttons a{
-width: 300px;
-border-radius: 7px;
-margin-left: 0px;
-margin-bottom: 6px;
+
+width: 70%;
+
+border-radius: 7px;
+
+margin-left: 0px;
+
+margin-bottom: 6px;
+}
+.tanfolyamok .process__item.odd .datenumber{
+    content:'1';
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: -30px;
+    top: 38px;
+    font-size: 18px;
+    z-index: 100;
+    color: #000;
+    background: transparent;
+}
+.tanfolyamok .process__item.even .datenumber{
+    content:'1';
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: -11px;
+    top: 38px;
+    font-size: 18px;
+    z-index: 100;
+    color: #000;
+    background: transparent;
+}
+.tanfolyamok .process__item h4{
+    
+margin-top: -39px;
+}
+.tanfolyamok .process__item.even .box-month{
+    background: white;
+    position: relative;
+    top: -56px;
+    left: -29%;
+    z-index: 1000;
+    text-align: center;
+    border-radius: 15px;
+    display: inline-block;
+    width: 100px;
+    line-height: 41px;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #ccc;
+}
+.tanfolyamok .process__item.odd .box-month{
+    background: white;
+    position: relative;
+    top: -66px;
+    right: -98%;
+    width: 110px;
+    z-index: 100;
+    text-align: center;
+    border-radius: 15px;
+    display: inline-block;
+    line-height: 47px;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #ccc;
 }
 #pentafilter-box .pentafilter{
     margin: 6px;
@@ -401,7 +497,28 @@ position: relative;
     border: 1px solid #ada4a4;
     content: '';
 }
+section{
+    padding-top: 30px ;
+    padding-bottom: 30px ;
+}
+section.imagebg{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 30px;
+}
+.quiz .gform_fields>li{
+    display: block;
+}
+.quiz .gfield_radio span{
+    width:200px;
+}
 @media all and (max-width: 767px) {
+    #pentafilter-box{
+        display:none;
+    }
+    #pentaesti-filter-box{
+        display:none;
+    }
     .tanfolyamok .process__item{
         border-left: 1px solid #d6cbcb !important;
         margin-left: 23px;
@@ -425,4 +542,44 @@ position: relative;
         left: -21px;
         z-index: 100 !important;
     }
+    .tanfolyamok .process__item.odd .datenumber{
+
+left: -11px;
+
+z-index: 1000;
+
+}
+    .tanfolyamok .process__item.even .datenumber{
+
+z-index: 1000;
+
+}
+    .tanfolyamok .process__item.even .box-month{
+
+left: -66px;
+
+}
+    .tanfolyamok .process__item.odd .box-month{
+        z-index: 1000;
+        left: -66px;
+        top: -65px;
+    }
+
+    .tanfolyamok .process__item.even .overlay {
+        right: 100%;
+        left: 0;
+    }
+    .tanfolyamok .process__item.even:hover .overlay {
+        width: 100%;
+        right: 0;
+    }
+    .tanfolyamok .process__item.odd .overlay {
+        right: 100%;
+        left: 0;
+    }
+    .tanfolyamok .process__item.odd:hover .overlay {
+        width: 100%;
+        right: 0;
+    }
+
 }

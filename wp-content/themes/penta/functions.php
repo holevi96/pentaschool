@@ -29,8 +29,8 @@ unset($file, $filepath);
 
 function penta_scripts() {
   global $post;
-  wp_deregister_script('jquery');
-  wp_enqueue_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js', array(  ), null, true );
+  //wp_deregister_script('jquery');
+  //wp_enqueue_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js', array(  ), null, true );
   if( get_post_type( $post ) === "tanfolyamok" && is_singular()){
 
 
@@ -67,7 +67,7 @@ function inline_video_func( $atts ) {
   ob_start();
   ?>
 
-  <section>
+
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
@@ -84,7 +84,7 @@ function inline_video_func( $atts ) {
         </div>
       </div>
     </div>
-  </section>
+
 <?php
   $out1 = ob_get_clean();
   return $out1;
@@ -694,3 +694,5 @@ $instance['title'] = ( ! empty( $new_instance['title'] ) ) ? strip_tags( $new_in
 return $instance;
 }
 } // Class wpb_widget ends here
+
+

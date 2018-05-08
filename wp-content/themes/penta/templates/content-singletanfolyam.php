@@ -47,7 +47,7 @@
   ));
   ?>
           <?php if($kiirasok): ?>
-          <section class="space--sm">
+
               <div class="container">
                   <div class="row">
                       <div class="col-sm-10 col-md-8">
@@ -55,7 +55,7 @@
                       </div>
                   </div>
               </div>
-          </section>
+
         <div class="container">
           <div class="row">
             <div class="col-sm-12">
@@ -87,7 +87,7 @@
 
 
                       ?>
-                    <div class="tab__title "> <span class="h6 color--primary"><?php echo $kezdes_honap . ' ' . $kezdes_nap ; ?> </span></div>
+                    <div class="tab__title" data-id="<?php echo $kiiras->ID; ?>"> <span class="h6 color--primary"><?php echo $kezdes_honap . ' ' . $kezdes_nap ; ?> </span></div>
                     <div class="tab__content flexbox">
                       <div class="col-md-4  col boxed boxed--border bg--primary left-col">
                         <ul>
@@ -245,10 +245,23 @@
                                <?php } ?>
                             </ul>
                         <?php } ?>
-                        <h3>Igazolás</h3>
-                        <ul class="bullets">
-                            <li> <?php the_field('igazolas'); ?></li>
-                        </ul>
+                        <div class="row">
+                            <h3>Igazolás</h3>
+                            <ul class="bullets">
+                                <li><?php the_field('igazolas'); ?></li>
+                            </ul>
+
+                        </div>
+                        <?php if(get_field('quiz_gravtiy_form_id')): ?>
+                            <br>
+                       <div class="row">
+                           <h3>Felmérő teszt:</h3>
+                           <a href="<?php echo get_site_url(); ?>/quiz?quizid=<?php echo get_field('quiz_gravtiy_form_id') ?>">Kattints ide a teszthez!</a>
+                       </div>
+                        <?php endif; ?>
+
+
+
 
                     </div>
                     <div class="col-sm-4 col-md-3">

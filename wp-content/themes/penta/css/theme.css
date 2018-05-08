@@ -1418,7 +1418,7 @@ button.bg--error {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  display: inline-block;
+  /* display: inline-block; */
 }
 .input-checkbox input,
 .input-radio input,
@@ -3445,8 +3445,8 @@ section.text-right > .container:last-child > .row:only-child > div[class*='col-'
 /**! 37. Spacing **/
 section,
 footer {
-  padding-top: 7.42857143em;
-  padding-bottom: 7.42857143em;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 section.space--xxs,
 footer.space--xxs {
@@ -6859,7 +6859,7 @@ a[data-lightbox]:hover {
   }
   .process-1 .process__item.even {
     margin-left: 50%;
-    padding-left: 3.71428571em;
+    padding-left: 3.7em;
   }
   .process-1 .process__item.even:after {
     left: -20px;
@@ -7286,7 +7286,7 @@ label {
 }
 .input-checkbox label:before {
   content: '';
-  left: 0;
+  left: -7px;
   border-radius: 6px;
   position: absolute;
   width: 100%;
@@ -7307,7 +7307,7 @@ label {
   color: #fff;
   position: absolute;
   width: 100%;
-  left: 0;
+  left: 0px;
   top: -2px;
   font-weight: 700;
 }
@@ -7377,6 +7377,7 @@ label {
   position: relative;
   background: none;
   border: 1px solid #d3d3d3;
+  text-align: left;
 }
 .input-radio label:hover {
   border-color: #4a90e2;
