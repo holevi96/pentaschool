@@ -1,8 +1,8 @@
-﻿<?php while (have_posts()) : the_post(); ?>
+<?php while (have_posts()) : the_post(); ?>
 <article <?php post_class(); ?>>
-    <div class="main-container">
+<div class="main-container">
       <section class="cover imagebg switchable height-50" data-overlay="8">
-        <div class="background-image-holder"> <img alt="background" src="<?php echo get_stylesheet_directory_uri(); ?>/img/inner-4.jpg"> </div>
+        <div class="background-image-holder"> <img alt="background" src="<?php echo get_stylesheet_directory_uri(); ?>/img/inner-4.jpg"></div>
         <div class="container pos-vertical-center">
           <div class="row">
             <div class="col-md-5 col-sm-7">
@@ -21,7 +21,7 @@
           </div>
         </div>
       </section>
-        <section class="space--sm">
+        <section class="">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-12">
@@ -46,6 +46,7 @@
 
   ));
   ?>
+
           <?php if($kiirasok): ?>
 
               <div class="container">
@@ -245,19 +246,19 @@
                                <?php } ?>
                             </ul>
                         <?php } ?>
-                        <div class="row">
+
                             <h3>Igazolás</h3>
                             <ul class="bullets">
                                 <li><?php the_field('igazolas'); ?></li>
                             </ul>
 
-                        </div>
+
                         <?php if(get_field('quiz_gravtiy_form_id')): ?>
                             <br>
-                       <div class="row">
+
                            <h3>Felmérő teszt:</h3>
                            <a href="<?php echo get_site_url(); ?>/quiz?quizid=<?php echo get_field('quiz_gravtiy_form_id') ?>">Kattints ide a teszthez!</a>
-                       </div>
+
                         <?php endif; ?>
 
 
@@ -298,8 +299,9 @@
             </div>
         </section>
         <section id="tematika">
+
             <div class="container">
-                <div class="row">
+
                     <div class="process-2">
                         <?php
                         $tematika = get_field('tematika');
@@ -328,7 +330,7 @@
 
                     </div>
                 </div>
-            </div>
+
         </section>
 
         <section>
@@ -342,7 +344,7 @@
         </section>
         <section>
             <div class="container">
-                <div class="row">
+
                     <div class="col-sm-12">
                         <div class="slider slider--inline-arrows" data-arrows="true" data-timing="8000">
                             <ul class="slides">
@@ -369,7 +371,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+
             </div>
         </section>
 

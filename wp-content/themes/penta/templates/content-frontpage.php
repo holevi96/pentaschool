@@ -48,6 +48,17 @@
                         ));
 
                         if ($the_query->have_posts()) : ?>
+                        <div id="pentaesti-filter-box" effect-type="fade">
+
+                            <a class="btn btn--sm pentafilter" termName="nappali" href="#">
+                                <span class="btn__text">Nappali</span>
+                            </a>
+                            <a class="btn btn--sm pentafilter" termName="esti" href="#">
+                                <span class="btn__text">Esti</span>
+                            </a>
+
+                        </div>
+                        <hr>
                         <div id="pentafilter-box" effect-type="fade" class="clearfix">
                             <div class="row">
                                 <a class="btn btn--sm pentafilter" termName="tanf" href="#">
@@ -69,10 +80,7 @@
                             <?php } ?>
                         </div>
                         <br>
-                        <div id="pentaesti-filter-box" effect-type="fade">
-                            <div class="pentafilter" termName="nappali">Nappali</div>
-                            <div class="pentafilter" termName="esti">Esti</div>
-                        </div>
+
                     </div>
 
                         <div class="col-md-9 col-sm-12 ">
@@ -128,6 +136,7 @@
                                         $van_e_akcio = true;
                                         $szazalek = round((1-($akcios / $listaar))*100);
                                     }
+                                    $betelt = (get_field('maximum_letszam') == get_field('beiratkozva'));
                                     ?>
                                     <div class="datenumber">
                                         <?php echo substr($elso_alkalom,-2); ?>
@@ -135,7 +144,7 @@
                                     <ul>
                                         <li><i class="icon icon--sm  icon-Calendar-3"></i><span><?php echo $elso_alkalom . ' - '. $vege; ?></span></li>
                                         <li><i class="icon icon--sm <?php echo $ikon; ?>"></i> <span><?php echo $idobeosztas; ?></span></li>
-                                        <li><b><?php echo $szabad_helyek; ?></b><span>szabad hely</span></li>
+                                        <li><b><?php echo ($betelt)?'Beltelt! </b>': $szabad_helyek . ' </b><span>szabad hely</span>'; ?></li>
                                     </ul>
 
                                     <div class="row fooldal-ar">
@@ -166,10 +175,20 @@
                                            href="<?php echo get_permalink($ID); ?>?id=<?php echo get_the_ID(); ?>">
                                             <span class="btn__text" style="color:#fff;width:100%">Részletek</span>
                                         </a>
-                                        <a class="btn btn--lg more-options-button"
-                                           href="<?php echo get_permalink(); ?>?jelentkezes">
-                                            <span class="btn__text">Jelentkezés</span>
-                                        </a>
+                                        <?php if(!$betelt){ ?>
+                                            <a class="btn btn--lg more-options-button"
+                                               href="<?php echo get_permalink(); ?>?jelentkezes">
+                                                <span class="btn__text">Jelentkezés</span>
+                                            </a>
+                                        <?php }else{ ?>
+                                            <a class="btn btn--lg more-options-button"
+                                               href="<?php echo get_permalink(); ?>?varolista">
+                                                <span class="btn__text">Várólistára jelentkezés</span>
+
+                                            </a>
+                                            <div class="question-tooltip" data-tooltip="Nem értem, ez mi a szar?">?</div>
+                                        <?php } ?>
+
                                     </div>
 
                                 </div>

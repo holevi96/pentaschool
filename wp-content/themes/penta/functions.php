@@ -68,11 +68,11 @@ function inline_video_func( $atts ) {
   ?>
 
 
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
+    <!--<div class="container">
+      <div class="row">-->
+        <div class="col-md-6">
           <div class="video video-1 boxed boxed--lg imagebg text-center-xs" data-overlay="2">
-            <div class="background-image-holder"> <img alt="background" src="img/agency-2.jpg"> </div>
+            <div class="background-image-holder"> <img alt="background" src="<?php echo get_stylesheet_directory_uri(); ?>/img/agency-2.jpg"> </div>
             <div class="modal-instance">
               <div class="video-play-icon video-play-icon--sm modal-trigger"></div>
               <div class="modal-container">
@@ -82,8 +82,8 @@ function inline_video_func( $atts ) {
             <h2><?php echo $a['text']; ?></h2>
           </div>
         </div>
-      </div>
-    </div>
+      <!--</div>
+    </div>-->
 
 <?php
   $out1 = ob_get_clean();
@@ -256,11 +256,18 @@ function repo_quick_edit_javascript() {
 
 function populate_tanfolyam( $value ) {
   global $post;
-  $kf = get_field('kapcsolodo_tanfolyam',$post->ID);
+  $kf = get_field('kapcsolodo_tanf',$post->ID);
   return get_post($kf[0])->post_title;
 
 }
 add_filter( 'gform_field_value_tanfolyam', 'populate_tanfolyam' );
+function populate_napszak( $value ) {
+    global $post;
+
+    return get_field('napszak',$post->ID);
+
+}
+add_filter( 'gform_field_value_napszak', 'populate_napszak' );
 
 function populate_kezdes( $value ) {
   global $post;
@@ -292,7 +299,7 @@ function pre_submission_handler( $form ) {
   $_POST['input_34'] = $url;
 }
 
-
+require_once 'gravity-forms-view-entries.php';
 
 require_once 'vendor/autoload.php';
 //PhpConsole\Helper::register();
@@ -592,7 +599,7 @@ function generate_pdf( $entry, $form ) {
   $pdf_name = $x[count($x)-1];
   $filename = $dir . "\\pdf\\".$pdf_name;
   $filename = str_replace('\\',"/",$filename);
-  PC::debug($filename);
+//  PC::debug($filename);
   file_put_contents($filename, $output);
 
 }

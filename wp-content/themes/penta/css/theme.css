@@ -164,9 +164,7 @@ ol {
   list-style: none;
   line-height: 1.85714286em;
 }
-ul.bullets {
-  list-style: inside;
-}
+ul.bullets {list-style: inside;}
 ol {
   list-style-type: upper-roman;
   list-style-position: inside;

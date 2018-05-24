@@ -1,4 +1,34 @@
+<div class="nav-container nav-container--sidebar">
+    <div class="nav-sidebar-column-toggle visible-xs visible-sm" data-toggle-class=".nav-sidebar-column;active">
 
+        <div class="nav-sidebar-column">
+            <div class="row">
+                <div id="pentafilter-box" effect-type="fade" class="clearfix">
+                    <div class="col-xs-5">
+                        <a class="btn btn--sm pentafilter" termName="tanf" href="#">
+                            <span class="btn__text">Összes</span>
+                        </a>
+                    </div>
+                    <?php
+                    $categories = get_categories(array(
+                        'orderby' => 'name',
+                        'order' => 'ASC'
+                    ));
+
+                    foreach ($categories as $category) { ?>
+                        <div class="col-xs-5">
+                            <a class="btn btn--sm pentafilter" termName="<?php echo $category->slug; ?>" href="#">
+                                <span class="btn__text"><?php echo $category->name; ?></span>
+                            </a>
+                        </div>
+
+                    <?php } ?>
+                </div>
+            </div>
+        </div>
+        <i class="icon-Filter-2"></i>
+    </div>
+</div>
 <article <?php post_class(); ?>>
 
     <div class="main-container">
@@ -7,38 +37,46 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h1>Az össezs tanfolyam</h1>
+                        <h1>Az összes tanfolyam</h1>
                     </div>
                 </div>
             </div>
         </section>
         <section>
             <div class="container">
+                <div id="pentafilter-box" effect-type="fade" class="clearfix visible-md visible-lg">
+                    <div class="col-md-2">
+                        <a class="btn btn--sm pentafilter" termName="tanf" href="#">
+                            <span class="btn__text">Összes</span>
+                        </a>
+                    </div>
+                    <?php
+                    $categories = get_categories(array(
+                        'orderby' => 'name',
+                        'order' => 'ASC'
+                    ));
+
+                    foreach ($categories as $category) { ?>
+                        <div class="col-md-2">
+                            <a class="btn btn--sm pentafilter" termName="<?php echo $category->slug; ?>" href="#">
+                                <span class="btn__text"><?php echo $category->name; ?></span>
+                            </a>
+                        </div>
+
+                    <?php } ?>
+                </div>
                 <div class="row">
                     <?php
                     $the_query = new WP_Query(array(
                         'post_type' => 'tanfolyamok',
                         'posts_per_page' => -1,
                     ));
-
+                    ?>
+                    <?php
                     if ($the_query->have_posts()) : ?>
-                    <div id="pentafilter-box" effect-type="fade" class="clearfix">
 
-                        <a class="btn btn--sm pentafilter" termName="tanf" href="#">
-                            <span class="btn__text">Összes</span>
-                        </a>
-                        <?php
-                        $categories = get_categories(array(
-                            'orderby' => 'name',
-                            'order' => 'ASC'
-                        ));
 
-                        foreach ($categories as $category) { ?>
-                            <a class="btn btn--sm pentafilter" termName="<?php echo $category->slug; ?>" href="#">
-                                <span class="btn__text"><?php echo $category->name; ?></span>
-                            </a>
-                        <?php } ?>
-                    </div>
+
                     <div class="masonry clearfix">
                         <div class=" masonry--active tanfolyamok clearfix">
 

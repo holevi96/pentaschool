@@ -30,16 +30,18 @@ jQuery(document).ready(function(){
 	jQuery('.tanfolyamok .tanfolyam').pentafilter('pentafilter-box',{},function(){
 		jQuery('.process-1 div[visible="visible"]:even').addClass("even").removeClass("odd");
 		jQuery('.process-1 div[visible="visible"]:odd').addClass("odd").removeClass("even");
-		
+
 	});
 
     jQuery('.tanfolyamok .tanfolyam').pentafilter('pentaesti-filter-box',{},function(){
         jQuery('.process-1 div[visible="visible"]:even').addClass("even").removeClass("odd");
         jQuery('.process-1 div[visible="visible"]:odd').addClass("odd").removeClass("even");
 
-    });
+    })
     var width = jQuery('.tanfolyamok .process__item.tanfolyam').eq(0).width()
     jQuery('.tanfolyamok .process__item.tanfolyam p').css('width',width+20);
+
+
     var getUrlParameter = function getUrlParameter(sParam) {
         var sPageURL = decodeURIComponent(window.location.search.substring(1)),
             sURLVariables = sPageURL.split('&'),
@@ -69,7 +71,7 @@ jQuery(document).ready(function(){
 jQuery(window).scroll(function() {
     var scroll = jQuery(window).scrollTop();
 
-    if (scroll >= 350) {
+    if (scroll >= 450) {
         jQuery(".home #pentafilter-box").addClass("fixed");
     } else {
         jQuery(".home #pentafilter-box").removeClass("fixed");
