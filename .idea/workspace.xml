@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4a2ae92-b8b4-4a06-a00a-44e382cf427c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/penta/page-jelentkezesek.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/gravity-forms-image-in-html-master/gravity-forms-image-in-html.php" afterPath="$PROJECT_DIR$/wp-content/plugins/gravity-forms-image-in-html-master/gravity-forms-image-in-html.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/gravity-forms-image-in-html-master/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/gravity-forms-image-in-html-master/readme.txt" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/penta/css/custom.css" afterPath="$PROJECT_DIR$/wp-content/themes/penta/css/custom.css" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/penta/css/theme.css" afterPath="$PROJECT_DIR$/wp-content/themes/penta/css/theme.css" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/penta/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/penta/functions.php" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/penta/js/custom.js" afterPath="$PROJECT_DIR$/wp-content/themes/penta/js/custom.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/penta/lib/setup.php" afterPath="$PROJECT_DIR$/wp-content/themes/penta/lib/setup.php" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/penta/templates/content-archivetanf.php" afterPath="$PROJECT_DIR$/wp-content/themes/penta/templates/content-archivetanf.php" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/penta/templates/content-frontpage.php" afterPath="$PROJECT_DIR$/wp-content/themes/penta/templates/content-frontpage.php" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/penta/templates/content-singletanfolyam.php" afterPath="$PROJECT_DIR$/wp-content/themes/penta/templates/content-singletanfolyam.php" />
@@ -33,8 +35,8 @@
       <file leaf-file-name="content-frontpage.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/templates/content-frontpage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="188" column="72" lean-forward="false" selection-start-line="188" selection-start-column="72" selection-end-line="188" selection-end-column="72" />
+            <state relative-caret-position="712">
+              <caret line="109" column="82" lean-forward="false" selection-start-line="109" selection-start-column="82" selection-end-line="109" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -43,8 +45,8 @@
       <file leaf-file-name="content-archivetanf.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/templates/content-archivetanf.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="84" lean-forward="false" selection-start-line="48" selection-start-column="84" selection-end-line="48" selection-end-column="84" />
+            <state relative-caret-position="102">
+              <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -53,18 +55,8 @@
       <file leaf-file-name="content-singletanfolyam.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/templates/content-singletanfolyam.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="109" column="32" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page-quiz.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/page-quiz.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="50" lean-forward="false" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
+            <state relative-caret-position="318">
+              <caret line="283" column="6" lean-forward="false" selection-start-line="283" selection-start-column="6" selection-end-line="283" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -80,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="611" column="1" lean-forward="true" selection-start-line="611" selection-start-column="1" selection-end-line="611" selection-end-column="1" />
+            <state relative-caret-position="339">
+              <caret line="189" column="33" lean-forward="false" selection-start-line="189" selection-start-column="33" selection-end-line="189" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -93,8 +85,8 @@
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+            <state relative-caret-position="1020">
+              <caret line="75" column="75" lean-forward="false" selection-start-line="75" selection-start-column="75" selection-end-line="75" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -103,29 +95,19 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="301" column="46" lean-forward="false" selection-start-line="301" selection-start-column="46" selection-end-line="301" selection-end-column="46" />
-              <folding>
-                <element signature="e#12242#12248#1#HTML" expanded="true" />
-                <element signature="e#12606#12612#1#HTML" expanded="true" />
-                <element signature="e#12967#12973#1#HTML" expanded="true" />
-                <element signature="e#13346#13352#1#HTML" expanded="true" />
-                <element signature="e#13770#13776#1#HTML" expanded="true" />
-                <element signature="e#14152#14158#1#HTML" expanded="true" />
-                <element signature="e#14545#14551#1#HTML" expanded="true" />
-                <element signature="e#14958#14964#1#HTML" expanded="true" />
-                <element signature="e#15364#15370#1#HTML" expanded="true" />
-                <element signature="e#17667#17673#1#HTML" expanded="true" />
-                <element signature="e#18038#18044#1#HTML" expanded="true" />
-                <element signature="e#18406#18412#1#HTML" expanded="true" />
-                <element signature="e#18785#18791#1#HTML" expanded="true" />
-                <element signature="e#19178#19184#1#HTML" expanded="true" />
-                <element signature="e#19611#19617#1#HTML" expanded="true" />
-                <element signature="e#20004#20010#1#HTML" expanded="true" />
-                <element signature="e#20394#20400#1#HTML" expanded="true" />
-                <element signature="e#20795#20801#1#HTML" expanded="true" />
-                <element signature="e#21194#21200#1#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/lib/setup.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="573">
+              <caret line="75" column="24" lean-forward="true" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,14 +115,14 @@
       <file leaf-file-name="gravity-forms-view-entries.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/gravity-forms-view-entries.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-685">
+            <state relative-caret-position="442">
               <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="41" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-jelentkezesek.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page-jelentkezesek.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/page-jelentkezesek.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -180,6 +162,9 @@
       <find>tanfolyam</find>
       <find>napszak</find>
       <find>betlet</find>
+      <find>process</find>
+      <find>dyn</find>
+      <find>primary</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -228,14 +213,15 @@
         <option value="$PROJECT_DIR$/wp-content/themes/penta/templates/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/penta/page-quiz.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/penta/templates/content-quiz.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/penta/js/custom.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/penta/templates/content-archivetanf.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/penta/templates/content-singletanfolyam.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/penta/templates/content-frontpage.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/penta/css/custom.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/penta/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/penta/gravity-forms-view-entries.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/penta/page-jelentkezesek.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/penta/js/custom.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/penta/templates/content-frontpage.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/penta/templates/content-archivetanf.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/penta/lib/setup.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/penta/templates/content-singletanfolyam.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/penta/css/custom.css" />
       </list>
     </option>
   </component>
@@ -270,6 +256,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,12 +282,19 @@
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="penta" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="pentaschool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pentaschool" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="penta" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lib" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,16 +382,16 @@
       <workItem from="1525766156244" duration="5213000" />
       <workItem from="1525938357612" duration="608000" />
       <workItem from="1526023519101" duration="8789000" />
-      <workItem from="1527150622257" duration="3033000" />
+      <workItem from="1527150622257" duration="3630000" />
+      <workItem from="1527497958039" duration="4777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41758000" />
+    <option name="totallyTimeSpent" value="47132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -475,13 +469,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/js/pentafilter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/page-aktualis.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -490,13 +477,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/templates/entry-meta.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/template-custom.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -711,7 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -747,7 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,7 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -775,77 +752,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/templates/content-archivetanf.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="84" lean-forward="false" selection-start-line="48" selection-start-column="84" selection-end-line="48" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/templates/content-singletanfolyam.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="109" column="32" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/templates/content-frontpage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="188" column="72" lean-forward="false" selection-start-line="188" selection-start-column="72" selection-end-line="188" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="611" column="1" lean-forward="true" selection-start-line="611" selection-start-column="1" selection-end-line="611" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="301" column="46" lean-forward="false" selection-start-line="301" selection-start-column="46" selection-end-line="301" selection-end-column="46" />
-          <folding>
-            <element signature="e#12242#12248#1#HTML" expanded="true" />
-            <element signature="e#12606#12612#1#HTML" expanded="true" />
-            <element signature="e#12967#12973#1#HTML" expanded="true" />
-            <element signature="e#13346#13352#1#HTML" expanded="true" />
-            <element signature="e#13770#13776#1#HTML" expanded="true" />
-            <element signature="e#14152#14158#1#HTML" expanded="true" />
-            <element signature="e#14545#14551#1#HTML" expanded="true" />
-            <element signature="e#14958#14964#1#HTML" expanded="true" />
-            <element signature="e#15364#15370#1#HTML" expanded="true" />
-            <element signature="e#17667#17673#1#HTML" expanded="true" />
-            <element signature="e#18038#18044#1#HTML" expanded="true" />
-            <element signature="e#18406#18412#1#HTML" expanded="true" />
-            <element signature="e#18785#18791#1#HTML" expanded="true" />
-            <element signature="e#19178#19184#1#HTML" expanded="true" />
-            <element signature="e#19611#19617#1#HTML" expanded="true" />
-            <element signature="e#20004#20010#1#HTML" expanded="true" />
-            <element signature="e#20394#20400#1#HTML" expanded="true" />
-            <element signature="e#20795#20801#1#HTML" expanded="true" />
-            <element signature="e#21194#21200#1#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/gravity-forms-view-entries.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-685">
+        <state relative-caret-position="442">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="41" selection-end-column="5" />
           <folding />
         </state>
@@ -855,6 +764,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="75" column="75" lean-forward="false" selection-start-line="75" selection-start-column="75" selection-end-line="75" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/templates/content-frontpage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="109" column="82" lean-forward="false" selection-start-line="109" selection-start-column="82" selection-end-line="109" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/templates/content-archivetanf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/template-custom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/lib/setup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="75" column="24" lean-forward="true" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/templates/content-singletanfolyam.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="283" column="6" lean-forward="false" selection-start-line="283" selection-start-column="6" selection-end-line="283" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/penta/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="189" column="33" lean-forward="false" selection-start-line="189" selection-start-column="33" selection-end-line="189" selection-end-column="33" />
           <folding />
         </state>
       </provider>

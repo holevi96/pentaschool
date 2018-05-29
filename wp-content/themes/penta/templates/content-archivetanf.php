@@ -4,7 +4,7 @@
         <div class="nav-sidebar-column">
             <div class="row">
                 <div id="pentafilter-box" effect-type="fade" class="clearfix">
-                    <div class="col-xs-5">
+                    <div class="col-xs-6">
                         <a class="btn btn--sm pentafilter" termName="tanf" href="#">
                             <span class="btn__text">Összes</span>
                         </a>
@@ -16,7 +16,7 @@
                     ));
 
                     foreach ($categories as $category) { ?>
-                        <div class="col-xs-5">
+                        <div class="col-xs-6">
                             <a class="btn btn--sm pentafilter" termName="<?php echo $category->slug; ?>" href="#">
                                 <span class="btn__text"><?php echo $category->name; ?></span>
                             </a>

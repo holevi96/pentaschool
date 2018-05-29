@@ -17,16 +17,54 @@
 
 
 
-        <section class="text-center imagebg" data-gradient-bg="#4876BD,#5448BD,#8F48BD,#BD48B1">
+        <section class="text-center imagebg" >
+		<div class="background-image-holder"> <img alt="background" src="<?php echo get_stylesheet_directory_uri(); ?>/img/dropdown-1.jpg"> </div>
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12  col-md-12 ">
                         <div class="boxed boxed--lg bg--dark subscribe-form-1">
                             <div class="col-sm-10 col-sm-offset-1 text-left">
+							
                                 <?php if(isset($_GET['jelentkezes'])):
                                     $form = GFFormsModel::get_form_meta(1);
                                     ?>
                                     <?php if(!isset($_GET['online'])): ?>
+									<h4>Jelentkezés erre a tanfolyamra:</h4>
+									<h3><?php echo get_post(get_field('kapcsolodo_tanf')[0])->post_title; ?></h3>
+									 
+                            <div class="idobeosztas">
+                                <?php
+                                    $megadas = get_field('alkalmak_megadasa',$kiiras->ID);
+
+                                    if($megadas == 'napok'){?>
+                                        <h5>A tanfolyam napjai:</h5>
+                                        <ul class="bullets">
+                                            <li><?php echo get_field('kezdes',$kiiras->ID);?></li>
+                                            <?php $tovabbi_napok = get_field('tovabbi_napok',$kiiras->ID);
+                                            if($tovabbi_napok){
+                                                foreach ($tovabbi_napok as $nap) {?>
+                                                  <li><?php echo $nap['tovabbi_nap'];?></li>
+                                                <?php }
+
+                                            }?>
+                                            <li><?php echo get_field('vege',$kiiras->ID);?></li>
+                                        </ul>
+                                    <?php }else if($megadas == 'kezdet-veg'){ ?>
+                                        <span>Kezdete:</span>
+                                        <big><?php echo get_field('kezdes',$kiiras->ID);?></big>
+                                        <hr>
+                                        <span>Vége:</span>
+                                        <big><?php echo get_field('vege',$kiiras->ID);?></big>
+                                        <hr>
+                                        <span>Napi beosztás:</span>
+                                        <big><?php echo get_field('napi_beosztas',$kiiras->ID);?></big>
+                                        <hr>
+                                    <?php }?>
+
+                                <span>Időbeosztás:</span>
+                                 <span><?php echo get_field('idobeosztas', $kiiras->ID); ?></span>
+                                <hr>
+                            </div>
                                     <p><?php echo $form['description']; ?></p>
                                     <a class="btn btn--lg btn--primary"
                                        href="#">

@@ -63,6 +63,7 @@ function giih_gform_editor_js(){
 		  InsertVariable( target.attr('id'), null, htmltag  );
 
 		  // trigger the change event to fire any functions tied to this input's onchange
+		  console.log(target)
 		  target.change();	
 		});
 

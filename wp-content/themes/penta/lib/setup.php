@@ -62,6 +62,14 @@ function widgets_init() {
     'before_title'  => '<h3>',
     'after_title'   => '</h3>'
   ]);
+    register_sidebar([
+        'name'          => __('Tanfolyam', 'sage'),
+        'id'            => 'sidebar-tanfolyam',
+        'before_widget' => '<section class="sidebar-tanfolyam">',
+        'after_widget'  => '</section>',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>'
+    ]);
 
   register_sidebar([
     'name'          => __('Footer', 'sage'),

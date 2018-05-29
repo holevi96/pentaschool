@@ -65,6 +65,19 @@ jQuery(document).ready(function(){
 
         jQuery('.tanfolyam-kiirasok-box .tab__title[data-id="' + tabid +'"]').click();
     }
+    function hide_box_month(){
+        var month = "";
+        jQuery('.home .tanfolyamok .tanfolyam[visible="visible"]').each(function(index,item){
+            var act_month = jQuery(item).find('.box-month').html();
+            if(act_month != month){
+                month = act_month;
+                jQuery(item).find('.box-month').css('visibility',"visible");
+            }else{
+                jQuery(item).find('.box-month').css('visibility',"hidden");
+            }
+        });
+    }
+    hide_box_month();
 
 });
 

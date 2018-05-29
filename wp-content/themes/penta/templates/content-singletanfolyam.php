@@ -1,5 +1,4 @@
-<?php while (have_posts()) : the_post(); ?>
-<article <?php post_class(); ?>>
+<?php while (have_posts()) : the_post(); ?><article <?php post_class(); ?>>
 <div class="main-container">
       <section class="cover imagebg switchable height-50" data-overlay="8">
         <div class="background-image-holder"> <img alt="background" src="<?php echo get_stylesheet_directory_uri(); ?>/img/inner-4.jpg"></div>
@@ -281,9 +280,8 @@
                                 </ul>
                             </p>
                         </div>
-                       <?php echo dynamic_sidebar('primary'); ?>
-					  
-					   <?php echo file_get_contents_utf8('http://pentaschool.hu/Include/excelbazis_feed_html.txt'); ?>
+						<?php  dynamic_sidebar('sidebar-tanfolyam'); ?>
+						<?php echo file_get_contents_utf8('http://pentaschool.hu/Include/excelbazis_feed_html.txt'); ?>
                     </div>
                 </div>
             </div>

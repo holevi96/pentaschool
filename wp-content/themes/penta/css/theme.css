@@ -843,7 +843,7 @@ div[data-overlay] ul {
   border: 1px solid #252525;
   border-width: 1px;
   font-size: inherit;
-  line-height: 1.85714286em;
+  line-height: 2em;
 }
 .btn .btn__text,
 .btn i {
@@ -4055,6 +4055,7 @@ h2,
 h3,
 .h3 {
   margin-bottom: 1.04em;
+  margin-top: 12px;
 }
 h3 strong,
 .h3 strong {

@@ -300,6 +300,7 @@ function pre_submission_handler( $form ) {
 }
 
 require_once 'gravity-forms-view-entries.php';
+//require_once 'gravity-forms-image-in-html.php';
 
 require_once 'vendor/autoload.php';
 //PhpConsole\Helper::register();
