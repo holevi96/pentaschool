@@ -1,7 +1,7 @@
 <?php while (have_posts()) : the_post(); ?><article <?php post_class(); ?>>
 <div class="main-container">
       <section class="cover imagebg switchable height-50" data-overlay="8">
-        <div class="background-image-holder"> <img alt="background" src="<?php echo get_stylesheet_directory_uri(); ?>/img/inner-4.jpg"></div>
+        <div class="background-image-holder"> <img alt="background" src="<?php echo wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' )[0]; ?>"></div>
         <div class="container pos-vertical-center">
           <div class="row">
             <div class="col-md-5 col-sm-7">
@@ -14,7 +14,7 @@
             </div>
             <div class="col-md-6 col-sm-4 col-xs-12">
               <div class="video-cover border--round box-shadow-wide">
-                <div class="background-image-holder"> <img alt="image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/inner-4.jpg"> </div>
+                <div class="background-image-holder"> <img alt="image" src="<?php echo get_stylesheet_directory_uri(); ?>/img/video-bck.png"> </div>
                 <div class="video-play-icon"></div> <iframe data-src="<?php echo get_field('demovideo'); ?>" allowfullscreen="allowfullscreen"></iframe> </div>
             </div>
           </div>
@@ -76,6 +76,14 @@
                      $honapok[10] = 'Október';
                      $honapok[11] = 'November';
                      $honapok[12] = 'December';
+					 $napok = array();
+					 $napok[0] = 'Hétfő';
+					 $napok[1] = 'Kedd';
+					 $napok[2] = 'Szerda';
+					 $napok[3] = 'Csütörtök';
+					 $napok[4] = 'Péntek';
+					 $napok[5] = 'Szombat';
+					 $napok[6] = 'Vasárnap';
                   foreach ($kiirasok as $kiiras) { ?>
                   <li class="<?php echo ($cnt==0)?"active":"";?> bg--primary">
                       <?php
@@ -114,7 +122,7 @@
                             <hr>
                           <li><i class="icon icon--sm icon-Teacher"></i> <span>Oktató:</span><big><?php echo get_post(get_field('tanar',$kiiras->ID)[0])->post_title; ?></big></li>
                          <hr>
-                          <li><i class="icon icon--sm icon-Map2"></i> <span>Helyszín:</span><big><?php echo get_post(get_field('helyszin',$kiiras->ID)[0])->post_title; ?></big></li>
+                          <li><i class="icon icon--sm icon-Map2"></i> <span>Helyszín:</span><a href="<?php echo get_permalink(get_field('helyszin',$kiiras->ID)[0]); ?>"><big><?php echo get_post(get_field('helyszin',$kiiras->ID)[0])->post_title; ?></big></a></li>
 
 
 
@@ -139,7 +147,7 @@
                                         <h4><?php echo number_format($akcios, 0, ',', ' '); ?>Ft</h4>
                                         <?php if($van_e_akcio): ?>
                                         <strike><?php echo number_format($listaar, 0, ',', ' '); ?> Ft.</strike>
-                                            <span><?php echo $szazalek; ?> % kedvezmény!</span>
+                                        <span><?php echo $szazalek; ?> % kedvezmény!</span>
                                         <?php endif; ?>
                                     </div>
 
@@ -180,7 +188,7 @@
                         </div>
                       <div class="col-md-4 col boxed boxed--border bg--primary right-col">
                         <div class="third-box box-shadow">
-                            <h3>Beosztás</h3>
+                            <h3>Beosztás:</h3>
                             <div class="idobeosztas">
                                 <?php
                                     $megadas = get_field('alkalmak_megadasa',$kiiras->ID);
@@ -188,15 +196,15 @@
                                     if($megadas == 'napok'){?>
                                         <h5>A tanfolyam napjai:</h5>
                                         <ul class="bullets">
-                                            <li><?php echo get_field('kezdes',$kiiras->ID);?></li>
+                                            <li><?php echo get_field('kezdes',$kiiras->ID) . ' - ' .  $napok[DateTime::createFromFormat('Y.m.d',get_field('kezdes',$kiiras->ID) )->format('w')];?></li>
                                             <?php $tovabbi_napok = get_field('tovabbi_napok',$kiiras->ID);
                                             if($tovabbi_napok){
                                                 foreach ($tovabbi_napok as $nap) {?>
-                                                  <li><?php echo $nap['tovabbi_nap'];?></li>
+                                                  <li><?php echo $nap['tovabbi_nap'] . ' - ' .  $napok[DateTime::createFromFormat('Y.m.d',$nap['tovabbi_nap'] )->format('w')];?></li>
                                                 <?php }
 
                                             }?>
-                                            <li><?php echo get_field('vege',$kiiras->ID);?></li>
+                                            <li><?php echo get_field('vege',$kiiras->ID) . ' - ' .  $napok[DateTime::createFromFormat('Y.m.d',get_field('vege',$kiiras->ID) )->format('w')];?></li>
                                         </ul>
                                     <?php }else if($megadas == 'kezdet-veg'){ ?>
                                         <span>Kezdete:</span>

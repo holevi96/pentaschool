@@ -276,6 +276,17 @@ function populate_kezdes( $value ) {
 }
 add_filter( 'gform_field_value_kezdes', 'populate_kezdes' );
 
+
+
+function populate_helyszin( $value ) {
+    global $post;
+    $h = get_field('helyszin',$post->ID);
+    return $h[0]->post_title;
+
+}
+add_filter( 'gform_field_value_helyszin', 'populate_helyszin' );
+
+
 function populate_ar( $value ) {
   global $post;
   $kf = get_field('kapcsolodo_tanfolyam',$post->ID);
@@ -300,8 +311,9 @@ function pre_submission_handler( $form ) {
 }
 
 require_once 'gravity-forms-view-entries.php';
+require_once 'gw-require-list-columns.php';
 //require_once 'gravity-forms-image-in-html.php';
-
+new GWRequireListColumns(1);
 require_once 'vendor/autoload.php';
 //PhpConsole\Helper::register();
 //require_once 'vendor/dompdf/dompdf/autoload.inc.php';
@@ -316,9 +328,9 @@ function populate_html( $form ) {
     var kapcsolattartoTelefon = "<?php echo ($resztvevo_e)?$_POST['input_7']:""; ?>";
     jQuery(document).bind('gform_post_render', function(){
 
-      jQuery("#field_1_11").find('input').eq(1).val(kapcsolattartoNev);
-      jQuery("#field_1_11").find('input').eq(2).val(kapcsolattartoEmail);
-      jQuery("#field_1_11").find('input').eq(3).val(kapcsolattartoTelefon);
+      jQuery("#field_1_11").find('input').eq(1).val(jQuery("#field_1_11").find('input').eq(1).val()+kapcsolattartoNev);
+      jQuery("#field_1_11").find('input').eq(2).val(jQuery("#field_1_11").find('input').eq(1).val()+kapcsolattartoEmail);
+      jQuery("#field_1_11").find('input').eq(3).val(jQuery("#field_1_11").find('input').eq(1).val()+kapcsolattartoTelefon);
 
     });
 

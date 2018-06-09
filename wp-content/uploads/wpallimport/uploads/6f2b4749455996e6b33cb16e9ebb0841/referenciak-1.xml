@@ -1,0 +1,3203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<column_1><![CDATA[Magnetec - Ungarn]]></column_1>
+		<column_2><![CDATA[Linux rendszergazdai ismeretek]]></column_2>
+		<column_3><![CDATA[2002]]></column_3>
+		<column_4><![CDATA[2]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Danubiana Kft.]]></column_1>
+		<column_2><![CDATA[Gépkezelési és Internet alapismeretek]]></column_2>
+		<column_3><![CDATA[2002]]></column_3>
+		<column_4><![CDATA[3]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Török Biztonsági Szolgálat]]></column_1>
+		<column_2><![CDATA[Windows, Open Office]]></column_2>
+		<column_3><![CDATA[2002]]></column_3>
+		<column_4><![CDATA[4]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Euromacc Rt.]]></column_1>
+		<column_2><![CDATA[Linux alap és haladó adminisztrátori ismeretek]]></column_2>
+		<column_3><![CDATA[2002]]></column_3>
+		<column_4><![CDATA[5]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Egyesült Reklám Rt.]]></column_1>
+		<column_2><![CDATA[Windows, Excel, Power Point]]></column_2>
+		<column_3><![CDATA[2002]]></column_3>
+		<column_4><![CDATA[6]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Fornax Rt.]]></column_1>
+		<column_2><![CDATA[Dokumentum kezelés, MS-Word haladó]]></column_2>
+		<column_3><![CDATA[2002]]></column_3>
+		<column_4><![CDATA[7]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Magyar Posta Rt.]]></column_1>
+		<column_2><![CDATA[Windows - Office 2000]]></column_2>
+		<column_3><![CDATA[2002]]></column_3>
+		<column_4><![CDATA[8]]></column_4>
+		<column_5><![CDATA[42]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[ÁNTSZ]]></column_1>
+		<column_2><![CDATA[Linux alap és hálózati ismeretek]]></column_2>
+		<column_3><![CDATA[2001]]></column_3>
+		<column_4><![CDATA[9]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[VNU lapkiadó]]></column_1>
+		<column_2><![CDATA[Webszerkesztés, Flash 5 alapismeretek]]></column_2>
+		<column_3><![CDATA[2001]]></column_3>
+		<column_4><![CDATA[10]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[APEH]]></column_1>
+		<column_2><![CDATA[Windows 2000 Server]]></column_2>
+		<column_3><![CDATA[2001]]></column_3>
+		<column_4><![CDATA[12]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Windows szerver]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ericsson Magyarország Kft.]]></column_1>
+		<column_2><![CDATA[Power Point tréning, MS-Access tréning Flash 5 tréning]]></column_2>
+		<column_3><![CDATA[2001]]></column_3>
+		<column_4><![CDATA[13]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Kincstári Vagyoni Igazgatóság]]></column_1>
+		<column_2><![CDATA[Webszerkesztés és Programozás]]></column_2>
+		<column_3><![CDATA[2001]]></column_3>
+		<column_4><![CDATA[14]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[GTS-DATANET Távközlési Kft.]]></column_1>
+		<column_2><![CDATA[Flash 5 programozás]]></column_2>
+		<column_3><![CDATA[2001]]></column_3>
+		<column_4><![CDATA[15]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Webigen Rt.]]></column_1>
+		<column_2><![CDATA[MS Outlook csoportmunka, Flash 5 programozás]]></column_2>
+		<column_3><![CDATA[2001]]></column_3>
+		<column_4><![CDATA[16]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[DANONE]]></column_1>
+		<column_2><![CDATA[Word-Excel egyéni tréning középvezetőknek]]></column_2>
+		<column_3><![CDATA[2001]]></column_3>
+		<column_4><![CDATA[17]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Magyar Posta Rt.]]></column_1>
+		<column_2><![CDATA[Windows NT-Word-Excel-Power Point-Outlook]]></column_2>
+		<column_3><![CDATA[2001]]></column_3>
+		<column_4><![CDATA[18]]></column_4>
+		<column_5><![CDATA[26]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Taurus Rt.]]></column_1>
+		<column_2><![CDATA[MS ACCESS 97 tréning programozóknak]]></column_2>
+		<column_3><![CDATA[2000]]></column_3>
+		<column_4><![CDATA[19]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[FLAG Informatikai Rt.]]></column_1>
+		<column_2><![CDATA[Csoportmunka MS Outlook 97-el]]></column_2>
+		<column_3><![CDATA[2000]]></column_3>
+		<column_4><![CDATA[20]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[AKZO NOBEL Rt.]]></column_1>
+		<column_2><![CDATA[Excel 97 - Internet tréning]]></column_2>
+		<column_3><![CDATA[2000]]></column_3>
+		<column_4><![CDATA[21]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[STORA Papírker Rt.]]></column_1>
+		<column_2><![CDATA[Windows NT 4.0, Office 97, Outlook 97]]></column_2>
+		<column_3><![CDATA[2000]]></column_3>
+		<column_4><![CDATA[22]]></column_4>
+		<column_5><![CDATA[30]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Achico Rt.]]></column_1>
+		<column_2><![CDATA[POWER POINT tréning középvezetőknek]]></column_2>
+		<column_3><![CDATA[1999]]></column_3>
+		<column_4><![CDATA[23]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Csemege Julius Meinl]]></column_1>
+		<column_2><![CDATA[Raktárkezelés számítógéppel]]></column_2>
+		<column_3><![CDATA[1999]]></column_3>
+		<column_4><![CDATA[24]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Rhone Poulenc Kft.]]></column_1>
+		<column_2><![CDATA[WIN95-EXCEL üzletkötőknek, Access 97 alapok]]></column_2>
+		<column_3><![CDATA[1999]]></column_3>
+		<column_4><![CDATA[25]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[MALÉV Rt.]]></column_1>
+		<column_2><![CDATA[VISUAL BASIC, C++, MS SQL SERVER fejlesztőknek]]></column_2>
+		<column_3><![CDATA[1999]]></column_3>
+		<column_4><![CDATA[26]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Programozás]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[BAYER Hungária Rt.]]></column_1>
+		<column_2><![CDATA[Winword, Excel, Power Point]]></column_2>
+		<column_3><![CDATA[1999]]></column_3>
+		<column_4><![CDATA[27]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Művelődési és Közoktatási Minisztérium]]></column_1>
+		<column_2><![CDATA[Winword 6.0, Excel 5.0, Internet ismeretek]]></column_2>
+		<column_3><![CDATA[1999]]></column_3>
+		<column_4><![CDATA[28]]></column_4>
+		<column_5><![CDATA[18]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Pioneer Magyarország]]></column_1>
+		<column_2><![CDATA[Táblázatkezelés pénzügyes kollégák részére]]></column_2>
+		<column_3><![CDATA[2002]]></column_3>
+		<column_4><![CDATA[30]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Magyar Honvédség]]></column_1>
+		<column_2><![CDATA[Windows 2000-Exchange 2000 Szerver kezdő és haladó szinten]]></column_2>
+		<column_3><![CDATA[2002]]></column_3>
+		<column_4><![CDATA[31]]></column_4>
+		<column_5><![CDATA[60]]></column_5>
+		<column_6><![CDATA[Windows Szerver]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[PannonGSM]]></column_1>
+		<column_2><![CDATA[Linux RedHat 7.3 Rendszergazdai ismeretek haladó szinten]]></column_2>
+		<column_3><![CDATA[2003]]></column_3>
+		<column_4><![CDATA[32]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ferrero Magyarország]]></column_1>
+		<column_2><![CDATA[Excel kezdő és haladó szinten]]></column_2>
+		<column_3><![CDATA[2003]]></column_3>
+		<column_4><![CDATA[33]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Questor Rt.]]></column_1>
+		<column_2><![CDATA[Adatfeldolgozás Excel segítségével haladóknak]]></column_2>
+		<column_3><![CDATA[2003]]></column_3>
+		<column_4><![CDATA[34]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Is:Energy]]></column_1>
+		<column_2><![CDATA[PHP-SQL alapú alkalmazásfejlesztés haladó szinten]]></column_2>
+		<column_3><![CDATA[2002]]></column_3>
+		<column_4><![CDATA[35]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Fornax Rt.]]></column_1>
+		<column_2><![CDATA[Excel haladó szinten]]></column_2>
+		<column_3><![CDATA[2003]]></column_3>
+		<column_4><![CDATA[36]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Budapest Airport Rt.]]></column_1>
+		<column_2><![CDATA[Windows XP/Office XP alapismeretek]]></column_2>
+		<column_3><![CDATA[2003]]></column_3>
+		<column_4><![CDATA[37]]></column_4>
+		<column_5><![CDATA[25]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Bristol-Myers Squibb]]></column_1>
+		<column_2><![CDATA[Word-Excel-PowerPoint egyéni tréning]]></column_2>
+		<column_3><![CDATA[2003]]></column_3>
+		<column_4><![CDATA[38]]></column_4>
+		<column_5><![CDATA[1]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ferrinfo Rt.]]></column_1>
+		<column_2><![CDATA[Linux rendszergazdai alapok]]></column_2>
+		<column_3><![CDATA[2003]]></column_3>
+		<column_4><![CDATA[39]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Media Markt]]></column_1>
+		<column_2><![CDATA[Linux rendszergazda]]></column_2>
+		<column_3><![CDATA[2003]]></column_3>
+		<column_4><![CDATA[40]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Szerencsejáték Rt.]]></column_1>
+		<column_2><![CDATA[Windows 2000 Server]]></column_2>
+		<column_3><![CDATA[2003]]></column_3>
+		<column_4><![CDATA[41]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Windows Szerver]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Olajterv Rt.]]></column_1>
+		<column_2><![CDATA[Java-XML]]></column_2>
+		<column_3><![CDATA[2003]]></column_3>
+		<column_4><![CDATA[42]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Programozás]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[AdPland]]></column_1>
+		<column_2><![CDATA[Access alapok]]></column_2>
+		<column_3><![CDATA[2004]]></column_3>
+		<column_4><![CDATA[43]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[EmersonnetworkPower]]></column_1>
+		<column_2><![CDATA[Php-SQL programozás]]></column_2>
+		<column_3><![CDATA[2004]]></column_3>
+		<column_4><![CDATA[44]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Nemzetbiztonsági szakszolgálat]]></column_1>
+		<column_2><![CDATA[Windows 2000 Szerver]]></column_2>
+		<column_3><![CDATA[2004]]></column_3>
+		<column_4><![CDATA[45]]></column_4>
+		<column_5><![CDATA[30]]></column_5>
+		<column_6><![CDATA[Windows Szerver]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ferrinfo Rt.]]></column_1>
+		<column_2><![CDATA[Linux rendszergazda nagygépes környezetben]]></column_2>
+		<column_3><![CDATA[2004]]></column_3>
+		<column_4><![CDATA[46]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Országos Egészségbiztosítási Pénztár]]></column_1>
+		<column_2><![CDATA[PHP-SQL programozás]]></column_2>
+		<column_3><![CDATA[2004]]></column_3>
+		<column_4><![CDATA[47]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Magyar Nemzeti bank]]></column_1>
+		<column_2><![CDATA[Adatbázis-kezelés- SQL]]></column_2>
+		<column_3><![CDATA[2004]]></column_3>
+		<column_4><![CDATA[48]]></column_4>
+		<column_5><![CDATA[15]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Eulerhermes Rt.]]></column_1>
+		<column_2><![CDATA[Office 97 középhaladó tréning]]></column_2>
+		<column_3><![CDATA[2004]]></column_3>
+		<column_4><![CDATA[49]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Graphisoft Rt.]]></column_1>
+		<column_2><![CDATA[PowerPoint 2003 angol nyelven]]></column_2>
+		<column_3><![CDATA[2004]]></column_3>
+		<column_4><![CDATA[50]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Budapest Airport Rt.]]></column_1>
+		<column_2><![CDATA[Office XP (Word-Excel)]]></column_2>
+		<column_3><![CDATA[2004]]></column_3>
+		<column_4><![CDATA[51]]></column_4>
+		<column_5><![CDATA[25]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Szerencsejáték Rt.]]></column_1>
+		<column_2><![CDATA[Windows XP-Windows 2003 Szerver]]></column_2>
+		<column_3><![CDATA[2004]]></column_3>
+		<column_4><![CDATA[52]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Windows Szerver]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[T-Mobile Magyarország Rt.]]></column_1>
+		<column_2><![CDATA[Linux OpenLDAP]]></column_2>
+		<column_3><![CDATA[2004]]></column_3>
+		<column_4><![CDATA[53]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[GE Medical Systems Rt.]]></column_1>
+		<column_2><![CDATA[Linux OpenLDAP]]></column_2>
+		<column_3><![CDATA[2004]]></column_3>
+		<column_4><![CDATA[54]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ericsson Magyarország]]></column_1>
+		<column_2><![CDATA[Excel 2000 haladó tréning]]></column_2>
+		<column_3><![CDATA[2004]]></column_3>
+		<column_4><![CDATA[55]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Audi Hungária Motor Kft.]]></column_1>
+		<column_2><![CDATA[Flash - ASP integráció]]></column_2>
+		<column_3><![CDATA[2004]]></column_3>
+		<column_4><![CDATA[56]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Dr. Oetker Magyarorszag]]></column_1>
+		<column_2><![CDATA[Office 2000 kezdő és haladó]]></column_2>
+		<column_3><![CDATA[2004]]></column_3>
+		<column_4><![CDATA[57]]></column_4>
+		<column_5><![CDATA[15]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[CitiBank Rt.]]></column_1>
+		<column_2><![CDATA[Excel haladó tanfolyam]]></column_2>
+		<column_3><![CDATA[2004]]></column_3>
+		<column_4><![CDATA[58]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Budapest Ingatlan Rt.]]></column_1>
+		<column_2><![CDATA[Word-Excel-PowerPoint kezdő és haladó szinteken]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[59]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Eurocontrol CRDS]]></column_1>
+		<column_2><![CDATA[Linux alapismeretek angol nyelven]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[60]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Expressz Magyarország Rt.]]></column_1>
+		<column_2><![CDATA[Office 2000 és 2003 kezdő és haladó szinteken]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[61]]></column_4>
+		<column_5><![CDATA[240]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[GTS Datanet]]></column_1>
+		<column_2><![CDATA[Excel haladó téning ANGOL nyelven]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[62]]></column_4>
+		<column_5><![CDATA[1]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ferrinfo Rt.]]></column_1>
+		<column_2><![CDATA[Web-programozás- PHP-SQL]]></column_2>
+		<column_3><![CDATA[2004]]></column_3>
+		<column_4><![CDATA[63]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[OTP Bank Rt.]]></column_1>
+		<column_2><![CDATA[Excel VBA programozás]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[64]]></column_4>
+		<column_5><![CDATA[7]]></column_5>
+		<column_6><![CDATA[Programozás]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[UNIQA biztosító]]></column_1>
+		<column_2><![CDATA[PowerPoint haladó tréning]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[65]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[MC Direct]]></column_1>
+		<column_2><![CDATA[DTP ismeretek, Indesign]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[66]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Grafika]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[FMC Consulting]]></column_1>
+		<column_2><![CDATA[Word, Excel, Access haladó ismeretek]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[67]]></column_4>
+		<column_5><![CDATA[15]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[IDG Hungary]]></column_1>
+		<column_2><![CDATA[Flash és Web-programozás]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[68]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[PRA International]]></column_1>
+		<column_2><![CDATA[Word Excel-PowerPoint 2003 haladó ismeretek]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[69]]></column_4>
+		<column_5><![CDATA[7]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Erste Leasing]]></column_1>
+		<column_2><![CDATA[Java programozási ismeretek]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[70]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Programozás]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[T-Online]]></column_1>
+		<column_2><![CDATA[Linux OpenLDAP kezdő és haladó szinteken]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[71]]></column_4>
+		<column_5><![CDATA[7]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[GMAC Hungary Rt.]]></column_1>
+		<column_2><![CDATA[Access 2003 alapok]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[72]]></column_4>
+		<column_5><![CDATA[1]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Diamond Kft.]]></column_1>
+		<column_2><![CDATA[Excel középhaladó]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[73]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ericsson Magyarország]]></column_1>
+		<column_2><![CDATA[Webszerkesztés-Dreamweaver]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[74]]></column_4>
+		<column_5><![CDATA[7]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Országos Igazságszolgáltatási Tanács Hivatala]]></column_1>
+		<column_2><![CDATA[Adatbáziskezelés, MySQL és ORACLE  adminisztráció]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[75]]></column_4>
+		<column_5><![CDATA[120]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Szám-Tér-Kép Bt.]]></column_1>
+		<column_2><![CDATA[ACCESS-MS SQL egyedi konzultáció]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[76]]></column_4>
+		<column_5><![CDATA[2]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[T-Mobile]]></column_1>
+		<column_2><![CDATA[Flash MX-Flash 8 alapok és ActionScript]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[77]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Toreador Kft.]]></column_1>
+		<column_2><![CDATA[Excel haladó tréning]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[78]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Budapesti Értéktőzsde]]></column_1>
+		<column_2><![CDATA[RedHat Linux Enterprise 4 haladó tréning]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[79]]></column_4>
+		<column_5><![CDATA[7]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[TÁRKI]]></column_1>
+		<column_2><![CDATA[MS SQL szerver adminisztráció]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[80]]></column_4>
+		<column_5><![CDATA[2]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[BAYER]]></column_1>
+		<column_2><![CDATA[MSAccess 2003]]></column_2>
+		<column_3><![CDATA[2005]]></column_3>
+		<column_4><![CDATA[81]]></column_4>
+		<column_5><![CDATA[1]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Else Magyarország Kft.]]></column_1>
+		<column_2><![CDATA[Flash ActionScript]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[82]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[AVIVA Biztosító Rt.]]></column_1>
+		<column_2><![CDATA[Flash 8 alapok és PHP-SQL programozás]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[83]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Raiffeisen Leasing Rt.]]></column_1>
+		<column_2><![CDATA[ASP.NET]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[84]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Programozás]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Renault Trucks Hungária Kft]]></column_1>
+		<column_2><![CDATA[Office 2003 konzultáció]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[85]]></column_4>
+		<column_5><![CDATA[30]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ferrinfo Rt.]]></column_1>
+		<column_2><![CDATA[MS SQL szerver 2000 és 2005]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[86]]></column_4>
+		<column_5><![CDATA[7]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ferrinfo Rt.]]></column_1>
+		<column_2><![CDATA[Windows 2003 Szerver alap és haladó szintek]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[87]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Windows szerver]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Euromedic Pharma Zrt.]]></column_1>
+		<column_2><![CDATA[Excel középhaladó tréning]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10109]]></column_4>
+		<column_5><![CDATA[14]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Toreador Hungary Ltd.]]></column_1>
+		<column_2><![CDATA[Excel és Outlook alapok]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10110]]></column_4>
+		<column_5><![CDATA[1]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Graphisoft Ltd.]]></column_1>
+		<column_2><![CDATA[Ofice 2003 (Word, Excel, PowerPoint) haladó szint +Excel Makró]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10111]]></column_4>
+		<column_5><![CDATA[20]]></column_5>
+		<column_6><![CDATA[irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Euromedic Trading Kft.]]></column_1>
+		<column_2><![CDATA[Excel kezdő és középhaladó]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10112]]></column_4>
+		<column_5><![CDATA[7]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Graphisoft Ltd.]]></column_1>
+		<column_2><![CDATA[Web-tartalomfejlesztési ismeretek]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10113]]></column_4>
+		<column_5><![CDATA[2]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ecolab-Hygiene Kft.]]></column_1>
+		<column_2><![CDATA[Office XP (Word, PowerPoint, Excel, Excel makrók)]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10114]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[ASA Magyarország Kft.]]></column_1>
+		<column_2><![CDATA[Corel 12 csomag]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10115]]></column_4>
+		<column_5><![CDATA[1]]></column_5>
+		<column_6><![CDATA[Grafika]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Budapest Autófinanszírozási Rt.]]></column_1>
+		<column_2><![CDATA[MS Access]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10116]]></column_4>
+		<column_5><![CDATA[7]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Cadbury Magyarország]]></column_1>
+		<column_2><![CDATA[Office 2003 középhaladó (Excel, Word, PowerPoint)]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10117]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Media Markt Budaőrs]]></column_1>
+		<column_2><![CDATA[Windows 2003 Szerver]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10118]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Windows szerver]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[EuroMedic InterNational]]></column_1>
+		<column_2><![CDATA[Excel 2000 kezdő]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10119]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Vodafone Magyarország zrt.]]></column_1>
+		<column_2><![CDATA[Drupal CMS rendszer]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10120]]></column_4>
+		<column_5><![CDATA[1]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Exxon Mobil]]></column_1>
+		<column_2><![CDATA[Gépkezelés-Word-Excel]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10121]]></column_4>
+		<column_5><![CDATA[1]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Michelin Hungária Kft.]]></column_1>
+		<column_2><![CDATA[Web-programozás, PHP-SQL]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10122]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Robin Design]]></column_1>
+		<column_2><![CDATA[Flash alapismeretek]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10123]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Central European University]]></column_1>
+		<column_2><![CDATA[Access 2003 alapismeretek]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10124]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Digitális banki Rendszerek Kft.]]></column_1>
+		<column_2><![CDATA[Web-programozás (Alapok-PHP-SQL-JAVA)]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10125]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Buderus Hungária]]></column_1>
+		<column_2><![CDATA[Excel 2003 haladó]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10126]]></column_4>
+		<column_5><![CDATA[7]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Gemini-IT]]></column_1>
+		<column_2><![CDATA[Linux rendszergazdai ismeretek]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10127]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Four Seasons Hotel]]></column_1>
+		<column_2><![CDATA[Excel 2003 haladó]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10128]]></column_4>
+		<column_5><![CDATA[2]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Digitális Banki Rendszerek Kft.]]></column_1>
+		<column_2><![CDATA[Web-programozás (HTML-CSS_JavaScript-PHP-SQL-JAVA)]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10129]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Renault Trucks]]></column_1>
+		<column_2><![CDATA[Access 2003 alapismeretek]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10130]]></column_4>
+		<column_5><![CDATA[7]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[FMC Tanácsadó és Informatikai Kft.]]></column_1>
+		<column_2><![CDATA[Word 2003, Excel 2003 haladó képzés]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10131]]></column_4>
+		<column_5><![CDATA[14]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Merkur Star Kft.]]></column_1>
+		<column_2><![CDATA[Táblázatkezelés alapismeretek]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10132]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Papír-Ász Kft.]]></column_1>
+		<column_2><![CDATA[Windows XP- Word-Excel XP alapok és haladó]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10133]]></column_4>
+		<column_5><![CDATA[30]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Sanoma Budapest Kiadói Zrt.]]></column_1>
+		<column_2><![CDATA[Excel VBA programozás]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10134]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[SIGNAL Biztosító Zrt.]]></column_1>
+		<column_2><![CDATA[Visual Basic - ASP.NET]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10136]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Programozás]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Nemzetbiztonsági Szakszolgálat]]></column_1>
+		<column_2><![CDATA[Windows 2003 Szerver]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10137]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Windows Szerver]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[EuroControl CRDS]]></column_1>
+		<column_2><![CDATA[Word 2003 középhaladó és haladó képzés Angol nyelven]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10138]]></column_4>
+		<column_5><![CDATA[16]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Kompakt Autó Kft.]]></column_1>
+		<column_2><![CDATA[Windows XP- Word-Excel XP- Outlook]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10139]]></column_4>
+		<column_5><![CDATA[30]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Vám és Pénzügyőrség Közp. Bűnüld. Parancsn.]]></column_1>
+		<column_2><![CDATA[Linux rendszergazda haladó]]></column_2>
+		<column_3><![CDATA[2006]]></column_3>
+		<column_4><![CDATA[10140]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Kossuth Kiadó]]></column_1>
+		<column_2><![CDATA[Indesign CS2]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10141]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Grafika]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Raiffeisen Leasing ZRt.]]></column_1>
+		<column_2><![CDATA[XML .NET alapon]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10142]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Programozás]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[IFUA Horváth &amp; Partners Kft.]]></column_1>
+		<column_2><![CDATA[Excel 2003 haladó]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10143]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Közlekedés Biztosító Egyesület]]></column_1>
+		<column_2><![CDATA[ORACLE adminisztráció és fejlesztés]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10144]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Longwood Kft.]]></column_1>
+		<column_2><![CDATA[Web-programozási alapismeretek]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10145]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[White page Kft.]]></column_1>
+		<column_2><![CDATA[Web-programozási alapismeretek]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10146]]></column_4>
+		<column_5><![CDATA[1]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Sika Hungária Kft.]]></column_1>
+		<column_2><![CDATA[Office XP (Word, Excel, PowerPoint)]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10147]]></column_4>
+		<column_5><![CDATA[23]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Pet-Hungária Kft.]]></column_1>
+		<column_2><![CDATA[Excel 2003 középhaladó]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10148]]></column_4>
+		<column_5><![CDATA[16]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Flexiton Kft.]]></column_1>
+		<column_2><![CDATA[CorelDraw és Photoshop kezdő]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10149]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Grafika]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[IVSZ-IT Mentor Program]]></column_1>
+		<column_2><![CDATA[Webszerkesztés, szabvány alapú webdesign]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10150]]></column_4>
+		<column_5><![CDATA[13]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[RKB Építő]]></column_1>
+		<column_2><![CDATA[Linux Levelező szerver]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10151]]></column_4>
+		<column_5><![CDATA[1]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Encore-international]]></column_1>
+		<column_2><![CDATA[Joomla tartalomkezelő rendszer]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10152]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Geomedia Kft.]]></column_1>
+		<column_2><![CDATA[Ms Access középhaladó]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10153]]></column_4>
+		<column_5><![CDATA[2]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ericsson Magyarország]]></column_1>
+		<column_2><![CDATA[Dreamweaver-Fireworks]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10154]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[AVIVA Biztosító RT.]]></column_1>
+		<column_2><![CDATA[Linux LDAP, XHTML-CSS, PHP haladó]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10155]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Raiffeisen Leasing ZRt.]]></column_1>
+		<column_2><![CDATA[Java]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10156]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Programozás]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ericsson Magyarország]]></column_1>
+		<column_2><![CDATA[Excel 2003 kezdő, haladó, VBA]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10157]]></column_4>
+		<column_5><![CDATA[30]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Nissan Magyarország]]></column_1>
+		<column_2><![CDATA[Excel és Access adatfeldolgozás magyar és angol nyelven]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10158]]></column_4>
+		<column_5><![CDATA[16]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Magyar TelefonTársaság]]></column_1>
+		<column_2><![CDATA[Access 2003]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10159]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[IFUA Horváth &amp; Partners Kft.]]></column_1>
+		<column_2><![CDATA[EXcel VBA programozás]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10160]]></column_4>
+		<column_5><![CDATA[20]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Nyugdíjfolyósító Igazgatóság]]></column_1>
+		<column_2><![CDATA[Windows Server 2003]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10161]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[Windows szerver]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Nyugdíjfolyósító Igazgatóság]]></column_1>
+		<column_2><![CDATA[Linux rendszergazdáknak]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10162]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Nyugdíjfolyósító Igazgatóság]]></column_1>
+		<column_2><![CDATA[Excel 2003 haladó]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10163]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[GraphIT Kft]]></column_1>
+		<column_2><![CDATA[ASP.NET]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10164]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[RAABE Tanácsadó és Kiadó Kft.]]></column_1>
+		<column_2><![CDATA[MS Access alapok]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10165]]></column_4>
+		<column_5><![CDATA[0]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[InterJnet Számítástechnikai Kft.]]></column_1>
+		<column_2><![CDATA[Linux Redhat/CentOS 5 rendszergazdai alapismeretek]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10166]]></column_4>
+		<column_5><![CDATA[9]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[HiperCom Hungária Kft.]]></column_1>
+		<column_2><![CDATA[Indesign ismeretek (QUARK felhasználóknak)]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10167]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Grafika]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Magyar Bíróképző Akadémia]]></column_1>
+		<column_2><![CDATA[Photoshop CS3, IllustratorCS3, Indesign CS3, Acrobat, Macintosh alapok]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10168]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Grafika]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Magyar Bíróképző Akadémia]]></column_1>
+		<column_2><![CDATA[Webszerkesztési ismeretek, Photoshop, Flash CS3]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10169]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Hewitt Humán Tanácsadó Kft.]]></column_1>
+		<column_2><![CDATA[Excel VBA programozás]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10170]]></column_4>
+		<column_5><![CDATA[7]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Budapesti Elektromos Művek Nyrt.]]></column_1>
+		<column_2><![CDATA[Web-programozás alapjai]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10171]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Buderus Hungária Kft.]]></column_1>
+		<column_2><![CDATA[Office 2003 csomag, Outlook, Excel PIVOT, PowerPoint]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10172]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Studio Moderna 2000 TV-Shop Kft.]]></column_1>
+		<column_2><![CDATA[Flash ActionScript programozás]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10173]]></column_4>
+		<column_5><![CDATA[1]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Coats Hungary]]></column_1>
+		<column_2><![CDATA[Ms Access alapismeretek]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10174]]></column_4>
+		<column_5><![CDATA[14]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[OBI Magyarország]]></column_1>
+		<column_2><![CDATA[EXcel VBA programozás]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10175]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Nissan Magyarország]]></column_1>
+		<column_2><![CDATA[Excel haladó, Access alap-középhaladó magyar és angol nyelven]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10176]]></column_4>
+		<column_5><![CDATA[25]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ericsson Magyarország]]></column_1>
+		<column_2><![CDATA[Excel 2003 haladó]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10177]]></column_4>
+		<column_5><![CDATA[24]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Vincotech Hungary Ltd.]]></column_1>
+		<column_2><![CDATA[Windows 2003 Server]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10178]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Windows Server]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[ IFUA Horváth &amp; Partners Kft.]]></column_1>
+		<column_2><![CDATA[Excel 2003 haladó és VBA képzés]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10179]]></column_4>
+		<column_5><![CDATA[15]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Energiagazdálkodási Intézet (EGI)]]></column_1>
+		<column_2><![CDATA[Visual Studio .NET, Forms alapú alkalmazásfejlesztés]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10180]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Programozás]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[ IFUA Horváth &amp; Partners Kft.]]></column_1>
+		<column_2><![CDATA[PowerPoint haladó áttekintés]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10181]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Kempinski Hotel Corvinus Budapest]]></column_1>
+		<column_2><![CDATA[Excel 2003 vezető managereknek angol nyelven]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10182]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ecolab-Hygiene Kft.]]></column_1>
+		<column_2><![CDATA[Excel 2003 haladó]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10183]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[AVIVA Biztosító RT.]]></column_1>
+		<column_2><![CDATA[Objektum Orientált PHP, AJAX, JavaScript könyvtárak (Ext2)]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10184]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[KHP Budapest Kft.]]></column_1>
+		<column_2><![CDATA[Webszabványok, JavaScript, Flash ActionScript 2]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10185]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Expressz Magyarország Rt.]]></column_1>
+		<column_2><![CDATA[Drupal 6 portálfejlesztés]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10186]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Sanoma Budapest  Lapkiadó]]></column_1>
+		<column_2><![CDATA[PowerPoint]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10187]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Mexx  regionális iroda]]></column_1>
+		<column_2><![CDATA[Excel 2003 középhaladó]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10188]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ségécé Magyarország Kft.]]></column_1>
+		<column_2><![CDATA[Excel 2003 kezdő]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10189]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Művészetek Palotája]]></column_1>
+		<column_2><![CDATA[Exel 2003 kezdő és haladó]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10190]]></column_4>
+		<column_5><![CDATA[35]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Budapest Bank]]></column_1>
+		<column_2><![CDATA[JavaScript - AJAX]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10191]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ness - FMC]]></column_1>
+		<column_2><![CDATA[Office 2003 csomag, PowerPoint, Excel, Word haladó szinten]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10192]]></column_4>
+		<column_5><![CDATA[30]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[METRO - Budaőrs]]></column_1>
+		<column_2><![CDATA[Excel VBA programozás]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10193]]></column_4>
+		<column_5><![CDATA[15]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Wildom Kft.]]></column_1>
+		<column_2><![CDATA[Java alapú webfejlesztés]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10194]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[programozás]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Computrend Kft.]]></column_1>
+		<column_2><![CDATA[Java alapú webalkalmazások]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10195]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Programozás]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Raiffeisen Leasing ZRt.]]></column_1>
+		<column_2><![CDATA[dotNET fejlesztés: Ajax, biztonság, SharePoint alapú alkalmazások]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10196]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Programozás]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ericsson Magyarország]]></column_1>
+		<column_2><![CDATA[Egyedi Excel VBA fejlesztés]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10197]]></column_4>
+		<column_5><![CDATA[0]]></column_5>
+		<column_6><![CDATA[VBA fejlesztés]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Nissan Magyarország]]></column_1>
+		<column_2><![CDATA[Egyedi Excel VBA fejlesztés]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10198]]></column_4>
+		<column_5><![CDATA[0]]></column_5>
+		<column_6><![CDATA[VBA fejlesztés]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Stromboly Event Kft.]]></column_1>
+		<column_2><![CDATA[Egyedi Excel VBA fejlesztés]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10199]]></column_4>
+		<column_5><![CDATA[0]]></column_5>
+		<column_6><![CDATA[VBA fejlesztés]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Stromboly Event Kft.]]></column_1>
+		<column_2><![CDATA[Egyedi Excel VBA fejlesztés]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10200]]></column_4>
+		<column_5><![CDATA[0]]></column_5>
+		<column_6><![CDATA[VBA fejlesztés]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ecolab-Hygiene Kft.]]></column_1>
+		<column_2><![CDATA[Egyedi Access fejlesztés]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10201]]></column_4>
+		<column_5><![CDATA[0]]></column_5>
+		<column_6><![CDATA[VBA fejlesztés]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Magyar Üzletemberképző Akadémia]]></column_1>
+		<column_2><![CDATA[Egyedi Access alkalmazás fejlesztése]]></column_2>
+		<column_3><![CDATA[2008]]></column_3>
+		<column_4><![CDATA[10202]]></column_4>
+		<column_5><![CDATA[0]]></column_5>
+		<column_6><![CDATA[VBA fejlesztés]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Stromboly Event Kft.]]></column_1>
+		<column_2><![CDATA[Egyedi Excel VBA fejlesztés]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10203]]></column_4>
+		<column_5><![CDATA[0]]></column_5>
+		<column_6><![CDATA[VBA fejlesztés]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Állami számvevőszék]]></column_1>
+		<column_2><![CDATA[Web-programozás]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10204]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Bizerba Hungária]]></column_1>
+		<column_2><![CDATA[Outlook levelezés és csoportmunka]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10205]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Auchan magyarország]]></column_1>
+		<column_2><![CDATA[Átfogó Informatikai alapképzés, Excel-Word powerPoint]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10206]]></column_4>
+		<column_5><![CDATA[1]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[METRO - Budaőrs]]></column_1>
+		<column_2><![CDATA[Access alapismeretek]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10207]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[MotorPresse kiadó]]></column_1>
+		<column_2><![CDATA[Indesign-Incopy együttműködés]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10208]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Grafika]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Vodafone Magyarország]]></column_1>
+		<column_2><![CDATA[Web-programozási alapismeretek és DRUPAL CMS]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10209]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Tredegar Kft]]></column_1>
+		<column_2><![CDATA[Excel 2003-2007 haladó]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10210]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ericsson Magyarország]]></column_1>
+		<column_2><![CDATA[Excel 2003 haladó]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10211]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[VMikroflex Kft]]></column_1>
+		<column_2><![CDATA[Illustrator-Indesign CS4]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10212]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Grafika]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Honfran Kft]]></column_1>
+		<column_2><![CDATA[Word-Excel-Outlook 2007]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10213]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Cetelem bank]]></column_1>
+		<column_2><![CDATA[Excel 2003 haladó]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10214]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Geomédia Zrt.]]></column_1>
+		<column_2><![CDATA[Linux haladó rendszergazda]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10215]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Vincotech Hungary Ltd.]]></column_1>
+		<column_2><![CDATA[MS Project 2007]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10216]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Vincotech Hungary Ltd.]]></column_1>
+		<column_2><![CDATA[Adobe Acrobat 9]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10217]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[Grafika]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[SCD Group]]></column_1>
+		<column_2><![CDATA[Excel 2003 haladó]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10218]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ericsson Magyarország]]></column_1>
+		<column_2><![CDATA[Excel VBA]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10219]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[ AVIVA Biztosító zRt.]]></column_1>
+		<column_2><![CDATA[Oracle üzemeltetési és fejlesztési alapismeretek]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10220]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Fővárosi Csatornázási Művek zRt.]]></column_1>
+		<column_2><![CDATA[Windows Szerver 2003 R2]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10221]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Windows szerver]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Fővárosi Csatornázási Művek zRt.]]></column_1>
+		<column_2><![CDATA[Ms SQL adatbázisszerver]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10222]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Budapest Bank]]></column_1>
+		<column_2><![CDATA[Ms Access]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10223]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Magyar Honvédség Geoinformációa szolgálat]]></column_1>
+		<column_2><![CDATA[Ms Access - MS SQL szerver]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10224]]></column_4>
+		<column_5><![CDATA[16]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Caldera]]></column_1>
+		<column_2><![CDATA[Excel 2003]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10225]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[CIB Zrt.]]></column_1>
+		<column_2><![CDATA[RedHat Linux adminisztrátori ismeretek]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10226]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ingatlan Consulting Group]]></column_1>
+		<column_2><![CDATA[Excel 2003 haladóknak]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10227]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Magyar Elekrtomos Művek zRt.]]></column_1>
+		<column_2><![CDATA[Adobe Acrobat 9]]></column_2>
+		<column_3><![CDATA[2009]]></column_3>
+		<column_4><![CDATA[10228]]></column_4>
+		<column_5><![CDATA[2]]></column_5>
+		<column_6><![CDATA[Grafika]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Vodafone Magyarország Zrt.]]></column_1>
+		<column_2><![CDATA[Excel VBA]]></column_2>
+		<column_3><![CDATA[2010]]></column_3>
+		<column_4><![CDATA[10229]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[ VMikroflex Kft]]></column_1>
+		<column_2><![CDATA[Photoshop CS4 - Soltvadkert]]></column_2>
+		<column_3><![CDATA[2010]]></column_3>
+		<column_4><![CDATA[10230]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Grafika]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Modine Kft. - Mezőkövesd]]></column_1>
+		<column_2><![CDATA[Excel haladó és Excel VBA]]></column_2>
+		<column_3><![CDATA[2010]]></column_3>
+		<column_4><![CDATA[10231]]></column_4>
+		<column_5><![CDATA[15]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Neumann János Inf. SZKI]]></column_1>
+		<column_2><![CDATA[C#.NET programozás]]></column_2>
+		<column_3><![CDATA[2010]]></column_3>
+		<column_4><![CDATA[10232]]></column_4>
+		<column_5><![CDATA[9]]></column_5>
+		<column_6><![CDATA[Programozás]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Richard Fritz Kft. - Aszód]]></column_1>
+		<column_2><![CDATA[Áttérés Office 2007-re]]></column_2>
+		<column_3><![CDATA[2010]]></column_3>
+		<column_4><![CDATA[10233]]></column_4>
+		<column_5><![CDATA[80]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[MOL Rt.]]></column_1>
+		<column_2><![CDATA[C#, ASP .NET programozás, egyedi tematikával]]></column_2>
+		<column_3><![CDATA[2010]]></column_3>
+		<column_4><![CDATA[10234]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Programozás]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[AVIVA Biztosító zRt.]]></column_1>
+		<column_2><![CDATA[Oracle PL/SQL ismeretek]]></column_2>
+		<column_3><![CDATA[2010]]></column_3>
+		<column_4><![CDATA[10235]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Kapsch telecom Kft.]]></column_1>
+		<column_2><![CDATA[RedHat Linux Enterprise]]></column_2>
+		<column_3><![CDATA[2010]]></column_3>
+		<column_4><![CDATA[10236]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Pepsi Magyarország]]></column_1>
+		<column_2><![CDATA[Excel 2003 haladó]]></column_2>
+		<column_3><![CDATA[2010]]></column_3>
+		<column_4><![CDATA[10237]]></column_4>
+		<column_5><![CDATA[72]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Nissan Magyarország]]></column_1>
+		<column_2><![CDATA[Excel 2003 haladó]]></column_2>
+		<column_3><![CDATA[2007]]></column_3>
+		<column_4><![CDATA[10238]]></column_4>
+		<column_5><![CDATA[17]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Sodexo Magyarország]]></column_1>
+		<column_2><![CDATA[PowerPoint 2003 középhaladó-haladó]]></column_2>
+		<column_3><![CDATA[2010]]></column_3>
+		<column_4><![CDATA[10239]]></column_4>
+		<column_5><![CDATA[30]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Daikin-Myquay]]></column_1>
+		<column_2><![CDATA[Excel 2003 haladó]]></column_2>
+		<column_3><![CDATA[2010]]></column_3>
+		<column_4><![CDATA[10240]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[HDI magyarország]]></column_1>
+		<column_2><![CDATA[Office 2007]]></column_2>
+		<column_3><![CDATA[2010]]></column_3>
+		<column_4><![CDATA[10241]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[JNT Magyarország]]></column_1>
+		<column_2><![CDATA[Office 2007]]></column_2>
+		<column_3><![CDATA[2010]]></column_3>
+		<column_4><![CDATA[10242]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Pannon Lapok Zrt.]]></column_1>
+		<column_2><![CDATA[Excel 2003 kezdő és haladó]]></column_2>
+		<column_3><![CDATA[2010]]></column_3>
+		<column_4><![CDATA[10243]]></column_4>
+		<column_5><![CDATA[16]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Chinoin Zrt.]]></column_1>
+		<column_2><![CDATA[Drupla 6 webmeste oktatás és konzultáció]]></column_2>
+		<column_3><![CDATA[2010]]></column_3>
+		<column_4><![CDATA[10244]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Geodis]]></column_1>
+		<column_2><![CDATA[Excel VBA]]></column_2>
+		<column_3><![CDATA[2010]]></column_3>
+		<column_4><![CDATA[10245]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Nestlé Magyarország]]></column_1>
+		<column_2><![CDATA[Excel 2007 haladó]]></column_2>
+		<column_3><![CDATA[2010]]></column_3>
+		<column_4><![CDATA[10246]]></column_4>
+		<column_5><![CDATA[30]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Transalkim]]></column_1>
+		<column_2><![CDATA[Excel 2003 haladó és VBA]]></column_2>
+		<column_3><![CDATA[2011]]></column_3>
+		<column_4><![CDATA[10247]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Fibria]]></column_1>
+		<column_2><![CDATA[Excel 2003 haladó és VBA]]></column_2>
+		<column_3><![CDATA[2011]]></column_3>
+		<column_4><![CDATA[10248]]></column_4>
+		<column_5><![CDATA[16]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Bizerba Hungária]]></column_1>
+		<column_2><![CDATA[Excel 2007 haladóknak]]></column_2>
+		<column_3><![CDATA[2011]]></column_3>
+		<column_4><![CDATA[10249]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Pannon Lapok Zrt.]]></column_1>
+		<column_2><![CDATA[Excel 2003 távoktatás]]></column_2>
+		<column_3><![CDATA[2011]]></column_3>
+		<column_4><![CDATA[10250]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[EGIS Nyrt.]]></column_1>
+		<column_2><![CDATA[Excel makróprogramozás, VBA]]></column_2>
+		<column_3><![CDATA[2011]]></column_3>
+		<column_4><![CDATA[10251]]></column_4>
+		<column_5><![CDATA[20]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Premier G. Med Onko Kft.]]></column_1>
+		<column_2><![CDATA[Exchange 2010 szerver bevezetés, átállás]]></column_2>
+		<column_3><![CDATA[2011]]></column_3>
+		<column_4><![CDATA[10252]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Windows szerver]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Saint-Gobain Abrasives Kft.]]></column_1>
+		<column_2><![CDATA[Excel 2003 haladó]]></column_2>
+		<column_3><![CDATA[2011]]></column_3>
+		<column_4><![CDATA[10253]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Perfect-IT Services Informatikai Kft.]]></column_1>
+		<column_2><![CDATA[Joomla tartalomkezelő]]></column_2>
+		<column_3><![CDATA[2011]]></column_3>
+		<column_4><![CDATA[10254]]></column_4>
+		<column_5><![CDATA[1]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Bau-Systeme 92 Kft]]></column_1>
+		<column_2><![CDATA[Outlook 2007]]></column_2>
+		<column_3><![CDATA[2011]]></column_3>
+		<column_4><![CDATA[10255]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[ECOLAB-HYGIENE Kft ]]></column_1>
+		<column_2><![CDATA[PowerPoint 2003 egyéni tréning]]></column_2>
+		<column_3><![CDATA[2011]]></column_3>
+		<column_4><![CDATA[10256]]></column_4>
+		<column_5><![CDATA[1]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Richard Fritz Kft.]]></column_1>
+		<column_2><![CDATA[Outlook 2007 kezdő és haladó ismeretek]]></column_2>
+		<column_3><![CDATA[2011]]></column_3>
+		<column_4><![CDATA[10257]]></column_4>
+		<column_5><![CDATA[100]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[3DHISTECH Kft.]]></column_1>
+		<column_2><![CDATA[Visual C# alapok, WPF és ASP.NET]]></column_2>
+		<column_3><![CDATA[2011]]></column_3>
+		<column_4><![CDATA[10258]]></column_4>
+		<column_5><![CDATA[24]]></column_5>
+		<column_6><![CDATA[Programozás]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Cib Zrt.]]></column_1>
+		<column_2><![CDATA[Redhat Linux rendszergazdai alapismeretek]]></column_2>
+		<column_3><![CDATA[2011]]></column_3>
+		<column_4><![CDATA[10259]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[IFUA Horváth &Partners]]></column_1>
+		<column_2><![CDATA[Excel 2003-2007 haladó, Powerpoint 2007]]></column_2>
+		<column_3><![CDATA[2011]]></column_3>
+		<column_4><![CDATA[10260]]></column_4>
+		<column_5><![CDATA[16]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Alpiq Erergy SE Magyarország]]></column_1>
+		<column_2><![CDATA[MS SQL szerver, SQL programozás]]></column_2>
+		<column_3><![CDATA[2011]]></column_3>
+		<column_4><![CDATA[10261]]></column_4>
+		<column_5><![CDATA[2]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[ControlVH Kft]]></column_1>
+		<column_2><![CDATA[Office 2010 középhaladó (Word, Excel, PowerPoint)]]></column_2>
+		<column_3><![CDATA[2011]]></column_3>
+		<column_4><![CDATA[10262]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[DM Hungary Kft.]]></column_1>
+		<column_2><![CDATA[Excel 2003 távoktatás]]></column_2>
+		<column_3><![CDATA[2011]]></column_3>
+		<column_4><![CDATA[10263]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[ICEG European Center Kft.]]></column_1>
+		<column_2><![CDATA[Office 2007 (Word, Excel, PowerPoint)]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10264]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[ING Biztosító Zrt.]]></column_1>
+		<column_2><![CDATA[MS SQL programozás egyéni képzés]]></column_2>
+		<column_3><![CDATA[2011]]></column_3>
+		<column_4><![CDATA[10265]]></column_4>
+		<column_5><![CDATA[1]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Oney Magyarország Zrt.]]></column_1>
+		<column_2><![CDATA[Excel 2003 haladó]]></column_2>
+		<column_3><![CDATA[2011]]></column_3>
+		<column_4><![CDATA[10266]]></column_4>
+		<column_5><![CDATA[20]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[UPC Magyarország]]></column_1>
+		<column_2><![CDATA[Excel 2007 makróprogramozás (VBA)]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10267]]></column_4>
+		<column_5><![CDATA[11]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Suppratek Modesvale]]></column_1>
+		<column_2><![CDATA[Excel makróprogramozás, műszer-kommunikáció]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10268]]></column_4>
+		<column_5><![CDATA[15]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Tesco magyarország]]></column_1>
+		<column_2><![CDATA[Office 2003 (Excel, Word, PowerPoint, Outlook, Access)]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10269]]></column_4>
+		<column_5><![CDATA[120]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Albermarle]]></column_1>
+		<column_2><![CDATA[Excel 2007 makróprogramozás (VBA)]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10270]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Multipolaris Zrt.]]></column_1>
+		<column_2><![CDATA[Drupal Webmester egyéni képzés]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10271]]></column_4>
+		<column_5><![CDATA[1]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Tesco magyarország]]></column_1>
+		<column_2><![CDATA[Office 2003 (Excel, Word, PowerPoint, Outlook, Access)]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10272]]></column_4>
+		<column_5><![CDATA[60]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Tesco magyarország]]></column_1>
+		<column_2><![CDATA[Excel VBA programozás]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10273]]></column_4>
+		<column_5><![CDATA[11]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Provident]]></column_1>
+		<column_2><![CDATA[MS SQL szerver, SQL programozás]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10274]]></column_4>
+		<column_5><![CDATA[11]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[De Lage Landen Finance Zrt.]]></column_1>
+		<column_2><![CDATA[Excel programozás]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10275]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Syngenta]]></column_1>
+		<column_2><![CDATA[Excel 2010 makróprogramozás]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10276]]></column_4>
+		<column_5><![CDATA[2]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Pepsi Magyarország]]></column_1>
+		<column_2><![CDATA[Excel 2003 haladó]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10277]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ericsson Magyarország]]></column_1>
+		<column_2><![CDATA[Excel 2003 haladó]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10278]]></column_4>
+		<column_5><![CDATA[7]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[ IFUA Horváth &Partners]]></column_1>
+		<column_2><![CDATA[PowerPoint 2007]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10279]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[IFUA Horváth &Partners]]></column_1>
+		<column_2><![CDATA[Excel 2007 haladó]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10280]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[IFUA Horváth &Partners]]></column_1>
+		<column_2><![CDATA[Excel 2007 VBA programozás]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10281]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ericsson Magyarország]]></column_1>
+		<column_2><![CDATA[Excel 2003 makróprogramozás (VBA)]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10282]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Suppratek Modesvale]]></column_1>
+		<column_2><![CDATA[Linux desktop ismeretek]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10283]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Deloitte Magyarország]]></column_1>
+		<column_2><![CDATA[Excel 2010 hatékonyan]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10284]]></column_4>
+		<column_5><![CDATA[15]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Dunaújvárosi Főiskola]]></column_1>
+		<column_2><![CDATA[HTML5-CSS3]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10285]]></column_4>
+		<column_5><![CDATA[30]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Dunaújvárosi Főiskola]]></column_1>
+		<column_2><![CDATA[Drupal 7 alapok és Smink]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10286]]></column_4>
+		<column_5><![CDATA[15]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Tesco Magyarország]]></column_1>
+		<column_2><![CDATA[ORACLE PL/SQL haladóknak]]></column_2>
+		<column_3><![CDATA[2012]]></column_3>
+		<column_4><![CDATA[10287]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Telenor Rt.]]></column_1>
+		<column_2><![CDATA[RedHat Linux Enterprise]]></column_2>
+		<column_3><![CDATA[2013]]></column_3>
+		<column_4><![CDATA[10288]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Nissan]]></column_1>
+		<column_2><![CDATA[Excel 2007 haladó és Access 2007]]></column_2>
+		<column_3><![CDATA[0000]]></column_3>
+		<column_4><![CDATA[10289]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[TESCO]]></column_1>
+		<column_2><![CDATA[Access 2007 alapok]]></column_2>
+		<column_3><![CDATA[2013]]></column_3>
+		<column_4><![CDATA[10290]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Nissan]]></column_1>
+		<column_2><![CDATA[Excel 2007 haladó]]></column_2>
+		<column_3><![CDATA[2013]]></column_3>
+		<column_4><![CDATA[10291]]></column_4>
+		<column_5><![CDATA[20]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Nissan]]></column_1>
+		<column_2><![CDATA[Access 2007 haladó]]></column_2>
+		<column_3><![CDATA[2013]]></column_3>
+		<column_4><![CDATA[10292]]></column_4>
+		<column_5><![CDATA[15]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[GlaxoSmithKline]]></column_1>
+		<column_2><![CDATA[Articulate oktatás-tanácsadás]]></column_2>
+		<column_3><![CDATA[2013]]></column_3>
+		<column_4><![CDATA[10293]]></column_4>
+		<column_5><![CDATA[20]]></column_5>
+		<column_6><![CDATA[irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Deliotte Magyarország]]></column_1>
+		<column_2><![CDATA[Excel 2010 egyedi tréning]]></column_2>
+		<column_3><![CDATA[2013]]></column_3>
+		<column_4><![CDATA[10294]]></column_4>
+		<column_5><![CDATA[20]]></column_5>
+		<column_6><![CDATA[irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Magyar Közlöny Lap és Könyvkiadó]]></column_1>
+		<column_2><![CDATA[Linux kezdő sé haladó]]></column_2>
+		<column_3><![CDATA[2013]]></column_3>
+		<column_4><![CDATA[10295]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[IFUA Horváth &Partners]]></column_1>
+		<column_2><![CDATA[PowerPoint 2010]]></column_2>
+		<column_3><![CDATA[2013]]></column_3>
+		<column_4><![CDATA[10296]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[IFUA Horváth &Partners]]></column_1>
+		<column_2><![CDATA[Excel haladó]]></column_2>
+		<column_3><![CDATA[2013]]></column_3>
+		<column_4><![CDATA[10297]]></column_4>
+		<column_5><![CDATA[20]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[IFUA Horváth &Partners]]></column_1>
+		<column_2><![CDATA[Excel automatizálás]]></column_2>
+		<column_3><![CDATA[2013]]></column_3>
+		<column_4><![CDATA[10298]]></column_4>
+		<column_5><![CDATA[20]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Béres Egészségtár]]></column_1>
+		<column_2><![CDATA[Excel 2010 makróprogramozás]]></column_2>
+		<column_3><![CDATA[2013]]></column_3>
+		<column_4><![CDATA[10299]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[IFUA Horváth &Partners]]></column_1>
+		<column_2><![CDATA[Excel makróprogramozás - VBA]]></column_2>
+		<column_3><![CDATA[2013]]></column_3>
+		<column_4><![CDATA[10300]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Antenna Hungária Zrt.]]></column_1>
+		<column_2><![CDATA[SQL-Adatbázis-kezelés]]></column_2>
+		<column_3><![CDATA[2013]]></column_3>
+		<column_4><![CDATA[10301]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Budapest Gyógyfürdő]]></column_1>
+		<column_2><![CDATA[TCP/IP alap és haladó]]></column_2>
+		<column_3><![CDATA[2013]]></column_3>
+		<column_4><![CDATA[10302]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Hálózatok]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Budapest Gyógyfürdő]]></column_1>
+		<column_2><![CDATA[Windows Szerver 2012]]></column_2>
+		<column_3><![CDATA[2013]]></column_3>
+		<column_4><![CDATA[10303]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Windows szerver]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Budapest Film]]></column_1>
+		<column_2><![CDATA[Excel 2010 haladó és makrók]]></column_2>
+		<column_3><![CDATA[2013]]></column_3>
+		<column_4><![CDATA[10304]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Sika Hungária Kft.]]></column_1>
+		<column_2><![CDATA[Indesign 5.5 alapok]]></column_2>
+		<column_3><![CDATA[2013]]></column_3>
+		<column_4><![CDATA[10305]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Grafika]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Michelin]]></column_1>
+		<column_2><![CDATA[MS Access haladőknak]]></column_2>
+		<column_3><![CDATA[2013]]></column_3>
+		<column_4><![CDATA[10306]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Vodafon]]></column_1>
+		<column_2><![CDATA[Photoshop 5.5 alapok]]></column_2>
+		<column_3><![CDATA[2013]]></column_3>
+		<column_4><![CDATA[10307]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[Grafika]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Michelin]]></column_1>
+		<column_2><![CDATA[MS Access haladóknak]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10308]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[ Antenna Hungária Zrt.]]></column_1>
+		<column_2><![CDATA[ TCP/IP alap és haladó]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10309]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Hálózatok]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Takarék Akadémia]]></column_1>
+		<column_2><![CDATA[Excel 2010 alapismeretek]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10310]]></column_4>
+		<column_5><![CDATA[11]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Kleffmann]]></column_1>
+		<column_2><![CDATA[Excel makró programozás]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10311]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[TESCO]]></column_1>
+		<column_2><![CDATA[Access 2010 haladó]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10312]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[UPONOR]]></column_1>
+		<column_2><![CDATA[Excel 2010 haladó]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10313]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Schneider-Electric]]></column_1>
+		<column_2><![CDATA[ACCESS egyedi fejlesztés-tanácsadás]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10314]]></column_4>
+		<column_5><![CDATA[1]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Colombus Klíma Projekt]]></column_1>
+		<column_2><![CDATA[Egyedi Excel makró fejlesztés]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10315]]></column_4>
+		<column_5><![CDATA[2]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Takarék Akadémia]]></column_1>
+		<column_2><![CDATA[Windows Szerver 2012]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10316]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Windows szerver]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Procter&Gamble]]></column_1>
+		<column_2><![CDATA[Excel 2013 PowerPivot ]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10317]]></column_4>
+		<column_5><![CDATA[1]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[MTA]]></column_1>
+		<column_2><![CDATA[Linux rendszergazda]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10318]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[T-Systems]]></column_1>
+		<column_2><![CDATA[Linux Shell programozás]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10319]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Zollner Elektronik]]></column_1>
+		<column_2><![CDATA[ACCESS 2010 alapismeretek]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10320]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ericsson Magyarország HR]]></column_1>
+		<column_2><![CDATA[Excel 2010 középhaladó]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10321]]></column_4>
+		<column_5><![CDATA[9]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[ComCix]]></column_1>
+		<column_2><![CDATA[Linux Shell programozás]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10322]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Deliotte magyarország]]></column_1>
+		<column_2><![CDATA[PowerPoint 2010]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10323]]></column_4>
+		<column_5><![CDATA[15]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[SMARTMe]]></column_1>
+		<column_2><![CDATA[TCP/IP alap és haladó tanfolyamok]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10324]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[Hálózatok]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[IFUA Horváth &Partners]]></column_1>
+		<column_2><![CDATA[PowerPoint 2010 ]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10325]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Schneider-Electric]]></column_1>
+		<column_2><![CDATA[MS Project]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10326]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Takarék Akadémia]]></column_1>
+		<column_2><![CDATA[Access 210 alapismeretek]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10327]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Volánbusz Zrt.]]></column_1>
+		<column_2><![CDATA[Excel automatizálás és Makróprogramozás]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10328]]></column_4>
+		<column_5><![CDATA[40]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[StartGarancia Zrt.]]></column_1>
+		<column_2><![CDATA[Excel makróprogramozás]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10329]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[MVM]]></column_1>
+		<column_2><![CDATA[Excel VBA haladó]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10330]]></column_4>
+		<column_5><![CDATA[2]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[ IFUA Horváth &Partners]]></column_1>
+		<column_2><![CDATA[Excel 2010 alapok és középhaladó]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10331]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Nilfisk]]></column_1>
+		<column_2><![CDATA[Access 2010]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10332]]></column_4>
+		<column_5><![CDATA[24]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[NNG]]></column_1>
+		<column_2><![CDATA[Excel 2013 makróprogramozás]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10333]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Deloitte]]></column_1>
+		<column_2><![CDATA[Excel 2010 haladó tréning]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10334]]></column_4>
+		<column_5><![CDATA[26]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[COOP Zrt.]]></column_1>
+		<column_2><![CDATA[Excel 2007 középhaladó és haladó képzés]]></column_2>
+		<column_3><![CDATA[2014]]></column_3>
+		<column_4><![CDATA[10335]]></column_4>
+		<column_5><![CDATA[47]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Volánbusz Zrt.]]></column_1>
+		<column_2><![CDATA[Excel 2010 haladó és automatizálás]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10336]]></column_4>
+		<column_5><![CDATA[100]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Fresenius Kabi]]></column_1>
+		<column_2><![CDATA[Excel 2010 alapo és középhaladó]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10337]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Knauf Insulation]]></column_1>
+		<column_2><![CDATA[Excel 2010 haladó]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10338]]></column_4>
+		<column_5><![CDATA[14]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Modit Zrt.]]></column_1>
+		<column_2><![CDATA[Android Programozás]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10339]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Programozás]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Béres Egészségtár]]></column_1>
+		<column_2><![CDATA[Excel 2010 makróprogramozás (VBA)]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10340]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[IFUA Horváth &Partners]]></column_1>
+		<column_2><![CDATA[Excel 2010 haladó és automatizálás]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10341]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[EvoSoft]]></column_1>
+		<column_2><![CDATA[Linux Shell programozás]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10342]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Coop Zrt]]></column_1>
+		<column_2><![CDATA[Excel haladó és PowerPoint]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10343]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Xerox Magyarország]]></column_1>
+		<column_2><![CDATA[Excel 2013 makróprogramozás]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10344]]></column_4>
+		<column_5><![CDATA[9]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Corning Hungary Kft]]></column_1>
+		<column_2><![CDATA[Excel 2010 haladó és VBA, angol nyelven]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10345]]></column_4>
+		<column_5><![CDATA[40]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[AEGON Magyarország]]></column_1>
+		<column_2><![CDATA[Linux haladó - egyedi tananyag]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10346]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Berton Lighting Kft]]></column_1>
+		<column_2><![CDATA[Excel 2010 középhaladó]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10347]]></column_4>
+		<column_5><![CDATA[9]]></column_5>
+		<column_6><![CDATA[irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Resources]]></column_1>
+		<column_2><![CDATA[Excel 2013 haladó]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10348]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ericsson]]></column_1>
+		<column_2><![CDATA[Excel 2010 makróprogramozás]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10349]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Nissan]]></column_1>
+		<column_2><![CDATA[Excel haladó és Excel automatizálás angol nyelven]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10350]]></column_4>
+		<column_5><![CDATA[50]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[HOYA Lens Hungary Zrt.]]></column_1>
+		<column_2><![CDATA[Excel 2010 makróprogramozás]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10351]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Pepsio Co.]]></column_1>
+		<column_2><![CDATA[Excel 2010 haladó tippek-Trükkök]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10352]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Offi Zrt.]]></column_1>
+		<column_2><![CDATA[SQL Adatbázis-kezelés]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10353]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Magyar Posta Zrt]]></column_1>
+		<column_2><![CDATA[Excel 2010 makróprogramozás]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10354]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Sandvik Magyarország]]></column_1>
+		<column_2><![CDATA[Excel 200 makróprogramozás]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10355]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[MKB]]></column_1>
+		<column_2><![CDATA[Linux Radhat rendszeradminisztráció]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10356]]></column_4>
+		<column_5><![CDATA[9]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Knorr Bremse Kft]]></column_1>
+		<column_2><![CDATA[Tervezési minták és Refactoring JAVA]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10357]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Programozás]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Magyar Telecom]]></column_1>
+		<column_2><![CDATA[Java EE és tesztelés]]></column_2>
+		<column_3><![CDATA[2015]]></column_3>
+		<column_4><![CDATA[10358]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Programozás]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Semmelweis Egyetem]]></column_1>
+		<column_2><![CDATA[Excel haladó képzés]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10359]]></column_4>
+		<column_5><![CDATA[15]]></column_5>
+		<column_6><![CDATA[irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Keller-Kalmbach]]></column_1>
+		<column_2><![CDATA[Excel 2010 haladó]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10360]]></column_4>
+		<column_5><![CDATA[7]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Nilfisk]]></column_1>
+		<column_2><![CDATA[PowerPoint 2010]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10361]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Kleffman]]></column_1>
+		<column_2><![CDATA[PIVOT mesterkurzus]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10362]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Adecco zRt.]]></column_1>
+		<column_2><![CDATA[Excel 2010 középhaladó és makró]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10363]]></column_4>
+		<column_5><![CDATA[23]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[FCA Group]]></column_1>
+		<column_2><![CDATA[Excel haladó és PowerPoint 2010 angol és magyar nyelven]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10364]]></column_4>
+		<column_5><![CDATA[60]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Főgáz Zrt]]></column_1>
+		<column_2><![CDATA[Access alap és haladó, Excel makró]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10365]]></column_4>
+		<column_5><![CDATA[255]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[OTP]]></column_1>
+		<column_2><![CDATA[SQLadatbázis-kezelés]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10366]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Nissan]]></column_1>
+		<column_2><![CDATA[Excel és Access tréningek angolul]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10367]]></column_4>
+		<column_5><![CDATA[20]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[GIRO Zrt.]]></column_1>
+		<column_2><![CDATA[RedHat Linux rendszergazda]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10368]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[ENKSZ Zrt.]]></column_1>
+		<column_2><![CDATA[ Access alap és haladó, Excel makró]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10369]]></column_4>
+		<column_5><![CDATA[142]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[SAMSUNG]]></column_1>
+		<column_2><![CDATA[Ubuntu Linux rendszergazdai ismeretek]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10370]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[LEAR Corporation Hungary Kft.]]></column_1>
+		<column_2><![CDATA[VMWare VSphere telepítés és üzemeltetés]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10371]]></column_4>
+		<column_5><![CDATA[7]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Unilever]]></column_1>
+		<column_2><![CDATA[Excel 2013 Makróprogramozás]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10372]]></column_4>
+		<column_5><![CDATA[9]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Széchenyi Iroda]]></column_1>
+		<column_2><![CDATA[Excel tanácsadás, egyedi modell építés]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10373]]></column_4>
+		<column_5><![CDATA[1]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[HBO Holding Zrt.]]></column_1>
+		<column_2><![CDATA[Excel 2013 VBA ]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10374]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[ENKSZ Zrt.]]></column_1>
+		<column_2><![CDATA[PowerPoint és Prezi ]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10375]]></column_4>
+		<column_5><![CDATA[40]]></column_5>
+		<column_6><![CDATA[irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ven-IT]]></column_1>
+		<column_2><![CDATA[Angular2 és kapcsolódó technológiák]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10376]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Intrum Justitia Zrt.]]></column_1>
+		<column_2><![CDATA[Linux rendszergazda]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10377]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Balabit Zrt]]></column_1>
+		<column_2><![CDATA[Excel 2013 haladó]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10378]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[E-On]]></column_1>
+		<column_2><![CDATA[Excel haladó és makró bevezetés]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10379]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Fresenius Kabi]]></column_1>
+		<column_2><![CDATA[Excel alapok és haladó]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10380]]></column_4>
+		<column_5><![CDATA[25]]></column_5>
+		<column_6><![CDATA[irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[AIG]]></column_1>
+		<column_2><![CDATA[Excel VBA haladó]]></column_2>
+		<column_3><![CDATA[2016]]></column_3>
+		<column_4><![CDATA[10381]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Xelia]]></column_1>
+		<column_2><![CDATA[Excel és Access középhaladó]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10382]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[I-New Kft.]]></column_1>
+		<column_2><![CDATA[Linux rendszergazda haladó]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10383]]></column_4>
+		<column_5><![CDATA[7]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Magyar Posta Zrt.]]></column_1>
+		<column_2><![CDATA[Excel 2016 makróprogramozás]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10384]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Harman Kft.]]></column_1>
+		<column_2><![CDATA[Linux shell programozás]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10385]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[De Lage Landen]]></column_1>
+		<column_2><![CDATA[Ms Project alapok]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10386]]></column_4>
+		<column_5><![CDATA[2]]></column_5>
+		<column_6><![CDATA[irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Carboferr Kft.]]></column_1>
+		<column_2><![CDATA[Excel 2016 technikai tanácsadás]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10387]]></column_4>
+		<column_5><![CDATA[1]]></column_5>
+		<column_6><![CDATA[tanácsadás]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Budapest Közút Zrt.]]></column_1>
+		<column_2><![CDATA[Excel technikai támogatás, fejlesztés, oktatás]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10388]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[tanácsadás]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Henkel Magyarország]]></column_1>
+		<column_2><![CDATA[Excel VBA fejlesztés]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10389]]></column_4>
+		<column_5><![CDATA[1]]></column_5>
+		<column_6><![CDATA[fejlesztés]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[OTP Ingatlan]]></column_1>
+		<column_2><![CDATA[Excel  2013 középhaladó és haladó]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10390]]></column_4>
+		<column_5><![CDATA[16]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[UNIQUA-Raiffeisen]]></column_1>
+		<column_2><![CDATA[Javascript haladó]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10391]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Groupama Biztosító]]></column_1>
+		<column_2><![CDATA[Angular JS és TypeScript tréning és tanácsadás]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10392]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Ecolab]]></column_1>
+		<column_2><![CDATA[Excel haladóknak]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10393]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[MVMNET]]></column_1>
+		<column_2><![CDATA[Excel 2016 középhaladó, haladó és Automatizálás]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10394]]></column_4>
+		<column_5><![CDATA[180]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Budapest Consultans Kft.]]></column_1>
+		<column_2><![CDATA[Excel Power Query]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10395]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[EvoSoft]]></column_1>
+		<column_2><![CDATA[Angular 2+ programozás]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10396]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Nilfisk]]></column_1>
+		<column_2><![CDATA[Excel és Access ismeretek]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10397]]></column_4>
+		<column_5><![CDATA[60]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Patika Partner]]></column_1>
+		<column_2><![CDATA[Excel középhaladó]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10398]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Decathlon]]></column_1>
+		<column_2><![CDATA[Excel automatizálás makrókkal]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10399]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Posta Biztosító]]></column_1>
+		<column_2><![CDATA[Excel VBA programozás]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10400]]></column_4>
+		<column_5><![CDATA[2]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Harman Kft.]]></column_1>
+		<column_2><![CDATA[Excel 2013 Makróprogramozás]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10401]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Posta Oktatási Központ]]></column_1>
+		<column_2><![CDATA[Excel 2016 makróprogramozás alapok]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10402]]></column_4>
+		<column_5><![CDATA[4]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Balabit Zrt.]]></column_1>
+		<column_2><![CDATA[Excel 2013 középhaladó angol nyelven]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10403]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[ Balabit Zrt.]]></column_1>
+		<column_2><![CDATA[Excel 2013 makró alapok]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10404]]></column_4>
+		<column_5><![CDATA[10]]></column_5>
+		<column_6><![CDATA[irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Dunapack Zrt.]]></column_1>
+		<column_2><![CDATA[Excel 2013 kezdő és középhaladó]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10405]]></column_4>
+		<column_5><![CDATA[35]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Könyvvizsgálói kamara]]></column_1>
+		<column_2><![CDATA[Excel Pivot táblák használata a könyvvizsgálatban]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10406]]></column_4>
+		<column_5><![CDATA[13]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Maresi Foodbroker Kft.]]></column_1>
+		<column_2><![CDATA[Excel 2010 középhaladó és haladó szinten]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10407]]></column_4>
+		<column_5><![CDATA[30]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[CIB BANK]]></column_1>
+		<column_2><![CDATA[SQL alapok és középhaladó]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10408]]></column_4>
+		<column_5><![CDATA[36]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[FŐKÉTÜSZ]]></column_1>
+		<column_2><![CDATA[PIVOT mesterkurzus]]></column_2>
+		<column_3><![CDATA[2018]]></column_3>
+		<column_4><![CDATA[10409]]></column_4>
+		<column_5><![CDATA[7]]></column_5>
+		<column_6><![CDATA[irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[HOYA]]></column_1>
+		<column_2><![CDATA[Ecxel szakértői tanácsadás, Power Query alapismeretek]]></column_2>
+		<column_3><![CDATA[2018]]></column_3>
+		<column_4><![CDATA[10410]]></column_4>
+		<column_5><![CDATA[3]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Saint GOBAIN]]></column_1>
+		<column_2><![CDATA[Excel VBA programozás]]></column_2>
+		<column_3><![CDATA[2018]]></column_3>
+		<column_4><![CDATA[10411]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[MVM Informatika]]></column_1>
+		<column_2><![CDATA[Excel makróprogramozás]]></column_2>
+		<column_3><![CDATA[2018]]></column_3>
+		<column_4><![CDATA[10412]]></column_4>
+		<column_5><![CDATA[11]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[IFUA Horváth & Partners]]></column_1>
+		<column_2><![CDATA[Excel haladó és Excel makróprogramozás]]></column_2>
+		<column_3><![CDATA[2018]]></column_3>
+		<column_4><![CDATA[10413]]></column_4>
+		<column_5><![CDATA[50]]></column_5>
+		<column_6><![CDATA[irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Patika Management Kft.]]></column_1>
+		<column_2><![CDATA[Excel középhaladó és haladó ]]></column_2>
+		<column_3><![CDATA[2018]]></column_3>
+		<column_4><![CDATA[10414]]></column_4>
+		<column_5><![CDATA[20]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Mart Építőipari Kereskedelmi Kft.]]></column_1>
+		<column_2><![CDATA[MS SQL alapismeretek]]></column_2>
+		<column_3><![CDATA[2018]]></column_3>
+		<column_4><![CDATA[10415]]></column_4>
+		<column_5><![CDATA[5]]></column_5>
+		<column_6><![CDATA[Adatbázis]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Magyar Posta]]></column_1>
+		<column_2><![CDATA[Linux rendszergazda]]></column_2>
+		<column_3><![CDATA[2018]]></column_3>
+		<column_4><![CDATA[10416]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Linux]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[EURONET]]></column_1>
+		<column_2><![CDATA[Excel haladó ismeretek és tanácsadás]]></column_2>
+		<column_3><![CDATA[2018]]></column_3>
+		<column_4><![CDATA[10417]]></column_4>
+		<column_5><![CDATA[20]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[VODAFONE]]></column_1>
+		<column_2><![CDATA[Excel makróprogramozás]]></column_2>
+		<column_3><![CDATA[2018]]></column_3>
+		<column_4><![CDATA[10418]]></column_4>
+		<column_5><![CDATA[21]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Process Solutions]]></column_1>
+		<column_2><![CDATA[Excel makróprogramozás]]></column_2>
+		<column_3><![CDATA[2018]]></column_3>
+		<column_4><![CDATA[10419]]></column_4>
+		<column_5><![CDATA[9]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[NISSAN]]></column_1>
+		<column_2><![CDATA[Excel haladó ismeretek angolul]]></column_2>
+		<column_3><![CDATA[2018]]></column_3>
+		<column_4><![CDATA[10420]]></column_4>
+		<column_5><![CDATA[60]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[EvoSoft]]></column_1>
+		<column_2><![CDATA[Angular programozás]]></column_2>
+		<column_3><![CDATA[2018]]></column_3>
+		<column_4><![CDATA[10421]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Xellia]]></column_1>
+		<column_2><![CDATA[Excel középhaladó]]></column_2>
+		<column_3><![CDATA[2018]]></column_3>
+		<column_4><![CDATA[10422]]></column_4>
+		<column_5><![CDATA[22]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Magyar Telecom]]></column_1>
+		<column_2><![CDATA[Angular és Java Spring]]></column_2>
+		<column_3><![CDATA[2017]]></column_3>
+		<column_4><![CDATA[10423]]></column_4>
+		<column_5><![CDATA[6]]></column_5>
+		<column_6><![CDATA[Web]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Zeiss]]></column_1>
+		<column_2><![CDATA[Excel középhaladó]]></column_2>
+		<column_3><![CDATA[2018]]></column_3>
+		<column_4><![CDATA[10424]]></column_4>
+		<column_5><![CDATA[12]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+	<node>
+		<column_1><![CDATA[Nilfisk]]></column_1>
+		<column_2><![CDATA[Excel középhaladó]]></column_2>
+		<column_3><![CDATA[2018]]></column_3>
+		<column_4><![CDATA[10425]]></column_4>
+		<column_5><![CDATA[8]]></column_5>
+		<column_6><![CDATA[Irodai]]></column_6>
+	</node>
+</data>

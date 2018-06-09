@@ -79,6 +79,7 @@
     color:#888;
     margin-bottom: 17px;
     display: inline-block;
+    margin-left: 15px;
 }
 .process-number{
     position: absolute;
@@ -111,7 +112,7 @@ border-top-left-radius:13px;
 border-bottom-left-radius: 13px;
 }
 .tanfolyam-kiirasok-box .mid-col strike{
-    font-size:18px;
+    font-size: 21px;
 }
 .tanfolyam-kiirasok-box .right-col{
 
@@ -145,13 +146,13 @@ border-bottom-right-radius: 13px;
     display: block !important;
 }
 li big {
-    background: #fff;
+	    background: #fff;
     color: #666666;
     padding: 10px;
     border-radius: 13px;
     margin-left: 17px;
     float: right;
-    margin-top: 11px;
+    margin-top: 9px;
 }
 big.full{
     background:#E46B3C!important;
@@ -165,12 +166,20 @@ big.full{
     margin-right: 10px;
 }
 .idobeosztas {
-    margin-top: 44px;
+    margin-top: 30px;
 }
 .idobeosztas h5{
     color:#fff !important;
+    font-size: 18px;
+    font-weight: 100;
 }
 .idobeosztas big {
+	    background: #fff;
+    color: #666666;
+    padding: 10px;
+    border-radius: 13px;
+    margin-left: 17px;
+    float: right;
     margin-top: 9px;
 }
 .idobeosztas span {
@@ -279,8 +288,8 @@ hr{
     background: transparent;
     color:#fff;
 }
-.gform_wrapper table.gfield_list tr td.gfield_list_icons{
-    width:60px !important;
+.single-tanfolyam-kiiras .gform_wrapper table.gfield_list tr td.gfield_list_icons{
+    width: 85px !important;
 }
 .home .tanfolyamok{
     min-height: 400px;
@@ -304,7 +313,7 @@ hr{
 	margin-top:0px;
 }
 .tanfolyamok .process__item{
-    border: 1px solid #d6cbcb;
+    /* border: 1px solid #d6cbcb; */
     padding: 5px;
     padding-top: 20px;
     border-radius: 10px;
@@ -313,7 +322,7 @@ hr{
     border-left: none;
     left: 2px;
     z-index: 20;
-    border-right: 4px solid;
+    /* border-right: 4px solid; */
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
 }
@@ -324,13 +333,15 @@ hr{
     border-right:0px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
-    border-left: 2px solid;
+    /* border-left: 2px solid; */
 }
 .tanfolyamok .process__item ul{
 
 width: 88%;
 
 margin-bottom: 12px;
+
+margin-left: 37px;
 }
 .tanfolyamok .process__item ul li {
 
@@ -339,16 +350,24 @@ margin-bottom: 12px;
 padding-bottom: 0px;
 
 padding-top: 7px;
+
+text-indent: -20px;
 }
 .tanfolyamok .process__item ul li i{
 
-margin-right: 16px;
+margin-right: 20px;
 }
 .tanfolyamok .process__item ul li b{
 
 font-size: 27px;
 
-margin-right: 21px;
+margin-right: 5px;
+
+margin-left: auto;
+
+margin-top: 6px;
+
+display: inline-block;
 }
 .tanfolyamok .process__item ul li span{
 
@@ -368,15 +387,21 @@ margin-right: 59px;
 
 font-size: 24px;
 }
+.tanfolyamok .process__item .fooldal-ar span.main-price{
+	color:#E46B3C;
+	font-size: 35px;
+	font-weight: 600;
+	margin-right: 90px;
+}
 .tanfolyamok .process__item .fooldal-ar span.kedvezmeny{
 
 float: left;
 
-font-size: 15px;
+font-size: 22px;
 
 display: block;
 
-margin-left: 0px;
+margin-top: 9px;
 }
 .tanfolyamok .process__item .fooldal-ar strike{
 
@@ -385,7 +410,13 @@ margin-left: 0px;
 
 float: right;
 
-margin-right: 55px;
+margin-right: 91px;
+
+margin-bottom: 4px;
+
+font-size: 16px;
+
+line-height: 27px;
 }
 
 .tanfolyamok .process__item .overlay{
@@ -473,7 +504,15 @@ margin-bottom: 6px;
     background: transparent;
 }
 .tanfolyamok .process__item h4{
-    margin-top: -35px;
+    
+margin-top: -35px;
+}
+.tanfolyamok .process__item h4 a{
+	    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+	    color: #252525;
+	    font-size: 26px;
+	    font-weight: 300;
+	    font-variant-ligatures: common-ligatures;
 }
 .tanfolyamok .process__item.even .box-month{
     background: white;
@@ -662,8 +701,8 @@ p{
      content: "\e8be" !important;
  }
 .single-tanfolyam-kiiras table tbody>tr:nth-child(2n-1) {
-    background: rgba(29, 10, 75, 0.56);
-    color: #fff;
+    /* background: rgba(29, 10, 75, 0.56); */
+    color: #000;
 }
 .single-tanfolyam-kiiras table tbody td {
     /* background: #fff; */
@@ -678,3 +717,47 @@ p{
     padding-top: 200px;
     padding-bottom: 200px;
 }
+.jelentkezes_modok{
+	
+margin-top: 45px;
+	
+text-align: left;
+	
+padding-left: 40px;
+}
+.jelentkezes_modok p{
+	
+text-align: left;
+	
+font-size: 14px;
+	
+margin-left: 2px;
+	
+margin-top: 15px;
+	
+margin-bottom: 30px;
+}
+.single-tanfolyam-kiiras .gform_title{
+	font-size: 28px !important;
+}
+.single-tanfolyam-kiiras .gf_step_label{
+	   font-size: 19px;
+    margin-left: 10px;
+}
+ 
+ .gform_page ul li h2{
+	 font-size:22px;
+ }
+ .gf_step_active span.gf_step_label {
+    background: #fff;
+    padding: 10px;
+    color: #000 !important;
+    border-radius: 7px;
+    margin-bottom: 14px;
+}
+ #gform_submit_button_1{
+     background:#E46B3C !important;
+     text-align: center;
+     padding-left: 15px;
+     padding-right: 15px;
+ }

@@ -126,7 +126,7 @@
 
                                             <?php endif; ?>
                                             <div class="row">
-                                                <span><?php echo number_format($akcios, 0, ',', ' '); ?>Ft</span>
+                                                <span class='main-price'><?php echo number_format($akcios, 0, ',', ' '); ?>Ft</span>
                                             </div>
                                         </div>
 

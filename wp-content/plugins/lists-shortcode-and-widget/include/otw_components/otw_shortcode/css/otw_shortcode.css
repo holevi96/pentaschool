@@ -2453,3 +2453,11 @@ ol.otw-list.lower-greek li {
     padding-top: 200px;
     padding-bottom: 200px;
 }
+
+.gf_step_active span.gf_step_label {
+    background: #fff;
+    padding: 10px;
+    color: #000 !important;
+    border-radius: 7px;
+    margin-bottom: 14px;
+}

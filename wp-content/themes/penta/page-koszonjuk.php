@@ -17,7 +17,7 @@
                                 <h2>Köszönjük a jelentkezését!</h2>
                                 <p class="lead">Az alábbi linken letöltheti az elkészült jelentkezési lapot, amelyet email-ben szíveskedjen aláírva továbbítani, ezzel véglegesítve a jelentkezését. </p>
                                 <a class="btn btn--primary type--uppercase" href="<?php echo $url; ?>">
-									<span class="btn__text">Jelentkezési lap letöltése</span> 
+									<span class="">Jelentkezési lap letöltése</span>
 								</a>
                             </div>
                         </div>

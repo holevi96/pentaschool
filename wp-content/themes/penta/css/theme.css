@@ -5681,7 +5681,7 @@ p .material-icons:first-child {
   border: none;
 }
 .imagebg:not(.image--light) .boxed:not(.bg--white):not(.bg--none) {
-  background: rgba(20, 20, 20, 0.3);
+  background: rgba(20, 20, 20, 0.4);
 }
 .imagebg:not(.image--light) .boxed:not(.bg--white):not(.bg--none).boxed--border {
   border: none;
