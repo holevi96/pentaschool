@@ -23,22 +23,24 @@
                              <div class="col-md-3">
                                  <div  class="input-select">
                                      <select id='filterCat' style='display:inline-block' onchange='filterCat()'>
+                                         <option value='all'>Összes</option>
                                          <option disabled selected>Kategória...</option>
                                          <?php foreach ($cats as $cat) { ?>
                                              <option value="<?php echo $cat; ?>"><?php echo $cat; ?></option>
                                          <?php } ?>
-                                         <option value='all'>All</option>
+
                                      </select>
                                  </div>
                              </div>
                              <div class="col-md-3">
                                  <div class="input-select">
                                      <select id='filterYear'  class="input-select" style='display:inline-block' onchange='filterYear()'>
+                                         <option value='all'>Összes</option>
                                          <option disabled selected>Év...</option>
                                          <?php foreach ($years as $year) { ?>
                                              <option value="<?php echo $year; ?>"><?php echo $year; ?></option>
                                          <?php } ?>
-                                         <option value='all'>All</option>
+
                                      </select>
                                  </div>
 

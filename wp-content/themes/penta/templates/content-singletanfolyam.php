@@ -380,6 +380,29 @@
 
             </div>
         </section>
+        <section class="space--sm">
+            <a href="">
+                <div class="container">
+                    <div class="row">
+                        <div class="slider slider--inline-arrows slider--arrows-hover text-center" data-arrows="true">
+                            <ul class="slides">
+                                <?php
+
+                                while ( have_rows('logok','options') ) : the_row();
+
+                                    // display a sub field value
+                                    $url = get_sub_field('kep'); ?>
+                                    <li class="col-sm-3 col-xs-6"> <img alt="Image" class="image--xxs" src="<?php echo $url; ?>"> </li>
+                                <?php endwhile;
+
+                                ?>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </section>
 
     </div>
 <?php endwhile; ?>

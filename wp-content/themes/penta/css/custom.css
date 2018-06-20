@@ -764,3 +764,6 @@ margin-bottom: 30px;
  #referenciak-table{
      margin-top: 30px;
  }
+.flickity-slider img {
+    max-height: 50px;
+}

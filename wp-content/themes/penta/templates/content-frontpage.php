@@ -1,17 +1,28 @@
-
+<?php echo do_shortcode('[rev_slider alias="fooldal-slider"]'); ?>
   <article <?php post_class(); ?>>
 
     <div class="main-container">
-        <section class="imagebg front-imagebg" data-overlay="4">
-            <div class="background-image-holder"> <img alt="background" src="<?php echo get_stylesheet_directory_uri(); ?>/img/hero-2.jpg"> </div>
-            <div class="container">
+        <section class="cover imagebg height-70 text-center" data-overlay="4">
+            <div class="background-image-holder"><img alt="background" src="<?php echo get_stylesheet_directory_uri(); ?>/img/knowledge-1.jpg"></div>
+            <div class="container pos-vertical-center">
                 <div class="row">
-                    <div class="col-sm-12">
-                        <h1>Aktuális tanfolyamaink:</h1>
+                    <div class="col-sm-10 col-md-8">
+                        <h1>Stack Knowledgebase</h1>
+                        <p class="lead"> A fully documented resource for developers using Stack in their web projects. </p>
+                        <div class="boxed boxed--lg bg--white text-left">
+                            <form class="form--horizontal">
+                                <div class="col-sm-8">
+                                    <input type="text" name="search" placeholder="Type search keywords here">
+
+                                </div>
+                                <div class="col-sm-4"> <button type="submit" class="btn btn--primary type--uppercase">Search</button> </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
 		<section>
 		
                 <div class="container">

@@ -56,7 +56,12 @@ function penta_scripts() {
 }
 add_action ('wp_enqueue_scripts', 'penta_scripts');
 
+if( function_exists('acf_add_options_page') ) {
 
+    acf_add_options_page('Referencia Logo Slider');
+
+
+}
 // [inline_video foo="foo-value"]
 function inline_video_func( $atts ) {
   $a = shortcode_atts( array(
