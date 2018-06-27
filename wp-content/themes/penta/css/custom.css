@@ -3,8 +3,10 @@
 	max-height:80px;
 }
 #menu1{
-	background: rgb(29,10,75);
-	
+	background: transparent;
+	padding: 4px !important;
+	position: absolute;
+	width: 100%;
 }
 #menu1 a{
 	color: #fff !important;
@@ -12,8 +14,8 @@
 }
 .home .nav-container{
 	    position: relative;
-    z-index: 10;
-    opacity: 0.6;
+	    z-index: 10;
+	    opacity: 1;
 }
 .home .front-imagebg{
 	    position: relative;
@@ -766,4 +768,9 @@ margin-bottom: 30px;
  }
 .flickity-slider img {
     max-height: 50px;
+}
+.fooldal-search-bar{
+    margin-top: -129px;
+    margin-bottom: 40px;
+    padding: 18px !important;
 }

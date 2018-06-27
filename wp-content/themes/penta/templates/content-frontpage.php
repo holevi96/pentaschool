@@ -1,30 +1,62 @@
-<?php echo do_shortcode('[rev_slider alias="fooldal-slider"]'); ?>
+
   <article <?php post_class(); ?>>
 
     <div class="main-container">
-        <section class="cover imagebg height-70 text-center" data-overlay="4">
-            <div class="background-image-holder"><img alt="background" src="<?php echo get_stylesheet_directory_uri(); ?>/img/knowledge-1.jpg"></div>
-            <div class="container pos-vertical-center">
-                <div class="row">
-                    <div class="col-sm-10 col-md-8">
-                        <h1>Stack Knowledgebase</h1>
-                        <p class="lead"> A fully documented resource for developers using Stack in their web projects. </p>
-                        <div class="boxed boxed--lg bg--white text-left">
-                            <form class="form--horizontal">
-                                <div class="col-sm-8">
-                                    <input type="text" name="search" placeholder="Type search keywords here">
 
-                                </div>
-                                <div class="col-sm-4"> <button type="submit" class="btn btn--primary type--uppercase">Search</button> </div>
-                            </form>
+            <section style="padding-top: 110px;" class="cover cover-features imagebg space--sm" data-overlay="2">
+                <div class="background-image-holder"> <img alt="background" src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing-23.jpg"> </div>
+                <?php echo do_shortcode('[rev_slider alias="fooldal-slider"]'); ?>
+                <div class="container pos-vertical-center">
+                    <div class="row">
+                        <div class="col-sm-10 col-md-8 col-md-offset-2">
+
+                            <div class="boxed boxed--lg bg--white text-left fooldal-search-bar">
+                                <form class="form--horizontal">
+                                    <div class="col-sm-8">
+                                        <input type="text" name="search" placeholder="Keress a tanfolyamok között...">
+
+                                    </div>
+                                    <div class="col-sm-4"> <button type="submit" class="btn btn--primary type--uppercase">Search</button> </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-		<section>
-		
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 text-center boxed boxed--lg boxed--border box-shadow-wide">
+                            <h1> A tudást tőlünk kaptad, a többi a Te érdemed. </h1>
+                            <p class="lead"> Szerezz magabiztos tudást a hatékony munkavégzéshez! </p>
+                            <a class="btn btn--primary type--uppercase" href="#"> <span class="btn__text">
+						Aktuális tanfolyamok
+					</span> </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="feature feature-2 boxed boxed--border bg--white"> <i class="icon icon-Clock-Back color--primary"></i>
+                                <div class="feature__body">
+                                    <p>Az összes tanfolyamunk</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="feature feature-2 boxed boxed--border bg--white"> <i class="icon icon-Duplicate-Window color--primary"></i>
+                                <div class="feature__body">
+                                    <p>Vállalati tréning</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="feature feature-2 boxed boxed--border bg--white"> <i class="icon icon-Life-Jacket color--primary"></i>
+                                <div class="feature__body">
+                                    <p>Tanácsadás</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
                 <div class="container">
                         <?php
 						$aktual_ids = array();
@@ -183,6 +215,6 @@
 						</div>-->
 					<?php endif; ?>
                 </div>
-            </section>
+
     </div>
 
