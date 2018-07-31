@@ -1,16 +1,34 @@
 /*! Place your custom styles here */
 .bar .logo{
-	max-height:80px;
+	max-height: 62px;
 }
-#menu1{
-	background: transparent;
-	padding: 4px !important;
+.home #menu1{
+	background: #61656954;
+	padding: 0px !important;
 	position: absolute;
 	width: 100%;
+	z-index: 1;
+	height: 70px;
+}
+ #menu1{
+    background: #180c31d1;
+    padding: 8px !important;
+    position: relative;
+     
+    width: 100%;
 }
 #menu1 a{
 	color: #fff !important;
 	line-height: 75px;
+}
+#menu1 ul {
+
+top: 0;
+}
+#menu1 ul li{
+}
+.bar .logo{
+    top: -2px;
 }
 .home .nav-container{
 	    position: relative;
@@ -65,7 +83,9 @@
 }
 
 .more-options-button{
-    background: #fff; width:100%
+    background: #fff;
+    color: #000;
+    width:100%;
 }
 .tanf-price h4{
     font-weight: 700;
@@ -205,6 +225,7 @@ big.full{
     margin-bottom: 20px;
     border:none;
     padding-top: 40px;
+    background: none;
 }
 input{
     color:#333 !important;
@@ -317,6 +338,7 @@ hr{
 .tanfolyamok .process__item{
     /* border: 1px solid #d6cbcb; */
     padding: 5px;
+    background: #271b425c;
     padding-top: 20px;
     border-radius: 10px;
 }
@@ -341,9 +363,11 @@ hr{
 
 width: 88%;
 
-margin-bottom: 12px;
+margin-bottom: 4px;
 
 margin-left: 37px;
+
+margin-top: -16px;
 }
 .tanfolyamok .process__item ul li {
 
@@ -351,13 +375,15 @@ margin-left: 37px;
 
 padding-bottom: 0px;
 
-padding-top: 7px;
+padding-top: 2px;
 
-text-indent: -20px;
+text-indent: -18px;
 }
 .tanfolyamok .process__item ul li i{
 
 margin-right: 20px;
+
+width: 16px;
 }
 .tanfolyamok .process__item ul li b{
 
@@ -379,7 +405,7 @@ position: relative;
 }
 .tanfolyamok .process__item .fooldal-ar{
 
-margin-bottom: 70px;
+margin-bottom: 38px;
 }
 .tanfolyamok .process__item .fooldal-ar span{
 
@@ -424,11 +450,11 @@ line-height: 27px;
 .tanfolyamok .process__item .overlay{
     position: absolute;
     bottom: 0;
-    background-color: #373334;
+    background-color: #292d36;
     overflow: hidden;
     width: 0;
     z-index: 0;
-    color:#fff;
+    color: #fff;
     border-radius: 8px;
     height: 100%;
     transition: .5s ease;
@@ -478,6 +504,17 @@ border-radius: 7px;
 margin-left: 0px;
 
 margin-bottom: 6px;
+
+color: #000;
+}
+.tanfolyamok .process__item .overlay .overlay-buttons a span{
+    color:#000;
+}
+.tanfolyamok .process__item .overlay .overlay-buttons a.btn--primary{
+
+background: #3b2a31 !important;
+
+border: none;
 }
 .tanfolyamok .process__item.odd .datenumber{
     content:'1';
@@ -507,14 +544,17 @@ margin-bottom: 6px;
 }
 .tanfolyamok .process__item h4{
     
-margin-top: -35px;
+margin-top: -45px;
+    
+color: #fff;
 }
 .tanfolyamok .process__item h4 a{
 	    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
-	    color: #252525;
+	    color: #fff;
 	    font-size: 26px;
 	    font-weight: 300;
 	    font-variant-ligatures: common-ligatures;
+	    font-weight: 500;
 }
 .tanfolyamok .process__item.even .box-month{
     background: white;
@@ -523,6 +563,7 @@ margin-top: -35px;
     left: -20%;
     z-index: 1000;
     text-align: center;
+    color: #888;
     border-radius: 15px;
     display: inline-block;
     width: 100px;
@@ -536,6 +577,7 @@ margin-top: -35px;
     top: -66px;
     right: -98%;
     width: 110px;
+    color: #888;
     z-index: 100;
     text-align: center;
     border-radius: 15px;
@@ -599,7 +641,25 @@ section.imagebg{
 .quiz .gfield_radio span{
     width:200px;
 }
+.fooldal-top-section{
+    padding-top:110px;
+    height: 100vh;
+}
 @media all and (max-width: 767px) {
+    .bar.visible-xs{
+        background:#180c31d1;
+    }
+    #menu1 a{
+        line-height: 60px;
+    }
+    .home #menu1{
+        background: #423856;
+        height: auto;
+    }
+    .fooldal-top-section{
+        padding-top:0px !important;
+        height:auto;
+    }
     #pentafilter-box{
         /* display:none; */
         width: 294px;
@@ -616,8 +676,8 @@ section.imagebg{
         margin-left: 23px;
         width: calc(100% - 23px);
         z-index: 30 !important;
-        background: #fff;
-        border-right: 2px solid !important;
+        /* background: #fff; */
+        /* border-right: 2px solid !important; */
         left: 0px !important;
         border-top-left-radius: 0 !important;
         border-bottom-left-radius: 0 !important;
@@ -770,7 +830,43 @@ margin-bottom: 30px;
     max-height: 50px;
 }
 .fooldal-search-bar{
-    margin-top: -129px;
-    margin-bottom: 40px;
-    padding: 18px !important;
+    
+/* top: 188px; */
+    
+/* margin-top: 69px; */
+    
+/* margin-bottom: 57px; */
+    
+padding: 18px !important;
+    
+overflow: visible;
+    
+z-index: 100000000000000 !important;
+    
+position: relative;
+    
+display: block;
+}
+
+.fooldal-search-bar input {
+    width: 100%;
+}
+.fooldal-search-bar .awesomplete{
+    width:calc(100% - 15px);
+    position: relative;
+}
+
+.fooldal-search-bar .awesomplete ul{
+    z-index: 1000000 !important;
+    top: 50px;
+}
+.tanfolyamok .card{
+    margin-bottom: 15px;
+}
+.tanfolyamok .card .card__body{
+    height: 109px;
+}
+.home .feature-2{
+    
+font-size: 25px;
 }

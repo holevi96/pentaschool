@@ -584,7 +584,7 @@ img {
   z-index: 1;
 }
 [data-overlay] *:not(.container):not(.background-image-holder) {
-  z-index: 2;
+ /*  z-index: 0; */
 }
 [data-overlay].image--light:before {
   background: #fff;
@@ -3183,11 +3183,12 @@ form[action*='list-manage.com'] .small-meta {
 .bar .logo {
   margin: 0;
   position: relative;
-  top: 4px;
+  top: 0px;
+  left: 43px;
 }
 .bar .menu-horizontal {
   position: relative;
-  top: 6px;
+  top: 0px;
 }
 .bar:not([class*='visible-']) + .bar {
   margin-top: 0.92857143em;
@@ -5491,6 +5492,7 @@ body.dropdowns--hover .nav-sidebar-column .dropdown:hover > .dropdown__container
 .card-2 .card__body {
   border-bottom: none;
   border-top: none;
+  /* height: 109px; */
 }
 .card-2 .card__bottom {
   border-radius: 0 0 6px 6px;
@@ -7077,6 +7079,7 @@ span + .typed-text.h1 {
 }
 form {
   position: relative;
+  z-index: 10000;
 }
 form > div[class*='col-']:not(:last-child),
 form > .row > div[class*='col-']:not(:last-child) {

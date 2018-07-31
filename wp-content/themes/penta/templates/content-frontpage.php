@@ -3,61 +3,84 @@
 
     <div class="main-container">
 
-            <section style="padding-top: 110px;" class="cover cover-features imagebg space--sm" data-overlay="2">
-                <div class="background-image-holder"> <img alt="background" src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing-23.jpg"> </div>
+            <section class="cover cover-features imagebg space--sm fooldal-top-section">
+                <div class="background-image-holder"> <img alt="background" src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing-22.jpg"> </div>
                 <?php echo do_shortcode('[rev_slider alias="fooldal-slider"]'); ?>
-                <div class="container pos-vertical-center">
+                <div class="container ">
+
                     <div class="row">
+
                         <div class="col-sm-10 col-md-8 col-md-offset-2">
 
-                            <div class="boxed boxed--lg bg--white text-left fooldal-search-bar">
-                                <form class="form--horizontal">
-                                    <div class="col-sm-8">
-                                        <input type="text" name="search" placeholder="Keress a tanfolyamok között...">
+                                <div class="boxed boxed--lg bg--white text-left fooldal-search-bar" >
+                                    <form action="<?php echo site_url(); ?>/search" method="get" class="form--horizontal">
+                                        <div class="col-sm-8">
+                                            <?php
+                                            $tanf_lista = '';
+                                            $tanfok = get_posts(array(
+                                                'post_type'=>'tanfolyamok',
+                                                'numberposts'=>-1
+                                            ));
+                                            foreach ($tanfok as $t) {
+                                                $tanf_lista .= $t->post_title . ', ';
+                                            }
+                                            ?>
+                                            <input class="awesomplete" data-list="<?php echo $tanf_lista; ?>" type="text" name="search" placeholder="Keress a tanfolyamok között...">
 
-                                    </div>
-                                    <div class="col-sm-4"> <button type="submit" class="btn btn--primary type--uppercase">Search</button> </div>
-                                </form>
-                            </div>
+                                        </div>
+                                        <div class="col-sm-4"><button type="submit" class="btn btn--primary type--uppercase">Keresés</button> </div>
+                                    </form>
+                                </div>
+
+
                         </div>
                     </div>
-                </div>
-                <div class="container">
-                    <div class="row">
+                    <div class="row" style="margin-top: 0px;">
                         <div class="col-sm-12 col-md-12 text-center boxed boxed--lg boxed--border box-shadow-wide">
-                            <h1> A tudást tőlünk kaptad, a többi a Te érdemed. </h1>
+                            <h2> A tudást tőlünk kaptad, a többi a Te érdemed. </h2>
                             <p class="lead"> Szerezz magabiztos tudást a hatékony munkavégzéshez! </p>
-                            <a class="btn btn--primary type--uppercase" href="#"> <span class="btn__text">
+                            <a class="btn btn--primary type--uppercase" href="#aktual"> <span class="btn__text">
 						Aktuális tanfolyamok
 					</span> </a>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class="feature feature-2 boxed boxed--border bg--white"> <i class="icon icon-Clock-Back color--primary"></i>
-                                <div class="feature__body">
-                                    <p>Az összes tanfolyamunk</p>
-                                </div>
+
+                    <section class="unpad text-center">
+                        <div class="row--gapless">
+                            <div class="col-sm-4 col-xs-6">
+                                <a href="#" class="block">
+                                    <div class="feature feature-7 boxed imagebg" data-overlay="3">
+                                        <div class="background-image-holder"> <img alt="background" src="<?php echo get_stylesheet_directory_uri(); ?>/img/blog-1.jpg"> </div>
+                                        <h4 class="pos-vertical-center">Az összes tanfolyam</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-4 col-xs-6">
+                                <a href="#" class="block">
+                                    <div class="feature feature-7 boxed imagebg" data-overlay="3">
+                                        <div class="background-image-holder"> <img alt="background" src="<?php echo get_stylesheet_directory_uri(); ?>/img/cowork-1.jpg"> </div>
+                                        <h4 class="pos-vertical-center">Vállalati képzések</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-4 col-xs-12">
+                                <a href="#" class="block">
+                                    <div class="feature feature-7 boxed imagebg" data-overlay="3">
+                                        <div class="background-image-holder"> <img alt="background" src="<?php echo get_stylesheet_directory_uri(); ?>/img/education-1.jpg"> </div>
+                                        <h4 class="pos-vertical-center">Tanácsadás</h4>
+                                    </div>
+                                </a>
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="feature feature-2 boxed boxed--border bg--white"> <i class="icon icon-Duplicate-Window color--primary"></i>
-                                <div class="feature__body">
-                                    <p>Vállalati tréning</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="feature feature-2 boxed boxed--border bg--white"> <i class="icon icon-Life-Jacket color--primary"></i>
-                                <div class="feature__body">
-                                    <p>Tanácsadás</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </section>
                 </div>
+
+
+
             </section>
-                <div class="container">
+        <section id="aktual" class="imagebg space--sm">
+            <div class="background-image-holder"> <img alt="background" src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing-5.jpg"> </div>
+                <div class="container boxed boxed--lg">
                         <?php
 						$aktual_ids = array();
                         $kiirasok = get_posts(array(
@@ -215,6 +238,6 @@
 						</div>-->
 					<?php endif; ?>
                 </div>
-
+</section>
     </div>
 
