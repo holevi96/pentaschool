@@ -336,9 +336,9 @@ function populate_html( $form ) {
     var kapcsolattartoTelefon = "<?php echo ($resztvevo_e)?$_POST['input_7']:""; ?>";
     jQuery(document).bind('gform_post_render', function(){
 
-      jQuery("#field_1_11").find('input').eq(1).val(jQuery("#field_1_11").find('input').eq(1).val()+kapcsolattartoNev);
-      jQuery("#field_1_11").find('input').eq(2).val(jQuery("#field_1_11").find('input').eq(1).val()+kapcsolattartoEmail);
-      jQuery("#field_1_11").find('input').eq(3).val(jQuery("#field_1_11").find('input').eq(1).val()+kapcsolattartoTelefon);
+      jQuery("#field_1_11").find('input').eq(1).val(kapcsolattartoNev);
+      jQuery("#field_1_11").find('input').eq(2).val(kapcsolattartoEmail);
+      jQuery("#field_1_11").find('input').eq(3).val(kapcsolattartoTelefon);
 
     });
 

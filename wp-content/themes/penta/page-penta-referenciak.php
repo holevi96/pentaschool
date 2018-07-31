@@ -87,29 +87,76 @@
              function filterYear()
              {
                  var rex = new RegExp(jQuery('#filterYear').val());
-                 if(rex =="/all/"){clearFilter()}else{
+                 if(rex =="/all/"){
+                     console.log(jQuery('#filterCat').val())
+                     if(jQuery('#filterCat').val() == null || jQuery('#filterCat').val() == 'all'){
+                         jQuery('.content').show()
+                     }else{
+
+                         rex = new RegExp(jQuery('#filterCat').val());
+                         jQuery('.content').hide();
+                         jQuery('.content').filter(function() {
+                             return rex.test(jQuery(this).find('td.kategoria').text());
+                         }).show();
+                     }
+                 }else{
                      jQuery('.content').hide();
-                     jQuery('.content').filter(function() {
-                         return rex.test(jQuery(this).find('td.ev').text());
-                     }).show();
+                     if(jQuery('#filterCat').val() == null || jQuery('#filterCat').val() == 'all'){
+                         jQuery('.content').filter(function() {
+                             return rex.test(jQuery(this).find('td.ev').text());
+                         }).show();
+
+                     }else{
+
+                         jQuery('.content').filter(function() {
+                             return rex.test(jQuery(this).find('td.ev').text());
+                         }).filter(function(){
+                             var rex = new RegExp(jQuery('#filterCat').val());
+                             return rex.test(jQuery(this).find('td.kategoria').text());
+                         }).show();
+                     }
                  }
              }
              function filterCat()
              {
                  var rex = new RegExp(jQuery('#filterCat').val());
-                 if(rex =="/all/"){clearFilter()}else{
-                     jQuery('.content').hide();
-                     jQuery('.content').filter(function() {
-                         return rex.test(jQuery(this).find('td.kategoria').text());
-                     }).show();
+                 if(rex =="/all/"){
+                     console.log(jQuery('#filterYear').val())
+                     if(jQuery('#filterYear').val() == null || jQuery('#filterYear').val() == 'all'){
+                         console.log('asdasdasd')
+                         jQuery('.content').show()
+                     }else{
+
+
+                         console.log('as')
+                         rex = new RegExp(jQuery('#filterYear').val());
+                         jQuery('.content').hide();
+                         jQuery('.content').filter(function() {
+                             return rex.test(jQuery(this).find('td.ev').text());
+                         }).show();
+                     }
+
+                 }else{
+                     if(jQuery('#filterYear').val() == null || jQuery('#filterYear').val() == 'all'){
+                         jQuery('.content').hide();
+                         jQuery('.content').filter(function() {
+                             return rex.test(jQuery(this).find('td.kategoria').text());
+                         }).show();
+
+
+                     }else{
+                         jQuery('.content').hide();
+                         jQuery('.content').filter(function() {
+                             return rex.test(jQuery(this).find('td.kategoria').text());
+                         }).filter(function(){
+                             var rex = new RegExp(jQuery('#filterYear').val());
+                             return rex.test(jQuery(this).find('td.ev').text());
+                         }).show();
+                     }
+
                  }
              }
 
-             function clearFilter()
-             {
-                 jQuery('.filterText').val('');
-                 jQuery('.content').show();
-             }
          </script>
            
         </div>
