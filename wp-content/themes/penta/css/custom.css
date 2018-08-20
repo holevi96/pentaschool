@@ -645,6 +645,9 @@ section.imagebg{
     padding-top:110px;
     height: 100vh;
 }
+section.tanarok img{
+    height: 200px;
+}
 @media all and (max-width: 767px) {
     .bar.visible-xs{
         background:#180c31d1;

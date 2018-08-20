@@ -323,8 +323,8 @@ require_once 'gw-require-list-columns.php';
 //require_once 'gravity-forms-image-in-html.php';
 new GWRequireListColumns(1);
 require_once 'vendor/autoload.php';
-//PhpConsole\Helper::register();
-//require_once 'vendor/dompdf/dompdf/autoload.inc.php';
+PhpConsole\Helper::register();
+
 use Dompdf\Dompdf;
 add_filter( 'gform_pre_render_1', 'populate_html' );
 function populate_html( $form ) {
@@ -335,11 +335,11 @@ function populate_html( $form ) {
     var kapcsolattartoEmail = "<?php echo ($resztvevo_e)?$_POST['input_5']:""; ?>";
     var kapcsolattartoTelefon = "<?php echo ($resztvevo_e)?$_POST['input_7']:""; ?>";
     jQuery(document).bind('gform_post_render', function(){
-
+<?php if($resztvevo_e): ?>
       jQuery("#field_1_11").find('input').eq(1).val(kapcsolattartoNev);
       jQuery("#field_1_11").find('input').eq(2).val(kapcsolattartoEmail);
       jQuery("#field_1_11").find('input').eq(3).val(kapcsolattartoTelefon);
-
+<?php endif; ?>
     });
 
   </script>
@@ -386,12 +386,12 @@ function generate_pdf( $entry, $form ) {
   $output = $dompdf->output();
   $theme_url = rgar( $entry, '34' );
 
-  $dir = __DIR__;
+  $dir = dirname(dirname(dirname(__DIR__)));
   $x = explode('/', $theme_url);
   $pdf_name = $x[count($x)-1];
   $filename = $dir . "\\pdf\\".$pdf_name;
   $filename = str_replace('\\',"/",$filename);
-//  PC::debug($filename);
+  PC::debug($filename);
   file_put_contents($filename, $output);
 
 }

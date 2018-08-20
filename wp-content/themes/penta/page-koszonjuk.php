@@ -5,7 +5,7 @@
                 $absolute =  $_GET['pdf'];
             $x = explode('/', $absolute);
             $pdf_name = $x[count($x)-1];
-            $url = get_stylesheet_directory_uri() . "/pdf/".$pdf_name;
+            $url = get_site_url() . "/pdf/".$pdf_name;
 
             ?>
 		<section class="text-center imagebg" data-overlay="4">
