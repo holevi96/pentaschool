@@ -269,6 +269,13 @@ function populate_tanfolyam( $value ) {
 
 }
 add_filter( 'gform_field_value_tanfolyam', 'populate_tanfolyam' );
+function populate_tanfolyamid( $value ) {
+    global $post;
+    $kf = get_field('kapcsolodo_tanf',$post->ID);
+    return get_post($kf[0])->ID;
+
+}
+add_filter( 'gform_field_value_tanfolyamid', 'populate_tanfolyamid' );
 function populate_napszak( $value ) {
     global $post;
 
@@ -323,7 +330,7 @@ require_once 'gw-require-list-columns.php';
 //require_once 'gravity-forms-image-in-html.php';
 new GWRequireListColumns(1);
 require_once 'vendor/autoload.php';
-PhpConsole\Helper::register();
+//PhpConsole\Helper::register();
 
 use Dompdf\Dompdf;
 add_filter( 'gform_pre_render_1', 'populate_html' );
@@ -391,7 +398,8 @@ function generate_pdf( $entry, $form ) {
   $pdf_name = $x[count($x)-1];
   $filename = $dir . "\\pdf\\".$pdf_name;
   $filename = str_replace('\\',"/",$filename);
-  PC::debug($filename);
+ //
+    // PC::debug($filename);
   file_put_contents($filename, $output);
 
 }
