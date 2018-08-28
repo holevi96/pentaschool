@@ -5,3 +5,4 @@ wp-content/upgrade
 wp-config.php
 
 \.idea/workspace\.xml
+node_modules

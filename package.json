@@ -1,0 +1,26 @@
+{
+  "name": "pentaschool",
+  "version": "1.0.0",
+  "description": "pentaschool",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "jit-grunt": "^0.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holevi96/pentaschool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holevi96/pentaschool/issues"
+  },
+  "homepage": "https://github.com/holevi96/pentaschool#readme"
+}
