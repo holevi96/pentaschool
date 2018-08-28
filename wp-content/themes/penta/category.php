@@ -6,7 +6,7 @@ $category = get_queried_object();
                         'posts_per_page' => 50,
 						'post_status' => 'publish',
 						'order' => 'ASC',
-						'meta_key' => '_reorder_term_category_excel',
+						'meta_key' => '_reorder_term_category_'.$category->slug,
 						'orderby' => 'meta_value_num title'
 						
                     ));
