@@ -24,11 +24,20 @@ final class Reorder_By_Term_Helper  {
 	 * @param array $args    If not set, then uses $defaults instead
 	 */
 	public function __construct( $args ) {
+		
+		// Get posts per page
+		$user_id = get_current_user_id();
+		$posts_per_page = get_user_meta( $user_id, 'reorder_items_per_page', true );
+		if ( ! is_numeric( $posts_per_page ) ) {
+			$posts_per_page = 50;
+		}
+		$offset = $posts_per_page - 2;
+		
 		// Parse arguments
 		$defaults = array(
 			'post_type'   => '',
-			'posts_per_page' => 50,
-			'offset' => 48
+			'posts_per_page' => $posts_per_page,
+			'offset' => $offset
 		);
 		$args = wp_parse_args( $args, $defaults );
 
@@ -571,6 +580,8 @@ final class Reorder_By_Term_Helper  {
 					echo paginate_links( $pagination_args );
 					echo '</div>';
 				}
+				$options = MN_Reorder_Admin::get_instance()->get_plugin_options();
+				if ( ! isset( $options[ 'rt_show_query' ] ) || 'on' === $options[ 'rt_show_query' ] ):
 				printf( '<h3>%s</h3>', esc_html__( 'Reorder Terms Query', 'reorder-by-term' ) );
 				printf( '<p>%s</p>', esc_html__( 'You will need custom code to query by term.  Here are some example query arguments.', 'reorder-by-term' ) );
 				$meta_key = sprintf( '_reorder_term_%s_%s', $tax, $term_slug );
@@ -583,6 +594,7 @@ $query = "
 'orderby' => 'meta_value_num title'
 ";
 				printf( '<blockquote><pre><code>%s</code></pre></blockquote>', esc_html( print_r( $query, true ) ) );
+				endif;
 			} else {
 				echo sprintf( '<h3>%s</h3>	', esc_html__( 'There is nothing to sort at this time', 'metronet-reorder-posts' ) );	
 			}	
@@ -606,7 +618,11 @@ $query = "
 		$menu_order = get_post_meta( $post->ID, sprintf( '_reorder_term_%s_%s', $taxonomy, $term_slug ), true );
 		?>
 		<li id="list_<?php the_id(); ?>" data-taxonomy="<?php echo esc_attr( $taxonomy ); ?>" data-term="<?php echo esc_attr( $term_slug ); ?>" data-id="<?php the_id(); ?>" data-menu-order="<?php echo absint( $menu_order ); ?>" data-parent="0" data-post-type="<?php echo esc_attr( $post->post_type ); ?>">
-			<div><?php the_title(); ?><?php echo ( defined( 'REORDER_DEBUG' ) && REORDER_DEBUG == true ) ? ' - Menu Order:' . absint( $menu_order ) : ''; ?></div>
+			<div class="row">
+				<div class="row-content non-hierarchical">
+					<?php the_title(); ?><?php echo ( defined( 'REORDER_DEBUG' ) && REORDER_DEBUG == true ) ? ' - Menu Order:' . absint( $menu_order ) : ''; ?>
+				</div><!-- .row-content -->
+			</div><!-- .row -->
 		</li>
 		<?php
 	} //end output_row

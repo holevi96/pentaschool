@@ -1,7 +1,7 @@
 <?php
 
 final class ITSEC_Global_Settings_Page extends ITSEC_Module_Settings_Page {
-	private $version = 1;
+	private $version = 2;
 
 
 	public function __construct() {
@@ -73,6 +73,11 @@ final class ITSEC_Global_Settings_Page extends ITSEC_Module_Settings_Page {
 			true  => __( 'Yes' ),
 		);
 
+		$enable_grade_report_options = array(
+			false => __( 'No (default)' ),
+			true  => __( 'Yes' ),
+		);
+
 ?>
 	<table class="form-table itsec-settings-section">
 		<tr>
@@ -81,29 +86,6 @@ final class ITSEC_Global_Settings_Page extends ITSEC_Module_Settings_Page {
 				<?php $form->add_checkbox( 'write_files' ); ?>
 				<label for="itsec-global-write_files"><?php _e( 'Allow iThemes Security to write to wp-config.php and .htaccess.', 'better-wp-security' ); ?></label>
 				<p class="description"><?php _e( 'Whether or not iThemes Security should be allowed to write to wp-config.php and .htaccess automatically. If disabled you will need to manually place configuration options in those files.', 'better-wp-security' ); ?></p>
-			</td>
-		</tr>
-		<tr>
-			<th scope="row"><label for="itsec-global-notification_email"><?php _e( 'Notification Email', 'better-wp-security' ); ?></label></th>
-			<td>
-				<?php $form->add_textarea( 'notification_email', array( 'class' => 'textarea-small' ) ); ?>
-				<p class="description"><?php _e( 'The email address(es) all security notifications will be sent to. One address per line.', 'better-wp-security' ); ?></p>
-			</td>
-		</tr>
-		<tr>
-			<th scope="row"><label for="itsec-global-digest_email"><?php _e( 'Send Digest Email', 'better-wp-security' ); ?></label></th>
-			<td>
-				<?php $form->add_checkbox( 'digest_email' ); ?>
-				<label for="itsec-global-digest_email"><?php _e( 'Send digest email', 'better-wp-security' ); ?></label>
-				<p class="description"><?php _e( 'During periods of heavy attack or other times a security plugin can generate a LOT of email just telling you that it is doing its job. Turning this on will reduce the emails from this plugin to no more than one per day for any notification.', 'better-wp-security' ); ?></p>
-			</td>
-		</tr>
-		<tr>
-			<th scope="row"><label for="itsec-global-backup_email"><?php _e( 'Backup Delivery Email', 'better-wp-security' ); ?></label></th>
-			<td>
-				<?php $form->add_textarea( 'backup_email', array( 'class' => 'textarea-small' ) ); ?>
-				<br />
-				<p class="description"><?php _e( 'The email address(es) all database backups will be sent to. One address per line.', 'better-wp-security' ); ?></p>
 			</td>
 		</tr>
 		<tr>
@@ -159,7 +141,7 @@ final class ITSEC_Global_Settings_Page extends ITSEC_Module_Settings_Page {
 			<td>
 				<?php $form->add_text( 'lockout_period', array( 'class' => 'small-text' ) ); ?>
 				<label for="itsec-global-lockout_period"><?php _e( 'Minutes', 'better-wp-security' ); ?></label>
-				<p class="description"><?php _e( 'The length of time a host or user will be banned from this site after hitting the limit of bad logins.', 'better-wp-security' ); ?></p>
+				<p class="description"><?php _e( 'The length of time a host or user will be banned from this site after hitting the limit of bad logins. The default setting of 15 minutes is recommended as increasing it could prevent attacking IP addresses from being added to the blacklist.', 'better-wp-security' ); ?></p>
 			</td>
 		</tr>
 		<tr>
@@ -179,23 +161,15 @@ final class ITSEC_Global_Settings_Page extends ITSEC_Module_Settings_Page {
 					</li>
 					<li><?php _e( 'Enter only 1 IP address or 1 IP address range per line.', 'better-wp-security' ); ?></li>
 				</ul>
-				<p><a href="http://ip-lookup.net/domain-lookup.php" target="_blank"><?php _e( 'Lookup IP Address.', 'better-wp-security' ); ?></a></p>
+				<p><a href="<?php echo esc_url( ITSEC_Lib::get_trace_ip_link() ); ?>" target="_blank" rel="noopener noreferrer"><?php _e( 'Lookup IP Address.', 'better-wp-security' ); ?></a></p>
 				<p class="description"><strong><?php _e( 'This white list will prevent any IP listed from triggering an automatic lockout. You can still block the IP address manually in the banned users settings.', 'better-wp-security' ); ?></strong></p>
-			</td>
-		</tr>
-		<tr>
-			<th scope="row"><label for="itsec-global-email_notifications"><?php _e( 'Email Lockout Notifications', 'better-wp-security' ); ?></label></th>
-			<td>
-				<?php $form->add_checkbox( 'email_notifications' ); ?>
-				<label for="itsec-global-email_notifications"><?php _e( 'Enable Email Lockout Notifications', 'better-wp-security' ); ?></label>
-				<p class="description"><?php _e( 'This feature will trigger an email to be sent to the email addresses listed in the Notification Email setting whenever a host or user is locked out of the system.', 'better-wp-security' ); ?></p>
 			</td>
 		</tr>
 		<tr>
 			<th scope="row"><label for="itsec-global-log_type"><?php _e( 'Log Type', 'better-wp-security' ); ?></label></th>
 			<td>
 				<?php $form->add_select( 'log_type', $log_types ); ?>
-				<label for="itsec-global-log_type"><?php _e( 'How should even logs be kept', 'better-wp-security' ); ?></label>
+				<label for="itsec-global-log_type"><?php _e( 'How should event logs be kept', 'better-wp-security' ); ?></label>
 				<p class="description"><?php _e( 'iThemes Security can log events in multiple ways, each with advantages and disadvantages. Database Only puts all events in the database with your posts and other WordPress data. This makes it easy to retrieve and process but can be slower if the database table gets very large. File Only is very fast but the plugin does not process the logs itself as that would take far more resources. For most users or smaller sites Database Only should be fine. If you have a very large site or a log processing software then File Only might be a better option.', 'better-wp-security' ); ?></p>
 			</td>
 		</tr>
@@ -204,7 +178,15 @@ final class ITSEC_Global_Settings_Page extends ITSEC_Module_Settings_Page {
 			<td>
 				<?php $form->add_text( 'log_rotation', array( 'class' => 'small-text' ) ); ?>
 				<label for="itsec-global-log_rotation"><?php _e( 'Days', 'better-wp-security' ); ?></label>
-				<p class="description"><?php _e( 'The number of days database logs should be kept. File logs will be kept indefinitely but will be rotated once the file hits 10MB.', 'better-wp-security' ); ?></p>
+				<p class="description"><?php _e( 'The number of days database logs should be kept.', 'better-wp-security' ); ?></p>
+			</td>
+		</tr>
+		<tr>
+			<th scope="row"><label for="itsec-global-file_log_rotation"><?php _e( 'Days to Keep File Logs', 'better-wp-security' ); ?></label></th>
+			<td>
+				<?php $form->add_text( 'file_log_rotation', array( 'class' => 'small-text' ) ); ?>
+				<label for="itsec-global-log_rotation"><?php _e( 'Days', 'better-wp-security' ); ?></label>
+				<p class="description"><?php _e( 'The number of days file logs should be kept. File logs will additionally be rotated once the file hits 10MB. Set to 0 to only use log rotation.', 'better-wp-security' ); ?></p>
 			</td>
 		</tr>
 		<tr>
@@ -222,7 +204,7 @@ final class ITSEC_Global_Settings_Page extends ITSEC_Module_Settings_Page {
 				<td>
 					<?php $form->add_checkbox( 'infinitewp_compatibility' ); ?>
 					<label for="itsec-global-infinitewp_compatibility"><?php _e( 'Enable InfiniteWP Compatibility', 'better-wp-security' ); ?></label>
-					<p class="description"><?php printf( __( 'Turning this feature on will enable compatibility with <a href="%s" target="_blank">InfiniteWP</a>. Do not turn it on unless you use the InfiniteWP service.', 'better-wp-security' ), 'http://infinitewp.com' ); ?></p>
+					<p class="description"><?php printf( __( 'Turning this feature on will enable compatibility with <a href="%s" target="_blank" rel="noopener noreferrer">InfiniteWP</a>. Do not turn it on unless you use the InfiniteWP service.', 'better-wp-security' ), 'http://infinitewp.com' ); ?></p>
 				</td>
 			</tr>
 		<?php endif; ?>
@@ -243,14 +225,6 @@ final class ITSEC_Global_Settings_Page extends ITSEC_Module_Settings_Page {
 				</td>
 			</tr>
 		<?php endif; ?>
-		<tr>
-			<th scope="row"><label for="itsec-global-lock_file"><?php _e( 'Disable File Locking', 'better-wp-security' ); ?></label></th>
-			<td>
-				<?php $form->add_checkbox( 'lock_file' ); ?>
-				<label for="itsec-global-lock_file"><?php _e( 'Disable File Locking', 'better-wp-security' ); ?></label>
-				<p class="description"><?php _e( 'Turning this option on will prevent errors related to file locking however might result in operations being executed twice. We do not recommend turning this off unless your host prevents the file locking feature from working correctly.', 'better-wp-security' ); ?></p>
-			</td>
-		</tr>
 		<tr>
 			<th scope="row"><label for="itsec-global-proxy_override"><?php _e( 'Override Proxy Detection', 'better-wp-security' ); ?></label></th>
 			<td>
@@ -273,6 +247,15 @@ final class ITSEC_Global_Settings_Page extends ITSEC_Module_Settings_Page {
 				<p class="description"><?php _e( 'Each error message in iThemes Security has an associated error code that can help diagnose an issue. Changing this setting to "Yes" causes these codes to display. This setting should be left set to "No" unless iThemes Security support requests that you change it.', 'better-wp-security' ); ?></p>
 			</td>
 		</tr>
+		<?php if ( ITSEC_Core::is_pro() ) : ?>
+			<tr>
+				<th scope="row"><label for="itsec-global-enable_grade_report"><?php _e( 'Enable Grade Report', 'better-wp-security' ); ?></label></th>
+				<td>
+					<?php $form->add_select( 'enable_grade_report', $enable_grade_report_options ); ?>
+					<p class="description"><?php _e( 'The Grade Report feature can help you identify vulnerabilities on the site. Visit the Notification Center to select which users receive emails from this feature.', 'better-wp-security' ); ?></p>
+				</td>
+			</tr>
+		<?php endif; ?>
 	</table>
 <?php
 

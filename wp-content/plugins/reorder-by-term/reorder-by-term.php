@@ -3,7 +3,7 @@
 Plugin Name: Reorder by Term
 Plugin URI: https://wordpress.org/plugins/reorder-by-term/
 Description: Reorder Posts by Term
-Version: 1.0.0
+Version: 1.2.2
 Author: Ronald Huereca
 Author URI: https://github.com/ronalfy/reorder-by-term
 Text Domain: reorder-by-term
@@ -54,7 +54,7 @@ final class Reorder_By_Term {
 		add_action( 'metronet_reorder_post_types_loaded', array( $this, 'plugin_init' ) );
 		
 		//Add post save action
-		add_action( 'save_post', array( $this, 'add_custom_fields' ) );
+		add_action( 'save_post', array( $this, 'add_custom_fields' ), 10, 2 );
 		
 		//For when Updating a Term
 		add_action( 'edit_terms', array( &$this, 'before_update_term' ), 10, 2 );
@@ -62,6 +62,9 @@ final class Reorder_By_Term {
 		
 		//For when deleting a term
 		add_action( 'delete_term', array( $this, 'after_delete_term' ), 10, 4 );
+		
+		// Initialize admin items
+		add_action( 'admin_init', array( $this, 'reorder_posts_admin_init' ), 12, 1 );
 		
 		
 	}
@@ -158,8 +161,7 @@ final class Reorder_By_Term {
 	 * @param int $post_id The Post ID
 	 * @uses save_post WordPress action
 	 */
-	public function add_custom_fields( $post_id ) {
-		global $post;
+	public function add_custom_fields( $post_id, $post ) {
 		if ( wp_is_post_revision( $post_id ) ) return;
 		
 		//Make sure we have a valid post object
@@ -258,6 +260,41 @@ final class Reorder_By_Term {
 				new Reorder_By_Term_Helper( array( 'post_type' => $post_type ) );	
 			}
 			new Reorder_By_Term_Builder( $post_types );
+	}
+	
+	/**
+	 * Initializes into Reorder Posts settings section to show a term query or not
+	 *
+	 * @author Ronald Huereca <ronalfy@gmail.com>
+	 * @since 1.1.0
+	 * @access public
+	 * @uses admin_init WordPress action
+	 */
+	public function reorder_posts_admin_init() {
+		add_settings_section( 'mn-reorder-by-term', _x( 'Reorder by Term', 'plugin settings heading' , 'reorder-by-term' ), '__return_empty_string', 'metronet-reorder-posts' );
+		
+		add_settings_field( 'mn-reorder-by-term-advanced', __( 'Show Terms Query', 'reorder-by-term' ), array( $this, 'add_settings_field_term_query' ), 'metronet-reorder-posts', 'mn-reorder-by-term', array( 'desc' => __( 'By default the terms query displays.', 'reorder-by-term' ) ) );
+	}
+	
+	/**
+	 * Outputs settings section for showing a term query or not
+	 *
+	 * @author Ronald Huereca <ronalfy@gmail.com>
+	 * @since 1.1.0
+	 * @access public
+	 * @uses MN_Reorder_Admin WordPress object
+	 */
+	public function add_settings_field_term_query() {
+		$options = MN_Reorder_Admin::get_instance()->get_plugin_options();
+		
+		$selected = 'on';
+		if ( isset( $options[ 'rt_show_query' ] ) ) {
+			$selected = $options[ 'rt_show_query' ];
+		}
+				
+		printf( '<p><input type="radio" name="metronet-reorder-posts[rt_show_query]" value="on" id="rt_show_query_yes" %s />&nbsp;<label for="rt_show_query_yes">%s</label></p>', checked( 'on', $selected, false ), esc_html__( 'Yes', 'reorder-by-term' ) );
+		printf( '<p><input type="radio" name="metronet-reorder-posts[rt_show_query]" value="off" id="rt_show_query_no" %s />&nbsp;<label for="rt_show_query_no">%s</label></p>', checked( 'off', $selected, false ), esc_html__( 'No', 'reorder-by-term' ) );
+		
 	}
 	
 }

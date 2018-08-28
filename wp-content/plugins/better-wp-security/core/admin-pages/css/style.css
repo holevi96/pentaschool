@@ -158,17 +158,35 @@ ul {
 	min-height: 14em;
 }
 
+/* Override max width for user security check */
+#itsec-module-card-user-security-check .itsec-module-settings-content {
+	max-width: 100%;
+	position: relative;
+}
+@media screen and (max-width: 782px) {
+	#itsec-module-card-user-security-check  p.search-box {
+		width: 100%;
+	}
+	#itsec-user-table {
+		padding-bottom: 100px;
+	}
+}
+
+/* Correct font size of user table nav in user security check */
+#itsec-module-card-user-security-check .tablenav {
+	font-size: 12px;
+}
 .itsec-module-pro-upsell {
 	opacity: .5;
 }
 
 .itsec-pro-upsell {
-    display: block;
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
+	display: block;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
 	text-decoration: none;
 }
 
@@ -234,13 +252,13 @@ body.itsec-modal-open {
 	background: #efefef;
 	cursor: pointer;
 }
-.itsec-modal-navigation button.itsec-left:before {
+.itsec-modal-navigation button.itsec-left::before {
 	content: '\f341';
 }
-.itsec-modal-navigation button.itsec-right:before {
+.itsec-modal-navigation button.itsec-right::before {
 	content: '\f345';
 }
-.itsec-modal-navigation button.itsec-close-modal:before {
+.itsec-modal-navigation button.itsec-close-modal::before {
 	content: '\f335';
 }
 .itsec-modal-content-footer {
@@ -256,7 +274,6 @@ body.itsec-modal-open {
 .itsec-modal-content-footer .align-left{
 	float: left;
 }
-
 .itsec-modal-content-footer .align-right{
 	float: right;
 }
@@ -276,6 +293,15 @@ body.itsec-modal-open {
 .itsec-settings-section .itsec-setting-field {
 	margin-bottom: 1.5em;
 }
+.itsec-settings-module-settings .form-table th {
+	padding-left: 15px;
+}
+.itsec-settings-module-settings .itsec-highlighted-setting {
+	background: #e5f5fa;
+}
+.itsec-settings-module-settings .form-table td select {
+	margin: 1em 0;
+}
 
 
 
@@ -292,7 +318,7 @@ body.itsec-modal-open {
 	padding: .35em 0;
 }
 .itsec-settings-view-toggle a,
-.itsec-settings-view-toggle a:before {
+.itsec-settings-view-toggle a::before {
 	color: #b4b9be;
 	padding: 0 .25em 0 0;
 }
@@ -304,18 +330,17 @@ body.itsec-modal-open {
 .itsec-settings-view-toggle a.itsec-selected {
 	color: #00a0d2;
 }
-.itsec-feature-search {
+.itsec-module-search {
 	float: left;
+	margin-right: 1em;
 }
+
 .itsec-feature-tabs {
 	float: right;
 	margin: 0;
 }
 .itsec-module-cards-container {
 	clear: both;
-	box-sizing: border-box;
-}
-.itsec-module-cards-container * {
 	box-sizing: border-box;
 }
 .itsec-module-cards {
@@ -358,6 +383,10 @@ body.itsec-modal-open {
 	background: #f7fcfe;
 	border-left-color: #00a0d2;
 	box-shadow: 1px 1px 0px rgba(0,0,0,.1);
+}
+.itsec-module-type-enabled.itsec-module-status--warning .itsec-module-card-content {
+	background: #fff8e5;
+	border-left-color: #ffb900;
 }
 .itsec-module-card-content .module-actions {
 	float: none;
@@ -463,7 +492,7 @@ body.itsec-modal-open {
 
 #itsec-settings-messages-container div,
 .itsec-module-messages-container div {
-	background: #f1f1f1;
+
 }
 
 #itsec-settings-messages-container.no-module {
@@ -473,7 +502,7 @@ body.itsec-modal-open {
 	right: inherit;
 	opacity: 1;
 	background: none;
-	border-radius: none;
+	border-radius: 0;
 	box-shadow:none;
 	-webkit-transition: none;
 	transition: none;
@@ -482,7 +511,6 @@ body.itsec-modal-open {
 }
 
 #itsec-settings-messages-container.no-module div {
-	box-shadow: none;
 	background: #fff;
 }
 
@@ -512,8 +540,8 @@ body.itsec-modal-open {
 	.itsec-module-card .module-description {
 		display: none;
 	}
-	.itsec-feature-search,
-	.itsec-feature-search input {
+	.itsec-module-search,
+	.itsec-module-search input {
 		width: 100%;
 		margin-bottom: 1em;
 	}
@@ -563,6 +591,35 @@ body.itsec-modal-open {
 	color: #9c3e3e;
 }
 
+.itsec-notice-message {
+	display: block;
+	clear: both;
+	font-size: 1.125em;
+	margin: 1.5em 0;
+	padding: 1em;
+	border-left: 4px solid #e8e4a7;
+	background: #fff9ec;
+}
+
+.notice.itsec-is-dismissible {
+	padding-right: 38px;
+	position: relative;
+}
+
+.itsec-notification-center-link {
+	float: right;
+	text-decoration: none;
+	font-style: italic;
+	font-weight: normal;
+	font-size: .8rem;
+}
+
+.itsec-notification-center-link::after {
+	content: "\f345";
+	font-family: Dashicons;
+	font-size: .8rem;
+	vertical-align: sub;
+}
 /*
  * Security Check
  */
@@ -584,7 +641,7 @@ body.itsec-modal-open {
 	position: relative;
 }
 
-.itsec-security-check-container:before {
+.itsec-security-check-container::before {
 	font-family: 'Dashicons';
 	font-size: 1.75em;
 	position: absolute;
@@ -593,29 +650,223 @@ body.itsec-modal-open {
 	margin: -9px 0 0 0;
 }
 
-.itsec-security-check-container-complete:before {
+.itsec-security-check-container-action-taken::before,
+.itsec-security-check-container-complete::before,
+.itsec-security-check-container-confirmation::before {
 	content: "\f147";
 	color: #46b450;
 }
 
-.itsec-security-check-container-incomplete:before {
+.itsec-security-check-container-incomplete::before,
+.itsec-security-check-container-call-to-action::before {
 	content: "\f534";
 	color: #f2dd28;
 }
 
-.itsec-security-check-container-error:before {
+.itsec-security-check-container-error::before {
 	content: "\f534";
 	color: #dc3232;
 }
 
-.itsec-security-check-container-complete {
+.itsec-security-check-container-action-taken,
+.itsec-security-check-container-complete,
+.itsec-security-check-container-confirmation {
 	border-left-color: #46b450;
 }
 
-.itsec-security-check-container-incomplete {
+.itsec-security-check-container-incomplete,
+.itsec-security-check-container-call-to-action {
 	border-left-color: #f2dd28;
 }
 
 .itsec-security-check-container-error {
 	border-left-color: #dc3232;
+}
+
+/**
+ * User Security Check
+ */
+.itsec-two-factor .dashicons {
+	cursor: default;
+}
+.itsec-two-factor .dashicons.not-configured {
+	color: #F56E28;
+}
+.itsec-two-factor .dashicons.dashicons-unlock {
+	color: #dc3232;
+}
+.itsec-password-age {
+	display:inline-block;
+}
+.itsec-password-strength {
+	background: #ddd;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+	color: #23282d;
+	display: inline-block;
+	font-size: 11px;
+	line-height: 1.5;
+	padding: 0px 4px;
+}
+.itsec-password-strength.short {
+	background: #f1adad;
+	border-color: #e35b5b;
+}
+.itsec-password-strength.bad {
+	background-color: #fbc5a9;
+	border-color: #f78b53;
+}
+.itsec-password-strength.good {
+	background-color: #ffe399;
+	border-color: #ffc733;
+}
+.itsec-password-strength.strong {
+	background-color: #c1e1b9;
+	border-color: #83c373;
+}
+
+/**
+ * Styling for output created by ITSEC_Settings_Page::show_details_toggle()
+ */
+.itsec-details-toggle-container {
+}
+.itsec-details-toggle-container .itsec-details-toggle-details-hidde {
+	display: none;
+}
+.itsec-details-toggle-container {
+	font-size: 13px;
+}
+.itsec-details-toggle-container .itsec-details-toggle-details :last-child {
+	margin-bottom: 0;
+}
+.itsec-details-toggle-container .itsec-details-toggle-details ul li {
+	margin: 1em 0;
+}
+
+/**
+ * Styling for email contacts lists
+ */
+ul.itsec-settings-contacts {
+	list-style: none;
+	margin: 1em 0;
+	padding-left: 0;
+}
+ul.itsec-settings-contacts + ul.itsec-settings-contacts {
+	padding-top: 1em;
+	border-top: 1px solid #ddd;
+}
+ul.itsec-settings-contacts li input[type="checkbox"] {
+	margin-top: 0;
+}
+
+/**
+ * Styling for the logs page
+ */
+@media screen and (max-width: 1200px) {
+	body.security_page_itsec-logs div#postbox-container-1 {
+		display: none;
+	}
+	body.security_page_itsec-logs #postbox-container-2 {
+		border-right: none !important;
+		padding-right: 0 !important;
+	}
+	body.security_page_itsec-logs #post-body {
+		margin-right: 0 !important;
+	}
+}
+.itsec-log-entries .dashicons {
+	color: #555;
+	font-size: 16px;
+	padding: 2px 0 0 2px;
+	visibility: hidden;
+}
+.itsec-log-entries td:hover .dashicons {
+	visibility: visible;
+}
+#itsec-log-details-container {
+	display: none;
+}
+#itsec-log-details-container.grid .itsec-module-settings-content {
+	max-width: none;
+}
+#itsec-log-details-container.grid .itsec-module-settings-content pre {
+	overflow: auto;
+}
+.itsec-log-entries .hidden {
+	display: none !important;
+}
+.itsec-logs-color > tbody > .itsec-log-type-critical-issue td,
+.itsec-logs-color > tbody > .itsec-log-type-critical-issue th,
+.itsec-logs-color > tbody > .itsec-log-type-fatal td,
+.itsec-logs-color > tbody > .itsec-log-type-fatal th {
+	color: #000;
+}
+.itsec-logs-color > tbody > .itsec-log-type-critical-issue a,
+.itsec-logs-color > tbody > .itsec-log-type-fatal a {
+	color: #124B66;
+}
+.itsec-logs-color > tbody > .itsec-log-type-critical-issue,
+.itsec-logs-color > tbody > .itsec-log-type-fatal {
+	background-color: #FF7575;
+}
+.itsec-logs-color > tbody > :nth-child(2n+1).itsec-log-type-critical-issue,
+.itsec-logs-color > tbody > :nth-child(2n+1).itsec-log-type-fatal {
+	background-color: #FF4848;
+}
+.itsec-logs-color > tbody > .itsec-log-type-error {
+	background-color: #FFDFDF;
+}
+.itsec-logs-color > tbody > :nth-child(2n+1).itsec-log-type-error {
+	background-color: #FFCECE;
+}
+.itsec-logs-color > tbody > .itsec-log-type-warning {
+	background-color: #FFFBDF;
+}
+.itsec-logs-color > tbody > :nth-child(2n+1).itsec-log-type-warning {
+	background-color: #FFF9CE;
+}
+.itsec-log-entries .column-description {
+	max-width: 30%;
+}
+.tablenav .actions {
+	overflow: visible;
+}
+body.security_page_itsec-logs .itsec-module-settings-content-main .form-table td pre {
+	margin: 0;
+}
+body.security_page_itsec-logs .itsec-module-settings-content-main .form-table th {
+	padding: 10px 10px 10px 0;
+	width: 150px;
+}
+body.security_page_itsec-logs .itsec-module-settings-content-main .form-table td {
+	padding: 5px 10px;
+}
+body.security_page_itsec-logs .itsec-module-settings-content-main .form-table td .itsec-log-raw-details {
+	display: none;
+	margin-top: 1em;
+}
+body.security_page_itsec-logs #old-logs-migration-status img {
+	vertical-align: middle;
+}
+body.security_page_itsec-logs #old-logs-migration-status p {
+	line-height: 1.4em;
+}
+#itsec-system-info, #itsec-settings-editor {
+	font-family: monospace;
+	width: 100%;
+	margin: 0;
+	height: 300px;
+	padding: 20px;
+	border-radius: 0;
+	resize: none;
+	font-size: 12px;
+	line-height: 20px;
+	outline: 0;
+}
+
+#itsec-settings-editor:empty {
+	display: none;
+}
+.itsec-module-cards-container .bulkactions:empty {
+	display: none;
 }

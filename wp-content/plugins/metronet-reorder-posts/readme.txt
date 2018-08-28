@@ -3,9 +3,9 @@ Contributors: ryanhellyer, ronalfy, scottbasgaard
 Author URI: https://github.com/ronalfy/reorder-posts
 Plugin URL: https://wordpress.org/plugins/metronet-reorder-posts/
 Requires at Least: 3.7
-Tested up to: 4.5
+Tested up to: 4.9
 Tags: reorder, re-order, posts, wordpress, post-type, ajax, admin, hierarchical, menu_order, ordering
-Stable tag: 2.2.2
+Stable tag: 2.4.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -17,6 +17,8 @@ A simple and easy way to reorder your custom post-type posts in WordPress. Adds 
 
 We consider Reorder Posts a <strong>developer tool</strong>. If you do not know what `menu_order` or custom queries are, then this plugin is likely not for you.
 
+[youtube https://www.youtube.com/watch?v=qDa6Q6mDPbo]
+
 <h3>Features</h3>
 <ul>
 <li>Adds "Reorder" sub-menu to all post types by default</li>
@@ -27,7 +29,11 @@ We consider Reorder Posts a <strong>developer tool</strong>. If you do not know 
 <li>Advanced settings panel for overriding the menu order of custom post type queries</li>
 </ul>
 
-
+<h3>Add-ons</h3>
+<ul>
+<li><a href="https://wordpress.org/plugins/reorder-by-term/">Reorder by Term</a></li>
+<li><a href="https://wordpress.org/plugins/reorder-terms/">Reorder Terms</a></li>
+</ul>
 
 <h3>Spread the Word</h3>
 If you like this plugin, please help spread the word.  Rate the plugin.  Write about the plugin.  Something :)
@@ -50,8 +56,6 @@ Please feel free to leave a support request here or create an <a href="https://g
 This plugin was originally developed for <a href="https://metronet.no/">Metronet AS in Norway</a>.
 
 The plugin is now independently developed by <a href="https://geek.hellyer.kiwi/">Ryan Hellyer</a>, <a href="http://www.ronalfy.com">Ronald Huereca</a> and <a href="http://scottbasgaard.com/">Scott Basgaard</a>.
-
-Banner image courtesy of <a href="https://www.flickr.com/photos/pagedooley">Kevin Dooley</a>.
 
 == Installation ==
 
@@ -122,6 +126,14 @@ No, but there is an add-on for this plugin called <a href="https://wordpress.org
 2.  Admin panel settings
 
 == Changelog ==
+= 2.4.0 =
+* Released 2016-08-14
+* Major CSS overhaul inspired by the Nested Pages plugin
+* The sorting is now mobile friendly
+
+= 2.3.0 =
+* Released 2016-08-12
+* Added screen options to set the number of posts displayed
 
 = 2.2.2 =
 * Released 2015-12-04
@@ -219,26 +231,8 @@ No, but there is an add-on for this plugin called <a href="https://wordpress.org
 
 == Upgrade Notice ==
 
-= 2.2.2 =
-Fixing loading animation CSS issue
+= 2.4.0 =
+Major CSS overhaul inspired by the Nested Pages plugin and the plugin is now mobile friendly.
 
-= 2.2.1 = 
-Fixing pagination issue.
-
-= 2.2.0 =
-Adding loading animation in better context
-
-= 2.1.5 =
-Fixing paging offset error in the backend.
-
-= 2.1.4 =
-Added cache-busting when re-ordering
-
-= 2.1.2 =
-Removed developer notice from Reorder pages
-
-= 2.1.1 =
-Fixed pagination issue.  Improved Reorder save query performance significantly
-
-= 2.1.0 =
-Some capability fixes, pagination for post types with a lot of posts, improved query performance, and add-on capability.
+= 2.3.0 =
+Added screen options to set the number of posts displayed
